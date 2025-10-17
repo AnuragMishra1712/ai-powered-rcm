@@ -1,0 +1,16 @@
+# Core dependencies
+streamlit==1.39.0        # Stable UI release
+pandas==2.2.2            # Compatible with Python 3.11
+numpy==1.26.4
+joblib==1.4.2
+scikit-learn==1.5.2
+
+# Machine Learning Models
+catboost==1.2.5          # Safe version with stable Pool behavior
+xgboost==2.1.1           # Works perfectly with scikit-learn 1.5+
+lightgbm==4.3.0          # Latest compatible version (fixes predict dtype issues)
+
+# Utils / Optional
+matplotlib==3.9.2
+regex==2024.9.11
+pyarrow==17.0.0          # Streamlit optimization, optional
