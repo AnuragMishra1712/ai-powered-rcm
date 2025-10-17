@@ -1,8 +1,4 @@
-Perfect — let’s add both ✅ a **`requirements.txt`** and ✅ a **professional `README.md`** inside your `ai_rcm_project/` folder so anyone can easily install and run your app on Windows or macOS.
 
-Below are **ready-to-copy full files** 👇
-
----
 
 ## 📄 `ai_rcm_project/requirements.txt`
 
