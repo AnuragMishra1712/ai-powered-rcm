@@ -1,0 +1,6 @@
+payer_id,plan_type
+PAYER1,Medicare
+PAYER2,PPO
+PAYER3,Medicaid
+PAYER4,Medicaid
+PAYER5,Medicaid

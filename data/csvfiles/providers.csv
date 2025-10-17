@@ -1,0 +1,201 @@
+provider_id,specialty,location_id
+PRV0001,Cardiology,LOC001
+PRV0002,Orthopedics,LOC008
+PRV0003,Family Medicine,LOC020
+PRV0004,General Surgery,LOC009
+PRV0005,Orthopedics,LOC012
+PRV0006,Cardiology,LOC007
+PRV0007,Orthopedics,LOC012
+PRV0008,General Surgery,LOC018
+PRV0009,Orthopedics,LOC010
+PRV0010,Cardiology,LOC010
+PRV0011,Orthopedics,LOC013
+PRV0012,General Surgery,LOC007
+PRV0013,Cardiology,LOC016
+PRV0014,Family Medicine,LOC019
+PRV0015,General Surgery,LOC018
+PRV0016,Family Medicine,LOC011
+PRV0017,Orthopedics,LOC015
+PRV0018,General Surgery,LOC006
+PRV0019,Orthopedics,LOC015
+PRV0020,Family Medicine,LOC020
+PRV0021,Family Medicine,LOC008
+PRV0022,Radiology,LOC003
+PRV0023,General Surgery,LOC003
+PRV0024,General Surgery,LOC008
+PRV0025,General Surgery,LOC001
+PRV0026,Family Medicine,LOC020
+PRV0027,Cardiology,LOC012
+PRV0028,Cardiology,LOC019
+PRV0029,Orthopedics,LOC002
+PRV0030,General Surgery,LOC017
+PRV0031,Orthopedics,LOC019
+PRV0032,General Surgery,LOC016
+PRV0033,Cardiology,LOC006
+PRV0034,Cardiology,LOC015
+PRV0035,Orthopedics,LOC005
+PRV0036,Cardiology,LOC001
+PRV0037,Family Medicine,LOC015
+PRV0038,Family Medicine,LOC006
+PRV0039,Orthopedics,LOC013
+PRV0040,Cardiology,LOC014
+PRV0041,Orthopedics,LOC014
+PRV0042,Family Medicine,LOC014
+PRV0043,General Surgery,LOC015
+PRV0044,Orthopedics,LOC018
+PRV0045,Family Medicine,LOC016
+PRV0046,Radiology,LOC010
+PRV0047,Orthopedics,LOC006
+PRV0048,Cardiology,LOC012
+PRV0049,Family Medicine,LOC008
+PRV0050,Orthopedics,LOC008
+PRV0051,Orthopedics,LOC012
+PRV0052,Orthopedics,LOC013
+PRV0053,General Surgery,LOC008
+PRV0054,Cardiology,LOC016
+PRV0055,General Surgery,LOC001
+PRV0056,General Surgery,LOC003
+PRV0057,Cardiology,LOC013
+PRV0058,Orthopedics,LOC014
+PRV0059,Family Medicine,LOC015
+PRV0060,Cardiology,LOC008
+PRV0061,Family Medicine,LOC005
+PRV0062,Family Medicine,LOC008
+PRV0063,General Surgery,LOC001
+PRV0064,Cardiology,LOC010
+PRV0065,Family Medicine,LOC020
+PRV0066,Orthopedics,LOC017
+PRV0067,Radiology,LOC002
+PRV0068,General Surgery,LOC014
+PRV0069,General Surgery,LOC010
+PRV0070,Orthopedics,LOC019
+PRV0071,Cardiology,LOC001
+PRV0072,Orthopedics,LOC010
+PRV0073,Radiology,LOC011
+PRV0074,General Surgery,LOC015
+PRV0075,Family Medicine,LOC003
+PRV0076,Radiology,LOC017
+PRV0077,General Surgery,LOC018
+PRV0078,Cardiology,LOC013
+PRV0079,Cardiology,LOC005
+PRV0080,Orthopedics,LOC003
+PRV0081,Radiology,LOC020
+PRV0082,Cardiology,LOC018
+PRV0083,Radiology,LOC013
+PRV0084,Radiology,LOC005
+PRV0085,General Surgery,LOC012
+PRV0086,Radiology,LOC008
+PRV0087,General Surgery,LOC018
+PRV0088,General Surgery,LOC006
+PRV0089,Radiology,LOC013
+PRV0090,Family Medicine,LOC009
+PRV0091,Radiology,LOC014
+PRV0092,Family Medicine,LOC004
+PRV0093,Cardiology,LOC004
+PRV0094,General Surgery,LOC005
+PRV0095,Family Medicine,LOC013
+PRV0096,Radiology,LOC003
+PRV0097,Orthopedics,LOC018
+PRV0098,Radiology,LOC012
+PRV0099,General Surgery,LOC020
+PRV0100,Orthopedics,LOC011
+PRV0101,General Surgery,LOC009
+PRV0102,Orthopedics,LOC011
+PRV0103,Orthopedics,LOC006
+PRV0104,Cardiology,LOC017
+PRV0105,Orthopedics,LOC002
+PRV0106,Orthopedics,LOC002
+PRV0107,General Surgery,LOC001
+PRV0108,Cardiology,LOC014
+PRV0109,Radiology,LOC016
+PRV0110,Family Medicine,LOC007
+PRV0111,Orthopedics,LOC016
+PRV0112,Radiology,LOC002
+PRV0113,Radiology,LOC005
+PRV0114,Orthopedics,LOC002
+PRV0115,Family Medicine,LOC017
+PRV0116,Radiology,LOC006
+PRV0117,Radiology,LOC009
+PRV0118,Cardiology,LOC008
+PRV0119,General Surgery,LOC005
+PRV0120,Family Medicine,LOC008
+PRV0121,General Surgery,LOC008
+PRV0122,General Surgery,LOC003
+PRV0123,Family Medicine,LOC020
+PRV0124,Radiology,LOC002
+PRV0125,Family Medicine,LOC001
+PRV0126,Cardiology,LOC019
+PRV0127,Radiology,LOC006
+PRV0128,Radiology,LOC009
+PRV0129,Orthopedics,LOC011
+PRV0130,Family Medicine,LOC008
+PRV0131,Cardiology,LOC019
+PRV0132,Family Medicine,LOC013
+PRV0133,Radiology,LOC016
+PRV0134,Orthopedics,LOC003
+PRV0135,General Surgery,LOC011
+PRV0136,Family Medicine,LOC008
+PRV0137,Family Medicine,LOC005
+PRV0138,Family Medicine,LOC018
+PRV0139,Radiology,LOC007
+PRV0140,Cardiology,LOC003
+PRV0141,Orthopedics,LOC012
+PRV0142,Family Medicine,LOC014
+PRV0143,Family Medicine,LOC017
+PRV0144,Orthopedics,LOC015
+PRV0145,Orthopedics,LOC001
+PRV0146,Cardiology,LOC001
+PRV0147,Radiology,LOC020
+PRV0148,General Surgery,LOC007
+PRV0149,Family Medicine,LOC015
+PRV0150,Cardiology,LOC003
+PRV0151,General Surgery,LOC007
+PRV0152,Family Medicine,LOC011
+PRV0153,Orthopedics,LOC017
+PRV0154,General Surgery,LOC004
+PRV0155,Radiology,LOC020
+PRV0156,General Surgery,LOC019
+PRV0157,Radiology,LOC005
+PRV0158,General Surgery,LOC007
+PRV0159,Cardiology,LOC002
+PRV0160,Radiology,LOC017
+PRV0161,Family Medicine,LOC014
+PRV0162,Orthopedics,LOC016
+PRV0163,Radiology,LOC010
+PRV0164,Family Medicine,LOC004
+PRV0165,Radiology,LOC004
+PRV0166,General Surgery,LOC017
+PRV0167,Radiology,LOC014
+PRV0168,Cardiology,LOC004
+PRV0169,Orthopedics,LOC017
+PRV0170,Family Medicine,LOC013
+PRV0171,Orthopedics,LOC019
+PRV0172,Family Medicine,LOC019
+PRV0173,Family Medicine,LOC006
+PRV0174,Orthopedics,LOC003
+PRV0175,Cardiology,LOC018
+PRV0176,Family Medicine,LOC005
+PRV0177,Cardiology,LOC002
+PRV0178,Radiology,LOC001
+PRV0179,General Surgery,LOC019
+PRV0180,Family Medicine,LOC018
+PRV0181,Orthopedics,LOC010
+PRV0182,Family Medicine,LOC018
+PRV0183,Family Medicine,LOC001
+PRV0184,Orthopedics,LOC007
+PRV0185,Family Medicine,LOC007
+PRV0186,Cardiology,LOC012
+PRV0187,Family Medicine,LOC009
+PRV0188,Radiology,LOC006
+PRV0189,Orthopedics,LOC009
+PRV0190,Orthopedics,LOC008
+PRV0191,Family Medicine,LOC016
+PRV0192,Radiology,LOC014
+PRV0193,General Surgery,LOC015
+PRV0194,Cardiology,LOC012
+PRV0195,Radiology,LOC007
+PRV0196,Family Medicine,LOC010
+PRV0197,Orthopedics,LOC002
+PRV0198,Orthopedics,LOC001
+PRV0199,General Surgery,LOC006
+PRV0200,Orthopedics,LOC008

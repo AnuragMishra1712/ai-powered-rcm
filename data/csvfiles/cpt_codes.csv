@@ -1,0 +1,16 @@
+cpt_code,cpt_desc
+99213,Office/outpatient visit
+99285,"ED visit, high severity"
+93000,Electrocardiogram
+71020,Chest X-ray
+72148,MRI lumbar spine
+45380,Colonoscopy with biopsy
+27447,Total knee replacement
+70450,"CT head, no contrast"
+88305,Pathology tissue exam
+36415,Blood draw
+58150,Total abdominal hysterectomy
+80050,General health panel
+J1100,"Injection, dexamethasone"
+J1885,"Injection, ketorolac"
+J2250,"Injection, midazolam"
