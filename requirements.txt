@@ -16,4 +16,4 @@ lightgbm==4.3.0          # Latest compatible version (fixes predict dtype issues
 # Utils / Optional
 matplotlib==3.9.2
 regex==2024.9.11
-pyarrow==17.0.0          # Streamlit optimization, optional
+# pyarrow==17.0.0          # Streamlit optimization, optional
