@@ -18,7 +18,7 @@ venv/
 # models/*.txt
 
 # Streamlit cache
-.streamlit/
+# .streamlit/
 
 # Logs or temp files
 *.log
