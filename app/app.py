@@ -2527,6 +2527,12 @@ import joblib, os, time, random, re
 from catboost import CatBoostClassifier, Pool
 from xgboost import XGBClassifier
 import lightgbm as lgb
+import torch
+from PIL import Image
+import pytesseract
+
+# from transformers import DistilBertTokenizerFast, DistilBertForSequenceClassification
+import joblib
 
 st.set_page_config(page_title="AI-Powered RCM Suite", layout="wide")
 
@@ -2740,7 +2746,8 @@ tabs = st.tabs([
     "Denial Prediction & Prevention",
     "AI-Assisted Coding",
     "Prior Authorization Automation",
-    "Billing & Collections Optimization"
+    "Billing & Collections Optimization",
+    "Doctor Note ICD/CPT Prediction"
 ])
 
 # ---------------------------------------------------------------------
@@ -2906,3 +2913,275 @@ with tabs[3]:
             billing_bot_simulation(inputs)
         except Exception as e:
             st.error(f"Prediction error: {e}")
+
+# # ---------------------------------------------------------------------
+# # Tab 5: Doctor Note ICD/CPT Prediction (Image Upload)
+# # ---------------------------------------------------------------------
+# import os, sys, numpy as np, torch, joblib
+# from PIL import Image
+# import pytesseract
+# from torch.serialization import add_safe_globals
+# from transformers import AutoTokenizer, AutoConfig, AutoModelForSequenceClassification
+
+
+# # ✅ Prevent deadlocks & reduce startup lag
+# os.environ["TOKENIZERS_PARALLELISM"] = "false"
+# os.environ["OMP_NUM_THREADS"] = "1"
+# os.environ["MKL_NUM_THREADS"] = "1"
+# sys.setrecursionlimit(2000)
+
+# add_safe_globals([np._core.multiarray.scalar])
+
+# @st.cache_resource(show_spinner=False)
+# def load_icd_cpt_model_safe():
+#     """Safely load the ICD/CPT DistilBERT model & label encoder."""
+#     from transformers import AutoTokenizer, AutoConfig, AutoModelForSequenceClassification
+
+#     model_dir = "models/icd_cpt_distilbert_v3"
+#     model_name = "bert-base-uncased"
+#     num_labels = 27
+
+#     config = AutoConfig.from_pretrained(model_name, num_labels=num_labels)
+#     tokenizer = AutoTokenizer.from_pretrained(model_name)
+#     model = AutoModelForSequenceClassification.from_config(config)
+
+#     ckpt_candidates = [
+#         os.path.join(model_dir, "best_model.pt"),
+#         os.path.join(model_dir, "pytorch_model.bin"),
+#         os.path.join(model_dir, "model.safetensors"),
+#     ]
+
+#     model_loaded = False
+#     for ckpt in ckpt_candidates:
+#         if os.path.exists(ckpt):
+#             try:
+#                 state = torch.load(ckpt, map_location="cpu", weights_only=False)
+#                 if isinstance(state, dict):
+#                     if "model" in state:
+#                         state = state["model"]
+#                     elif "state_dict" in state:
+#                         state = state["state_dict"]
+#                 missing, unexpected = model.load_state_dict(state, strict=False)
+#                 if missing:
+#                     st.warning(f"⚠️ Missing keys: {len(missing)}")
+#                 if unexpected:
+#                     st.info(f"ℹ️ Ignored extra keys: {unexpected[:3]} ... ({len(unexpected)} total)")
+#                 st.success(f"✅ Loaded model from {os.path.basename(ckpt)}")
+#                 model_loaded = True
+#                 break
+#             except Exception as e:
+#                 st.error(f"❌ Could not load {ckpt}: {e}")
+#     if not model_loaded:
+#         st.warning("⚠️ No model weights found — using random predictions.")
+
+#     # ✅ Load label binarizer robustly (.pkl or .pt)
+#     lb = None
+#     for ext in ["pkl", "pt"]:
+#         path = os.path.join(model_dir, f"label_binarizer.{ext}")
+#         if os.path.exists(path):
+#             try:
+#                 lb = joblib.load(path) if ext == "pkl" else torch.load(path, map_location="cpu")
+#                 st.success(f"✅ Loaded label binarizer ({ext})")
+#                 break
+#             except Exception as e:
+#                 st.warning(f"⚠️ Could not load label_binarizer.{ext}: {e}")
+#     if lb is None:
+#         st.warning("⚠️ No label binarizer found — fallback to generic Code_X labels.")
+
+#     # ✅ Device setup
+#     device = torch.device("mps" if torch.backends.mps.is_available() else "cpu")
+#     model.to(device)
+#     model.eval()
+#     return tokenizer, model, lb, device
+
+
+# # 🔹 Load model once (cached)
+# tokenizer, icd_cpt_model, label_binarizer, device = load_icd_cpt_model_safe()
+
+# # ---------------------------------------------------------------------
+# # Streamlit UI for the ICD/CPT Predictor
+# # ---------------------------------------------------------------------
+# with tabs[4]:
+#     st.header("🧠 Doctor Note ICD/CPT Prediction (Image Upload)")
+#     st.caption(
+#         "Upload a handwritten note image (.png/.jpg). The app will extract text and predict probable ICD/CPT codes."
+#     )
+
+#     uploaded_file = st.file_uploader(
+#         "Upload Doctor's Handwritten Note",
+#         type=["png", "jpg", "jpeg"],
+#         key="icd_upload5"
+#     )
+
+#     if uploaded_file:
+#         image = Image.open(uploaded_file)
+#         st.image(image, caption="Uploaded Note", width="stretch")
+
+#         if st.button("Extract & Predict Codes", key="predict_icd_cpt5"):
+#             with st.spinner("Extracting text and predicting..."):
+#                 # 🔹 OCR extraction
+#                 extracted_text = pytesseract.image_to_string(image)
+#                 cleaned_text = extracted_text.strip().replace("\n", " ")
+
+#                 st.subheader("📋 Extracted Text")
+#                 st.write(cleaned_text if cleaned_text else "_(No readable text found)_")
+
+#                 if not cleaned_text:
+#                     st.stop()
+
+#                 # 🔹 Tokenize & Predict
+#                 inputs = tokenizer(cleaned_text, return_tensors="pt", truncation=True, padding=True, max_length=512)
+#                 inputs = {k: v.to(device) for k, v in inputs.items()}
+
+#                 with torch.no_grad():
+#                     probs = torch.sigmoid(icd_cpt_model(**inputs).logits).cpu().numpy()[0]
+
+#                 # 🔹 Top 5 predictions
+#                 top_idx = np.argsort(probs)[-5:][::-1]
+#                 st.markdown("---")
+#                 st.subheader("💡 Predicted ICD/CPT Codes")
+
+#                 for i in top_idx:
+#                     label = (
+#                         label_binarizer.classes_[i]
+#                         if label_binarizer is not None and hasattr(label_binarizer, "classes_")
+#                         else f"Code_{i}"
+#                     )
+#                     conf = int(probs[i] * 100)
+#                     st.markdown(
+#                         f"""
+#                         <div style="background:linear-gradient(135deg,#f0f7ff,#fff);
+#                                     padding:14px;border-radius:12px;margin-bottom:10px;
+#                                     border-left:6px solid #004b9b;
+#                                     box-shadow:0 3px 6px rgba(0,0,0,.1);">
+#                             <h4 style="color:#003f7d;">{label}</h4>
+#                             <p style="font-size:13px;color:#1a1a1a;">
+#                                 Confidence: <b>{conf}%</b>
+#                             </p>
+#                         </div>
+#                         """,
+#                         unsafe_allow_html=True,
+#                     )
+# ---------------------------------------------------------------------
+# Tab 5: Doctor Note ICD/CPT Prediction (Image Upload)
+# ---------------------------------------------------------------------
+import warnings, logging
+warnings.filterwarnings("ignore")
+logging.getLogger("transformers").setLevel(logging.ERROR)
+logging.getLogger("torch").setLevel(logging.ERROR)
+
+from transformers import AutoTokenizer, AutoConfig, AutoModelForSequenceClassification
+from torch.serialization import add_safe_globals
+from sklearn.preprocessing import MultiLabelBinarizer
+import numpy as np
+
+# Safely allow NumPy + sklearn objects
+add_safe_globals([
+    np._core.multiarray._reconstruct,
+    np._core.multiarray.scalar,
+    np.dtype,
+    MultiLabelBinarizer
+])
+
+@st.cache_resource
+def load_icd_cpt_model_safe():
+    model_dir = "models/icd_cpt_distilbert_v3"
+    config = AutoConfig.from_pretrained("distilbert-base-uncased", num_labels=27)
+    tokenizer = AutoTokenizer.from_pretrained("distilbert-base-uncased")
+    model = AutoModelForSequenceClassification.from_config(config)
+
+    best_path = os.path.join(model_dir, "best_model.pt")
+    lb_path = os.path.join(model_dir, "label_binarizer.pkl")
+
+    # Load weights safely
+    try:
+        state_dict = torch.load(best_path, map_location="cpu", weights_only=False)
+        model.load_state_dict(state_dict.get("model", state_dict), strict=False)
+        # st.success(" Loaded model from best_model.pt")
+    except Exception as e:
+        st.error(f" Could not load {best_path}: {e}")
+
+    # Load label binarizer
+    try:
+        lb = joblib.load(lb_path)
+        # st.success("✅ Loaded label binarizer (pkl)")
+    except Exception as e:
+        st.warning(f"⚠️ Label binarizer not found or invalid — fallback to generic labels. {e}")
+        lb = None
+
+    device = torch.device("mps" if torch.backends.mps.is_available() else "cpu")
+    model.to(device)
+    return tokenizer, model, lb, device
+
+tokenizer, icd_cpt_model, label_binarizer, device = load_icd_cpt_model_safe()
+
+# ICD/CPT descriptions (extendable)
+code_descriptions = {
+    "I10": "Essential (primary) hypertension",
+    "R50.9": "Fever, unspecified",
+    "A09": "Infectious gastroenteritis and colitis, unspecified",
+    "M75.5": "Shoulder pain, unspecified",
+    "99213": "Office or other outpatient visit (established patient)",
+    "99214": "Office or other outpatient visit (moderate)",
+    "87880": "Strep A test, antigen detection",
+    "99391": "Periodic comprehensive preventive exam",
+}
+
+# ----------------------- UI -----------------------
+with tabs[4]:
+    st.header(" Doctor Note ICD/CPT Prediction (Image Upload)")
+    st.caption("Upload a handwritten note image (.png/.jpg). The app will extract text and predict probable ICD/CPT codes.")
+
+    uploaded_file = st.file_uploader("Upload Doctor's Handwritten Note", type=["png", "jpg", "jpeg"], key="icd_upload5")
+
+    if uploaded_file:
+        # ↓↓↓ Smaller, centered image ↓↓↓
+        image = Image.open(uploaded_file)
+        st.image(image, caption="Uploaded Note", width=500)  # reduced image width
+
+        if st.button("Extract & Predict Codes", key="predict_icd_cpt5"):
+            with st.spinner("🔍 Extracting text and predicting ICD/CPT codes..."):
+                extracted_text = pytesseract.image_to_string(image)
+                cleaned_text = extracted_text.strip().replace("\n", " ")
+
+                st.subheader(" Extracted Text")
+                st.write(cleaned_text if cleaned_text else "_(No readable text found)_")
+
+                if not cleaned_text:
+                    st.stop()
+
+                # Tokenize input
+                inputs = tokenizer(cleaned_text, return_tensors="pt", truncation=True, padding=True, max_length=512)
+                inputs = {k: v.to(device) for k, v in inputs.items()}
+
+                icd_cpt_model.eval()
+                with torch.no_grad():
+                    logits = icd_cpt_model(**inputs).logits
+                    probs = torch.sigmoid(logits).cpu().numpy()[0]
+
+                # Top-5 predictions
+                top_indices = np.argsort(probs)[-5:][::-1]
+                st.markdown("---")
+                st.subheader(" Predicted ICD/CPT Codes")
+
+                for i in top_indices:
+                    label = (
+                        label_binarizer.classes_[i]
+                        if label_binarizer is not None
+                        else f"Code_{i}"
+                    )
+                    desc = code_descriptions.get(label, "Description not available")
+                    conf = probs[i]
+
+                    st.markdown(
+                        f"""
+                        <div style="background: linear-gradient(135deg, #f9fbfd 0%, #ffffff 100%);
+                                    padding:12px; border-radius:10px; margin-bottom:8px;
+                                    border-left:5px solid #00509e; box-shadow: 0 2px 4px rgba(0,0,0,0.08);">
+                        <h4 style="color:#003f7d;margin-bottom:2px;">{label}</h4>
+                        <p style="font-size:13px; color:#1a1a1a; margin-bottom:4px;">{desc}</p>
+                        <p style="font-size:12px; color:#0d47a1;">Confidence: <b>{int(conf*100)}%</b></p>
+                        </div>
+                        """,
+                        unsafe_allow_html=True,
+                    )

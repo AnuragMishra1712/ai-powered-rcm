@@ -1,0 +1,3001 @@
+note_id,specialty,note_text,icd10_codes,cpt_codes,image_path
+NOTE_0001,General Medicine,"Patient: Michelle Schultz, Age: 42.
+Chief complaint: fever for 4 days.
+Diagnosis: E11.9 (Type 2 diabetes), J06.9 (URI)
+CPT: 81002 (Urine test), 99213 (Office visit)
+Treatment: antibiotics if no improvement.
+Follow-up in 3 days.","['E11.9', 'J06.9']","['81002', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0001.png
+NOTE_0002,General Medicine,"Patient: Christian Hayes, Age: 60.
+Chief complaint: fatigue for 2 days.
+Diagnosis: R50.9 (Fever), E11.9 (Type 2 diabetes)
+CPT: 80053 (CMP panel)
+Treatment: fluids advised.
+Follow-up in 8 days.","['R50.9', 'E11.9']",['80053'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0002.png
+NOTE_0003,Neurology,"Patient: Sarah Silva, Age: 74.
+Chief complaint: seizure for 10 days.
+Diagnosis: G43.909 (Migraine), G40.909 (Epilepsy)
+CPT: 96116 (Neuro eval)
+Treatment: EEG planned.
+Follow-up in 13 days.","['G43.909', 'G40.909']",['96116'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0003.png
+NOTE_0004,Orthopedics,"Patient: Grace Oneal, Age: 18.
+Chief complaint: shoulder stiffness for 8 days.
+Diagnosis: M17.9 (Knee osteoarthritis)
+CPT: 20610 (Joint injection), 99213 (Consultation)
+Treatment: MRI recommended.
+Follow-up in 13 days.",['M17.9'],"['20610', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0004.png
+NOTE_0005,General Medicine,"Patient: Angela Hoover, Age: 60.
+Chief complaint: fatigue for 10 days.
+Diagnosis: J06.9 (URI), R50.9 (Fever)
+CPT: 81002 (Urine test), 80053 (CMP panel)
+Treatment: antibiotics if no improvement.
+Follow-up in 6 days.","['J06.9', 'R50.9']","['81002', '80053']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0005.png
+NOTE_0006,Neurology,"Patient: Anita Watkins, Age: 72.
+Chief complaint: numbness for 10 days.
+Diagnosis: R51 (Headache)
+CPT: 95816 (EEG), 96116 (Neuro eval)
+Treatment: EEG planned.
+Follow-up in 9 days.",['R51'],"['95816', '96116']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0006.png
+NOTE_0007,Orthopedics,"Patient: Melissa Williams, Age: 57.
+Chief complaint: lower back pain for 7 days.
+Diagnosis: M17.9 (Knee osteoarthritis), S83.241A (ACL tear)
+CPT: 99213 (Consultation), 20610 (Joint injection)
+Treatment: MRI recommended.
+Follow-up in 13 days.","['M17.9', 'S83.241A']","['99213', '20610']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0007.png
+NOTE_0008,Neurology,"Patient: Matthew Wood, Age: 70.
+Chief complaint: numbness for 10 days.
+Diagnosis: G40.909 (Epilepsy)
+CPT: 99214 (Follow-up)
+Treatment: anti-seizure medication started.
+Follow-up in 12 days.",['G40.909'],['99214'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0008.png
+NOTE_0009,General Medicine,"Patient: Danielle Woods, Age: 60.
+Chief complaint: fever for 2 days.
+Diagnosis: J06.9 (URI)
+CPT: 80053 (CMP panel)
+Treatment: blood tests ordered.
+Follow-up in 7 days.",['J06.9'],['80053'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0009.png
+NOTE_0010,Orthopedics,"Patient: Richard Petty, Age: 58.
+Chief complaint: knee pain for 7 days.
+Diagnosis: M54.5 (Low back pain), S83.241A (ACL tear)
+CPT: 20610 (Joint injection)
+Treatment: advised physiotherapy.
+Follow-up in 8 days.","['M54.5', 'S83.241A']",['20610'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0010.png
+NOTE_0011,General Medicine,"Patient: Monica Brock, Age: 40.
+Chief complaint: fatigue for 10 days.
+Diagnosis: J06.9 (URI), E11.9 (Type 2 diabetes)
+CPT: 99213 (Office visit), 81002 (Urine test)
+Treatment: fluids advised.
+Follow-up in 9 days.","['J06.9', 'E11.9']","['99213', '81002']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0011.png
+NOTE_0012,Orthopedics,"Patient: Adam Yu, Age: 45.
+Chief complaint: knee pain for 5 days.
+Diagnosis: M54.5 (Low back pain)
+CPT: 20610 (Joint injection)
+Treatment: NSAIDs prescribed.
+Follow-up in 13 days.",['M54.5'],['20610'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0012.png
+NOTE_0013,Pediatrics,"Patient: David Moody, Age: 59.
+Chief complaint: fever for 6 days.
+Diagnosis: A09 (Gastroenteritis)
+CPT: 99391 (Well child exam), 87880 (Strep test)
+Treatment: paracetamol advised.
+Follow-up in 10 days.",['A09'],"['99391', '87880']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0013.png
+NOTE_0014,Neurology,"Patient: Curtis Thompson, Age: 42.
+Chief complaint: seizure for 6 days.
+Diagnosis: R51 (Headache), G43.909 (Migraine)
+CPT: 96116 (Neuro eval), 95816 (EEG)
+Treatment: anti-seizure medication started.
+Follow-up in 10 days.","['R51', 'G43.909']","['96116', '95816']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0014.png
+NOTE_0015,Orthopedics,"Patient: Crystal Morris, Age: 45.
+Chief complaint: shoulder stiffness for 3 days.
+Diagnosis: S83.241A (ACL tear), M54.5 (Low back pain)
+CPT: 99213 (Consultation), 20610 (Joint injection)
+Treatment: NSAIDs prescribed.
+Follow-up in 11 days.","['S83.241A', 'M54.5']","['99213', '20610']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0015.png
+NOTE_0016,Pediatrics,"Patient: Elaine Pineda, Age: 65.
+Chief complaint: cough for 7 days.
+Diagnosis: J45.909 (Asthma)
+CPT: 87880 (Strep test)
+Treatment: paracetamol advised.
+Follow-up in 12 days.",['J45.909'],['87880'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0016.png
+NOTE_0017,Neurology,"Patient: Anthony Bradshaw, Age: 65.
+Chief complaint: numbness for 4 days.
+Diagnosis: G40.909 (Epilepsy)
+CPT: 95816 (EEG)
+Treatment: EEG planned.
+Follow-up in 9 days.",['G40.909'],['95816'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0017.png
+NOTE_0018,Orthopedics,"Patient: Kenneth Walls, Age: 71.
+Chief complaint: shoulder stiffness for 3 days.
+Diagnosis: S83.241A (ACL tear), M54.5 (Low back pain)
+CPT: 73562 (Knee X-ray), 20610 (Joint injection)
+Treatment: advised physiotherapy.
+Follow-up in 12 days.","['S83.241A', 'M54.5']","['73562', '20610']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0018.png
+NOTE_0019,Neurology,"Patient: Mary Dunn, Age: 36.
+Chief complaint: seizure for 10 days.
+Diagnosis: G43.909 (Migraine)
+CPT: 96116 (Neuro eval)
+Treatment: EEG planned.
+Follow-up in 12 days.",['G43.909'],['96116'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0019.png
+NOTE_0020,Cardiology,"Patient: Joseph Barron, Age: 42.
+Chief complaint: shortness of breath for 6 days.
+Diagnosis: I21.3 (Acute MI), R07.9 (Chest pain)
+CPT: 93000 (ECG), 99213 (Consultation)
+Treatment: started on aspirin.
+Follow-up in 7 days.","['I21.3', 'R07.9']","['93000', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0020.png
+NOTE_0021,General Medicine,"Patient: Jesus Taylor, Age: 22.
+Chief complaint: fatigue for 7 days.
+Diagnosis: R50.9 (Fever), J06.9 (URI)
+CPT: 81002 (Urine test), 80053 (CMP panel)
+Treatment: blood tests ordered.
+Follow-up in 12 days.","['R50.9', 'J06.9']","['81002', '80053']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0021.png
+NOTE_0022,Cardiology,"Patient: Amanda Long, Age: 23.
+Chief complaint: chest pain for 3 days.
+Diagnosis: I25.10 (CAD)
+CPT: 99213 (Consultation)
+Treatment: beta-blocker initiated.
+Follow-up in 6 days.",['I25.10'],['99213'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0022.png
+NOTE_0023,Neurology,"Patient: Chelsea Alexander, Age: 40.
+Chief complaint: seizure for 8 days.
+Diagnosis: G43.909 (Migraine)
+CPT: 95816 (EEG), 96116 (Neuro eval)
+Treatment: EEG planned.
+Follow-up in 13 days.",['G43.909'],"['95816', '96116']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0023.png
+NOTE_0024,Orthopedics,"Patient: Julie King, Age: 72.
+Chief complaint: shoulder stiffness for 8 days.
+Diagnosis: M54.5 (Low back pain)
+CPT: 20610 (Joint injection), 73562 (Knee X-ray)
+Treatment: advised physiotherapy.
+Follow-up in 10 days.",['M54.5'],"['20610', '73562']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0024.png
+NOTE_0025,Pediatrics,"Patient: Johnny Shaw, Age: 20.
+Chief complaint: ear pain for 3 days.
+Diagnosis: J45.909 (Asthma)
+CPT: 99391 (Well child exam), 99213 (Consult)
+Treatment: hydration and rest.
+Follow-up in 13 days.",['J45.909'],"['99391', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0025.png
+NOTE_0026,Neurology,"Patient: Grant Figueroa, Age: 45.
+Chief complaint: numbness for 7 days.
+Diagnosis: G43.909 (Migraine), G40.909 (Epilepsy)
+CPT: 99214 (Follow-up), 96116 (Neuro eval)
+Treatment: anti-seizure medication started.
+Follow-up in 4 days.","['G43.909', 'G40.909']","['99214', '96116']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0026.png
+NOTE_0027,Pediatrics,"Patient: Joseph Martinez, Age: 42.
+Chief complaint: fever for 2 days.
+Diagnosis: A09 (Gastroenteritis), J45.909 (Asthma)
+CPT: 99391 (Well child exam)
+Treatment: paracetamol advised.
+Follow-up in 6 days.","['A09', 'J45.909']",['99391'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0027.png
+NOTE_0028,Neurology,"Patient: Gregory Hunter, Age: 48.
+Chief complaint: headache for 3 days.
+Diagnosis: G40.909 (Epilepsy)
+CPT: 95816 (EEG), 96116 (Neuro eval)
+Treatment: EEG planned.
+Follow-up in 3 days.",['G40.909'],"['95816', '96116']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0028.png
+NOTE_0029,General Medicine,"Patient: James Henderson, Age: 73.
+Chief complaint: fatigue for 9 days.
+Diagnosis: R50.9 (Fever), E11.9 (Type 2 diabetes)
+CPT: 99213 (Office visit), 80053 (CMP panel)
+Treatment: antibiotics if no improvement.
+Follow-up in 14 days.","['R50.9', 'E11.9']","['99213', '80053']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0029.png
+NOTE_0030,Cardiology,"Patient: Amanda Watts DDS, Age: 37.
+Chief complaint: palpitations for 10 days.
+Diagnosis: R07.9 (Chest pain)
+CPT: 99214 (Follow-up), 99213 (Consultation)
+Treatment: advised ECG and cath lab.
+Follow-up in 14 days.",['R07.9'],"['99214', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0030.png
+NOTE_0031,General Medicine,"Patient: Jacob Walker, Age: 38.
+Chief complaint: fever for 7 days.
+Diagnosis: R50.9 (Fever)
+CPT: 81002 (Urine test), 99213 (Office visit)
+Treatment: blood tests ordered.
+Follow-up in 13 days.",['R50.9'],"['81002', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0031.png
+NOTE_0032,General Medicine,"Patient: Bonnie Bright, Age: 26.
+Chief complaint: body ache for 3 days.
+Diagnosis: J06.9 (URI), R50.9 (Fever)
+CPT: 99213 (Office visit)
+Treatment: fluids advised.
+Follow-up in 9 days.","['J06.9', 'R50.9']",['99213'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0032.png
+NOTE_0033,Neurology,"Patient: Jeffrey Jarvis, Age: 19.
+Chief complaint: seizure for 10 days.
+Diagnosis: R51 (Headache)
+CPT: 96116 (Neuro eval), 95816 (EEG)
+Treatment: anti-seizure medication started.
+Follow-up in 5 days.",['R51'],"['96116', '95816']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0033.png
+NOTE_0034,Cardiology,"Patient: Brad Garcia, Age: 70.
+Chief complaint: palpitations for 2 days.
+Diagnosis: I10 (Hypertension), I21.3 (Acute MI)
+CPT: 99214 (Follow-up)
+Treatment: beta-blocker initiated.
+Follow-up in 14 days.","['I10', 'I21.3']",['99214'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0034.png
+NOTE_0035,Pediatrics,"Patient: Steven Horton, Age: 73.
+Chief complaint: fever for 8 days.
+Diagnosis: H66.90 (Otitis media)
+CPT: 99391 (Well child exam)
+Treatment: paracetamol advised.
+Follow-up in 6 days.",['H66.90'],['99391'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0035.png
+NOTE_0036,Orthopedics,"Patient: Robert Baird, Age: 20.
+Chief complaint: shoulder stiffness for 8 days.
+Diagnosis: S83.241A (ACL tear)
+CPT: 99213 (Consultation)
+Treatment: advised physiotherapy.
+Follow-up in 9 days.",['S83.241A'],['99213'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0036.png
+NOTE_0037,Neurology,"Patient: Daniel Pearson, Age: 24.
+Chief complaint: headache for 8 days.
+Diagnosis: G40.909 (Epilepsy)
+CPT: 96116 (Neuro eval), 95816 (EEG)
+Treatment: anti-seizure medication started.
+Follow-up in 5 days.",['G40.909'],"['96116', '95816']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0037.png
+NOTE_0038,Orthopedics,"Patient: David Armstrong, Age: 43.
+Chief complaint: shoulder stiffness for 4 days.
+Diagnosis: M54.5 (Low back pain)
+CPT: 20610 (Joint injection)
+Treatment: advised physiotherapy.
+Follow-up in 13 days.",['M54.5'],['20610'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0038.png
+NOTE_0039,Neurology,"Patient: Steve Simmons, Age: 42.
+Chief complaint: headache for 9 days.
+Diagnosis: G43.909 (Migraine)
+CPT: 99214 (Follow-up), 96116 (Neuro eval)
+Treatment: anti-seizure medication started.
+Follow-up in 3 days.",['G43.909'],"['99214', '96116']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0039.png
+NOTE_0040,Neurology,"Patient: Alexis Murray, Age: 56.
+Chief complaint: seizure for 10 days.
+Diagnosis: R51 (Headache), G40.909 (Epilepsy)
+CPT: 95816 (EEG)
+Treatment: anti-seizure medication started.
+Follow-up in 6 days.","['R51', 'G40.909']",['95816'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0040.png
+NOTE_0041,Pediatrics,"Patient: Robert Thomas, Age: 68.
+Chief complaint: fever for 3 days.
+Diagnosis: A09 (Gastroenteritis)
+CPT: 99391 (Well child exam)
+Treatment: paracetamol advised.
+Follow-up in 10 days.",['A09'],['99391'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0041.png
+NOTE_0042,General Medicine,"Patient: Joanne Salazar DDS, Age: 42.
+Chief complaint: fever for 3 days.
+Diagnosis: J06.9 (URI), R50.9 (Fever)
+CPT: 99213 (Office visit), 80053 (CMP panel)
+Treatment: blood tests ordered.
+Follow-up in 8 days.","['J06.9', 'R50.9']","['99213', '80053']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0042.png
+NOTE_0043,Neurology,"Patient: Connor Davis, Age: 59.
+Chief complaint: numbness for 10 days.
+Diagnosis: R51 (Headache)
+CPT: 96116 (Neuro eval)
+Treatment: EEG planned.
+Follow-up in 6 days.",['R51'],['96116'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0043.png
+NOTE_0044,Pediatrics,"Patient: Victoria Wheeler, Age: 48.
+Chief complaint: cough for 4 days.
+Diagnosis: H66.90 (Otitis media), J45.909 (Asthma)
+CPT: 99213 (Consult)
+Treatment: hydration and rest.
+Follow-up in 12 days.","['H66.90', 'J45.909']",['99213'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0044.png
+NOTE_0045,Orthopedics,"Patient: Christopher Medina, Age: 67.
+Chief complaint: knee pain for 10 days.
+Diagnosis: S83.241A (ACL tear), M17.9 (Knee osteoarthritis)
+CPT: 20610 (Joint injection), 99213 (Consultation)
+Treatment: MRI recommended.
+Follow-up in 11 days.","['S83.241A', 'M17.9']","['20610', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0045.png
+NOTE_0046,Orthopedics,"Patient: Timothy Pena, Age: 25.
+Chief complaint: knee pain for 8 days.
+Diagnosis: S83.241A (ACL tear), M17.9 (Knee osteoarthritis)
+CPT: 73562 (Knee X-ray)
+Treatment: MRI recommended.
+Follow-up in 13 days.","['S83.241A', 'M17.9']",['73562'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0046.png
+NOTE_0047,Cardiology,"Patient: Maria Crawford, Age: 54.
+Chief complaint: palpitations for 9 days.
+Diagnosis: I21.3 (Acute MI), I25.10 (CAD)
+CPT: 93000 (ECG)
+Treatment: beta-blocker initiated.
+Follow-up in 5 days.","['I21.3', 'I25.10']",['93000'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0047.png
+NOTE_0048,General Medicine,"Patient: Clinton Shelton, Age: 65.
+Chief complaint: body ache for 7 days.
+Diagnosis: R50.9 (Fever), E11.9 (Type 2 diabetes)
+CPT: 99213 (Office visit)
+Treatment: blood tests ordered.
+Follow-up in 11 days.","['R50.9', 'E11.9']",['99213'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0048.png
+NOTE_0049,Neurology,"Patient: Elizabeth Watkins, Age: 54.
+Chief complaint: headache for 8 days.
+Diagnosis: R51 (Headache)
+CPT: 99214 (Follow-up), 95816 (EEG)
+Treatment: EEG planned.
+Follow-up in 8 days.",['R51'],"['99214', '95816']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0049.png
+NOTE_0050,Neurology,"Patient: Robert Hunt, Age: 54.
+Chief complaint: headache for 2 days.
+Diagnosis: G43.909 (Migraine), G40.909 (Epilepsy)
+CPT: 99214 (Follow-up)
+Treatment: anti-seizure medication started.
+Follow-up in 5 days.","['G43.909', 'G40.909']",['99214'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0050.png
+NOTE_0051,Pediatrics,"Patient: Mary Hall, Age: 55.
+Chief complaint: cough for 9 days.
+Diagnosis: J45.909 (Asthma)
+CPT: 99391 (Well child exam)
+Treatment: paracetamol advised.
+Follow-up in 6 days.",['J45.909'],['99391'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0051.png
+NOTE_0052,Neurology,"Patient: John Bean, Age: 20.
+Chief complaint: headache for 6 days.
+Diagnosis: R51 (Headache), G43.909 (Migraine)
+CPT: 96116 (Neuro eval), 95816 (EEG)
+Treatment: anti-seizure medication started.
+Follow-up in 12 days.","['R51', 'G43.909']","['96116', '95816']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0052.png
+NOTE_0053,Neurology,"Patient: Douglas Smith, Age: 52.
+Chief complaint: seizure for 2 days.
+Diagnosis: G43.909 (Migraine), R51 (Headache)
+CPT: 95816 (EEG)
+Treatment: anti-seizure medication started.
+Follow-up in 6 days.","['G43.909', 'R51']",['95816'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0053.png
+NOTE_0054,Orthopedics,"Patient: Adam Espinoza, Age: 33.
+Chief complaint: shoulder stiffness for 8 days.
+Diagnosis: S83.241A (ACL tear)
+CPT: 99213 (Consultation)
+Treatment: advised physiotherapy.
+Follow-up in 5 days.",['S83.241A'],['99213'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0054.png
+NOTE_0055,Neurology,"Patient: Andre Collins, Age: 19.
+Chief complaint: headache for 10 days.
+Diagnosis: G40.909 (Epilepsy)
+CPT: 96116 (Neuro eval), 95816 (EEG)
+Treatment: anti-seizure medication started.
+Follow-up in 5 days.",['G40.909'],"['96116', '95816']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0055.png
+NOTE_0056,Orthopedics,"Patient: Mary Stafford, Age: 29.
+Chief complaint: shoulder stiffness for 8 days.
+Diagnosis: M54.5 (Low back pain), S83.241A (ACL tear)
+CPT: 99213 (Consultation)
+Treatment: advised physiotherapy.
+Follow-up in 6 days.","['M54.5', 'S83.241A']",['99213'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0056.png
+NOTE_0057,Orthopedics,"Patient: Diane Hoffman, Age: 64.
+Chief complaint: shoulder stiffness for 4 days.
+Diagnosis: M54.5 (Low back pain)
+CPT: 20610 (Joint injection)
+Treatment: advised physiotherapy.
+Follow-up in 3 days.",['M54.5'],['20610'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0057.png
+NOTE_0058,Neurology,"Patient: Catherine Gross, Age: 67.
+Chief complaint: seizure for 7 days.
+Diagnosis: G43.909 (Migraine), R51 (Headache)
+CPT: 96116 (Neuro eval)
+Treatment: anti-seizure medication started.
+Follow-up in 8 days.","['G43.909', 'R51']",['96116'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0058.png
+NOTE_0059,Pediatrics,"Patient: Beverly Cook, Age: 50.
+Chief complaint: fever for 2 days.
+Diagnosis: H66.90 (Otitis media)
+CPT: 87880 (Strep test), 99213 (Consult)
+Treatment: paracetamol advised.
+Follow-up in 13 days.",['H66.90'],"['87880', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0059.png
+NOTE_0060,Pediatrics,"Patient: David Mills, Age: 25.
+Chief complaint: fever for 5 days.
+Diagnosis: A09 (Gastroenteritis)
+CPT: 87880 (Strep test), 99391 (Well child exam)
+Treatment: hydration and rest.
+Follow-up in 9 days.",['A09'],"['87880', '99391']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0060.png
+NOTE_0061,Orthopedics,"Patient: Keith Francis, Age: 34.
+Chief complaint: lower back pain for 9 days.
+Diagnosis: S83.241A (ACL tear)
+CPT: 99213 (Consultation), 20610 (Joint injection)
+Treatment: advised physiotherapy.
+Follow-up in 3 days.",['S83.241A'],"['99213', '20610']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0061.png
+NOTE_0062,Neurology,"Patient: Bonnie Kelley, Age: 77.
+Chief complaint: seizure for 6 days.
+Diagnosis: G43.909 (Migraine), G40.909 (Epilepsy)
+CPT: 99214 (Follow-up)
+Treatment: anti-seizure medication started.
+Follow-up in 7 days.","['G43.909', 'G40.909']",['99214'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0062.png
+NOTE_0063,Neurology,"Patient: Mr. Anthony Ellis, Age: 33.
+Chief complaint: numbness for 10 days.
+Diagnosis: R51 (Headache)
+CPT: 99214 (Follow-up)
+Treatment: anti-seizure medication started.
+Follow-up in 4 days.",['R51'],['99214'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0063.png
+NOTE_0064,Neurology,"Patient: Rachel Simmons, Age: 48.
+Chief complaint: numbness for 2 days.
+Diagnosis: R51 (Headache), G40.909 (Epilepsy)
+CPT: 99214 (Follow-up), 95816 (EEG)
+Treatment: anti-seizure medication started.
+Follow-up in 10 days.","['R51', 'G40.909']","['99214', '95816']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0064.png
+NOTE_0065,Neurology,"Patient: Erica Khan, Age: 27.
+Chief complaint: seizure for 10 days.
+Diagnosis: R51 (Headache), G40.909 (Epilepsy)
+CPT: 99214 (Follow-up)
+Treatment: EEG planned.
+Follow-up in 10 days.","['R51', 'G40.909']",['99214'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0065.png
+NOTE_0066,Neurology,"Patient: Brian Hamilton, Age: 42.
+Chief complaint: numbness for 4 days.
+Diagnosis: G40.909 (Epilepsy), R51 (Headache)
+CPT: 96116 (Neuro eval), 99214 (Follow-up)
+Treatment: anti-seizure medication started.
+Follow-up in 9 days.","['G40.909', 'R51']","['96116', '99214']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0066.png
+NOTE_0067,Neurology,"Patient: Carol Alexander, Age: 27.
+Chief complaint: seizure for 10 days.
+Diagnosis: G40.909 (Epilepsy)
+CPT: 99214 (Follow-up)
+Treatment: anti-seizure medication started.
+Follow-up in 12 days.",['G40.909'],['99214'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0067.png
+NOTE_0068,Orthopedics,"Patient: Heather Simmons, Age: 24.
+Chief complaint: knee pain for 6 days.
+Diagnosis: M17.9 (Knee osteoarthritis), M54.5 (Low back pain)
+CPT: 73562 (Knee X-ray)
+Treatment: advised physiotherapy.
+Follow-up in 6 days.","['M17.9', 'M54.5']",['73562'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0068.png
+NOTE_0069,Neurology,"Patient: Tina Peterson, Age: 43.
+Chief complaint: seizure for 3 days.
+Diagnosis: G40.909 (Epilepsy)
+CPT: 95816 (EEG), 96116 (Neuro eval)
+Treatment: anti-seizure medication started.
+Follow-up in 12 days.",['G40.909'],"['95816', '96116']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0069.png
+NOTE_0070,Orthopedics,"Patient: Sharon Williams, Age: 31.
+Chief complaint: lower back pain for 2 days.
+Diagnosis: M54.5 (Low back pain)
+CPT: 73562 (Knee X-ray), 99213 (Consultation)
+Treatment: MRI recommended.
+Follow-up in 7 days.",['M54.5'],"['73562', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0070.png
+NOTE_0071,Neurology,"Patient: William Burke, Age: 27.
+Chief complaint: seizure for 6 days.
+Diagnosis: R51 (Headache), G43.909 (Migraine)
+CPT: 95816 (EEG), 96116 (Neuro eval)
+Treatment: anti-seizure medication started.
+Follow-up in 12 days.","['R51', 'G43.909']","['95816', '96116']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0071.png
+NOTE_0072,General Medicine,"Patient: Dawn Rollins, Age: 68.
+Chief complaint: fever for 4 days.
+Diagnosis: J06.9 (URI), E11.9 (Type 2 diabetes)
+CPT: 80053 (CMP panel), 99213 (Office visit)
+Treatment: blood tests ordered.
+Follow-up in 3 days.","['J06.9', 'E11.9']","['80053', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0072.png
+NOTE_0073,Orthopedics,"Patient: Catherine King, Age: 47.
+Chief complaint: shoulder stiffness for 5 days.
+Diagnosis: M54.5 (Low back pain)
+CPT: 73562 (Knee X-ray)
+Treatment: advised physiotherapy.
+Follow-up in 4 days.",['M54.5'],['73562'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0073.png
+NOTE_0074,Neurology,"Patient: Jacqueline Johnson, Age: 28.
+Chief complaint: headache for 10 days.
+Diagnosis: G40.909 (Epilepsy)
+CPT: 96116 (Neuro eval), 99214 (Follow-up)
+Treatment: EEG planned.
+Follow-up in 9 days.",['G40.909'],"['96116', '99214']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0074.png
+NOTE_0075,Cardiology,"Patient: Jonathan Patel, Age: 46.
+Chief complaint: shortness of breath for 5 days.
+Diagnosis: I10 (Hypertension)
+CPT: 93000 (ECG)
+Treatment: beta-blocker initiated.
+Follow-up in 8 days.",['I10'],['93000'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0075.png
+NOTE_0076,General Medicine,"Patient: Monica Sanchez, Age: 75.
+Chief complaint: body ache for 2 days.
+Diagnosis: R50.9 (Fever)
+CPT: 99213 (Office visit)
+Treatment: fluids advised.
+Follow-up in 14 days.",['R50.9'],['99213'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0076.png
+NOTE_0077,Cardiology,"Patient: Tammie Herring, Age: 22.
+Chief complaint: shortness of breath for 9 days.
+Diagnosis: I21.3 (Acute MI), I10 (Hypertension)
+CPT: 99214 (Follow-up)
+Treatment: beta-blocker initiated.
+Follow-up in 3 days.","['I21.3', 'I10']",['99214'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0077.png
+NOTE_0078,Cardiology,"Patient: Seth Stewart, Age: 50.
+Chief complaint: palpitations for 4 days.
+Diagnosis: I21.3 (Acute MI), I10 (Hypertension)
+CPT: 93000 (ECG)
+Treatment: advised ECG and cath lab.
+Follow-up in 8 days.","['I21.3', 'I10']",['93000'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0078.png
+NOTE_0079,Cardiology,"Patient: Victoria Phelps, Age: 27.
+Chief complaint: shortness of breath for 6 days.
+Diagnosis: I25.10 (CAD), R07.9 (Chest pain)
+CPT: 93000 (ECG), 99214 (Follow-up)
+Treatment: started on aspirin.
+Follow-up in 8 days.","['I25.10', 'R07.9']","['93000', '99214']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0079.png
+NOTE_0080,General Medicine,"Patient: Bryan Bryant, Age: 28.
+Chief complaint: fever for 2 days.
+Diagnosis: J06.9 (URI)
+CPT: 99213 (Office visit)
+Treatment: antibiotics if no improvement.
+Follow-up in 8 days.",['J06.9'],['99213'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0080.png
+NOTE_0081,Pediatrics,"Patient: Matthew Lopez, Age: 66.
+Chief complaint: ear pain for 5 days.
+Diagnosis: J45.909 (Asthma)
+CPT: 87880 (Strep test), 99213 (Consult)
+Treatment: hydration and rest.
+Follow-up in 3 days.",['J45.909'],"['87880', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0081.png
+NOTE_0082,Pediatrics,"Patient: Kevin Yoder, Age: 45.
+Chief complaint: cough for 8 days.
+Diagnosis: J45.909 (Asthma)
+CPT: 87880 (Strep test)
+Treatment: hydration and rest.
+Follow-up in 8 days.",['J45.909'],['87880'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0082.png
+NOTE_0083,General Medicine,"Patient: Robert Mitchell DVM, Age: 53.
+Chief complaint: fever for 6 days.
+Diagnosis: E11.9 (Type 2 diabetes), J06.9 (URI)
+CPT: 99213 (Office visit)
+Treatment: fluids advised.
+Follow-up in 7 days.","['E11.9', 'J06.9']",['99213'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0083.png
+NOTE_0084,Pediatrics,"Patient: Amy Morris, Age: 28.
+Chief complaint: ear pain for 2 days.
+Diagnosis: A09 (Gastroenteritis)
+CPT: 99213 (Consult), 99391 (Well child exam)
+Treatment: hydration and rest.
+Follow-up in 8 days.",['A09'],"['99213', '99391']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0084.png
+NOTE_0085,Pediatrics,"Patient: Sheila Hernandez, Age: 41.
+Chief complaint: fever for 10 days.
+Diagnosis: H66.90 (Otitis media)
+CPT: 99391 (Well child exam), 99213 (Consult)
+Treatment: paracetamol advised.
+Follow-up in 7 days.",['H66.90'],"['99391', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0085.png
+NOTE_0086,General Medicine,"Patient: Karen Wallace, Age: 79.
+Chief complaint: fever for 3 days.
+Diagnosis: E11.9 (Type 2 diabetes)
+CPT: 99213 (Office visit), 81002 (Urine test)
+Treatment: antibiotics if no improvement.
+Follow-up in 5 days.",['E11.9'],"['99213', '81002']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0086.png
+NOTE_0087,Cardiology,"Patient: Jessica White, Age: 63.
+Chief complaint: shortness of breath for 9 days.
+Diagnosis: I21.3 (Acute MI)
+CPT: 99213 (Consultation)
+Treatment: advised ECG and cath lab.
+Follow-up in 7 days.",['I21.3'],['99213'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0087.png
+NOTE_0088,Orthopedics,"Patient: Cassie Wright DDS, Age: 78.
+Chief complaint: shoulder stiffness for 2 days.
+Diagnosis: S83.241A (ACL tear)
+CPT: 99213 (Consultation)
+Treatment: MRI recommended.
+Follow-up in 5 days.",['S83.241A'],['99213'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0088.png
+NOTE_0089,Orthopedics,"Patient: Roy Santiago, Age: 80.
+Chief complaint: shoulder stiffness for 3 days.
+Diagnosis: M54.5 (Low back pain)
+CPT: 20610 (Joint injection), 99213 (Consultation)
+Treatment: advised physiotherapy.
+Follow-up in 4 days.",['M54.5'],"['20610', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0089.png
+NOTE_0090,Pediatrics,"Patient: Dean Freeman, Age: 75.
+Chief complaint: ear pain for 9 days.
+Diagnosis: H66.90 (Otitis media), J45.909 (Asthma)
+CPT: 99213 (Consult)
+Treatment: paracetamol advised.
+Follow-up in 5 days.","['H66.90', 'J45.909']",['99213'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0090.png
+NOTE_0091,Pediatrics,"Patient: Miguel Reyes, Age: 26.
+Chief complaint: cough for 6 days.
+Diagnosis: H66.90 (Otitis media), J45.909 (Asthma)
+CPT: 99213 (Consult)
+Treatment: hydration and rest.
+Follow-up in 6 days.","['H66.90', 'J45.909']",['99213'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0091.png
+NOTE_0092,General Medicine,"Patient: Jordan Benson, Age: 71.
+Chief complaint: fever for 4 days.
+Diagnosis: R50.9 (Fever), J06.9 (URI)
+CPT: 80053 (CMP panel)
+Treatment: blood tests ordered.
+Follow-up in 9 days.","['R50.9', 'J06.9']",['80053'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0092.png
+NOTE_0093,Pediatrics,"Patient: Aaron Mullins, Age: 28.
+Chief complaint: fever for 9 days.
+Diagnosis: A09 (Gastroenteritis), H66.90 (Otitis media)
+CPT: 87880 (Strep test)
+Treatment: hydration and rest.
+Follow-up in 8 days.","['A09', 'H66.90']",['87880'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0093.png
+NOTE_0094,Neurology,"Patient: Greg Ortega, Age: 74.
+Chief complaint: numbness for 2 days.
+Diagnosis: G43.909 (Migraine), G40.909 (Epilepsy)
+CPT: 99214 (Follow-up)
+Treatment: EEG planned.
+Follow-up in 11 days.","['G43.909', 'G40.909']",['99214'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0094.png
+NOTE_0095,Pediatrics,"Patient: Jennifer Spencer, Age: 25.
+Chief complaint: fever for 8 days.
+Diagnosis: J45.909 (Asthma), H66.90 (Otitis media)
+CPT: 99213 (Consult), 87880 (Strep test)
+Treatment: paracetamol advised.
+Follow-up in 4 days.","['J45.909', 'H66.90']","['99213', '87880']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0095.png
+NOTE_0096,General Medicine,"Patient: Krista Gonzales, Age: 67.
+Chief complaint: body ache for 5 days.
+Diagnosis: E11.9 (Type 2 diabetes), J06.9 (URI)
+CPT: 81002 (Urine test)
+Treatment: blood tests ordered.
+Follow-up in 8 days.","['E11.9', 'J06.9']",['81002'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0096.png
+NOTE_0097,General Medicine,"Patient: Benjamin Smith, Age: 52.
+Chief complaint: fever for 4 days.
+Diagnosis: R50.9 (Fever), E11.9 (Type 2 diabetes)
+CPT: 81002 (Urine test), 80053 (CMP panel)
+Treatment: antibiotics if no improvement.
+Follow-up in 14 days.","['R50.9', 'E11.9']","['81002', '80053']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0097.png
+NOTE_0098,Neurology,"Patient: Martha Evans, Age: 40.
+Chief complaint: numbness for 10 days.
+Diagnosis: G43.909 (Migraine), R51 (Headache)
+CPT: 96116 (Neuro eval)
+Treatment: anti-seizure medication started.
+Follow-up in 14 days.","['G43.909', 'R51']",['96116'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0098.png
+NOTE_0099,Orthopedics,"Patient: Mackenzie Ross, Age: 36.
+Chief complaint: shoulder stiffness for 3 days.
+Diagnosis: M17.9 (Knee osteoarthritis)
+CPT: 99213 (Consultation), 20610 (Joint injection)
+Treatment: advised physiotherapy.
+Follow-up in 8 days.",['M17.9'],"['99213', '20610']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0099.png
+NOTE_0100,Pediatrics,"Patient: Michael Ramirez, Age: 46.
+Chief complaint: cough for 5 days.
+Diagnosis: A09 (Gastroenteritis)
+CPT: 99391 (Well child exam)
+Treatment: hydration and rest.
+Follow-up in 12 days.",['A09'],['99391'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0100.png
+NOTE_0101,General Medicine,"Patient: Kimberly Thompson, Age: 62.
+Chief complaint: body ache for 10 days.
+Diagnosis: J06.9 (URI), E11.9 (Type 2 diabetes)
+CPT: 81002 (Urine test)
+Treatment: fluids advised.
+Follow-up in 5 days.","['J06.9', 'E11.9']",['81002'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0101.png
+NOTE_0102,Cardiology,"Patient: Benjamin White, Age: 33.
+Chief complaint: palpitations for 4 days.
+Diagnosis: I10 (Hypertension)
+CPT: 93000 (ECG)
+Treatment: beta-blocker initiated.
+Follow-up in 10 days.",['I10'],['93000'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0102.png
+NOTE_0103,Neurology,"Patient: Margaret Robinson, Age: 57.
+Chief complaint: headache for 5 days.
+Diagnosis: G40.909 (Epilepsy)
+CPT: 99214 (Follow-up)
+Treatment: EEG planned.
+Follow-up in 11 days.",['G40.909'],['99214'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0103.png
+NOTE_0104,Orthopedics,"Patient: Eileen Wade MD, Age: 54.
+Chief complaint: knee pain for 10 days.
+Diagnosis: S83.241A (ACL tear), M54.5 (Low back pain)
+CPT: 20610 (Joint injection)
+Treatment: advised physiotherapy.
+Follow-up in 11 days.","['S83.241A', 'M54.5']",['20610'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0104.png
+NOTE_0105,General Medicine,"Patient: Katherine Ortega, Age: 49.
+Chief complaint: body ache for 6 days.
+Diagnosis: E11.9 (Type 2 diabetes), J06.9 (URI)
+CPT: 99213 (Office visit), 80053 (CMP panel)
+Treatment: blood tests ordered.
+Follow-up in 6 days.","['E11.9', 'J06.9']","['99213', '80053']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0105.png
+NOTE_0106,Cardiology,"Patient: Kathleen Martinez, Age: 58.
+Chief complaint: palpitations for 10 days.
+Diagnosis: R07.9 (Chest pain)
+CPT: 99214 (Follow-up), 93000 (ECG)
+Treatment: advised ECG and cath lab.
+Follow-up in 12 days.",['R07.9'],"['99214', '93000']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0106.png
+NOTE_0107,Pediatrics,"Patient: David Murphy, Age: 71.
+Chief complaint: fever for 6 days.
+Diagnosis: H66.90 (Otitis media)
+CPT: 99391 (Well child exam)
+Treatment: paracetamol advised.
+Follow-up in 11 days.",['H66.90'],['99391'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0107.png
+NOTE_0108,Cardiology,"Patient: Matthew Kim, Age: 65.
+Chief complaint: chest pain for 7 days.
+Diagnosis: I21.3 (Acute MI)
+CPT: 99213 (Consultation)
+Treatment: advised ECG and cath lab.
+Follow-up in 8 days.",['I21.3'],['99213'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0108.png
+NOTE_0109,Orthopedics,"Patient: Michelle Stanley, Age: 20.
+Chief complaint: lower back pain for 10 days.
+Diagnosis: S83.241A (ACL tear)
+CPT: 20610 (Joint injection), 73562 (Knee X-ray)
+Treatment: advised physiotherapy.
+Follow-up in 8 days.",['S83.241A'],"['20610', '73562']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0109.png
+NOTE_0110,Neurology,"Patient: Jesse Daniel, Age: 40.
+Chief complaint: seizure for 10 days.
+Diagnosis: R51 (Headache), G43.909 (Migraine)
+CPT: 96116 (Neuro eval), 95816 (EEG)
+Treatment: anti-seizure medication started.
+Follow-up in 5 days.","['R51', 'G43.909']","['96116', '95816']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0110.png
+NOTE_0111,Pediatrics,"Patient: Karen Mckay, Age: 68.
+Chief complaint: fever for 8 days.
+Diagnosis: H66.90 (Otitis media), A09 (Gastroenteritis)
+CPT: 99391 (Well child exam)
+Treatment: hydration and rest.
+Follow-up in 4 days.","['H66.90', 'A09']",['99391'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0111.png
+NOTE_0112,Neurology,"Patient: Jacqueline Foster, Age: 77.
+Chief complaint: seizure for 6 days.
+Diagnosis: R51 (Headache)
+CPT: 99214 (Follow-up), 95816 (EEG)
+Treatment: anti-seizure medication started.
+Follow-up in 14 days.",['R51'],"['99214', '95816']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0112.png
+NOTE_0113,General Medicine,"Patient: Joseph Nguyen, Age: 36.
+Chief complaint: fever for 9 days.
+Diagnosis: E11.9 (Type 2 diabetes)
+CPT: 80053 (CMP panel), 81002 (Urine test)
+Treatment: antibiotics if no improvement.
+Follow-up in 13 days.",['E11.9'],"['80053', '81002']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0113.png
+NOTE_0114,Orthopedics,"Patient: Thomas Vincent, Age: 30.
+Chief complaint: lower back pain for 5 days.
+Diagnosis: M17.9 (Knee osteoarthritis)
+CPT: 20610 (Joint injection), 99213 (Consultation)
+Treatment: advised physiotherapy.
+Follow-up in 3 days.",['M17.9'],"['20610', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0114.png
+NOTE_0115,Orthopedics,"Patient: Alexis Valencia, Age: 76.
+Chief complaint: lower back pain for 2 days.
+Diagnosis: S83.241A (ACL tear)
+CPT: 20610 (Joint injection), 73562 (Knee X-ray)
+Treatment: MRI recommended.
+Follow-up in 14 days.",['S83.241A'],"['20610', '73562']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0115.png
+NOTE_0116,Neurology,"Patient: Frank Gallagher, Age: 46.
+Chief complaint: headache for 4 days.
+Diagnosis: R51 (Headache), G43.909 (Migraine)
+CPT: 99214 (Follow-up)
+Treatment: EEG planned.
+Follow-up in 11 days.","['R51', 'G43.909']",['99214'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0116.png
+NOTE_0117,Neurology,"Patient: Tonya Ryan, Age: 61.
+Chief complaint: numbness for 7 days.
+Diagnosis: G43.909 (Migraine)
+CPT: 95816 (EEG)
+Treatment: EEG planned.
+Follow-up in 10 days.",['G43.909'],['95816'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0117.png
+NOTE_0118,Pediatrics,"Patient: Richard Johnson, Age: 73.
+Chief complaint: fever for 6 days.
+Diagnosis: H66.90 (Otitis media), A09 (Gastroenteritis)
+CPT: 87880 (Strep test), 99213 (Consult)
+Treatment: hydration and rest.
+Follow-up in 13 days.","['H66.90', 'A09']","['87880', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0118.png
+NOTE_0119,Pediatrics,"Patient: Nicholas Irwin, Age: 50.
+Chief complaint: ear pain for 8 days.
+Diagnosis: H66.90 (Otitis media)
+CPT: 99213 (Consult), 87880 (Strep test)
+Treatment: hydration and rest.
+Follow-up in 12 days.",['H66.90'],"['99213', '87880']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0119.png
+NOTE_0120,Orthopedics,"Patient: Jessica Ballard, Age: 49.
+Chief complaint: lower back pain for 9 days.
+Diagnosis: S83.241A (ACL tear), M54.5 (Low back pain)
+CPT: 99213 (Consultation)
+Treatment: advised physiotherapy.
+Follow-up in 4 days.","['S83.241A', 'M54.5']",['99213'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0120.png
+NOTE_0121,Cardiology,"Patient: Jill Montoya, Age: 65.
+Chief complaint: palpitations for 5 days.
+Diagnosis: I25.10 (CAD), I10 (Hypertension)
+CPT: 99214 (Follow-up)
+Treatment: advised ECG and cath lab.
+Follow-up in 5 days.","['I25.10', 'I10']",['99214'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0121.png
+NOTE_0122,Cardiology,"Patient: Philip Valentine, Age: 26.
+Chief complaint: palpitations for 5 days.
+Diagnosis: I21.3 (Acute MI)
+CPT: 99213 (Consultation), 93000 (ECG)
+Treatment: advised ECG and cath lab.
+Follow-up in 3 days.",['I21.3'],"['99213', '93000']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0122.png
+NOTE_0123,Pediatrics,"Patient: Elizabeth Kim, Age: 48.
+Chief complaint: fever for 7 days.
+Diagnosis: H66.90 (Otitis media), J45.909 (Asthma)
+CPT: 99213 (Consult)
+Treatment: paracetamol advised.
+Follow-up in 6 days.","['H66.90', 'J45.909']",['99213'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0123.png
+NOTE_0124,Cardiology,"Patient: Justin Harvey, Age: 47.
+Chief complaint: shortness of breath for 5 days.
+Diagnosis: I21.3 (Acute MI), R07.9 (Chest pain)
+CPT: 99214 (Follow-up)
+Treatment: started on aspirin.
+Follow-up in 14 days.","['I21.3', 'R07.9']",['99214'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0124.png
+NOTE_0125,Cardiology,"Patient: Frances Carter, Age: 38.
+Chief complaint: shortness of breath for 6 days.
+Diagnosis: R07.9 (Chest pain)
+CPT: 93000 (ECG), 99213 (Consultation)
+Treatment: beta-blocker initiated.
+Follow-up in 6 days.",['R07.9'],"['93000', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0125.png
+NOTE_0126,Orthopedics,"Patient: Christopher Woodward, Age: 50.
+Chief complaint: shoulder stiffness for 3 days.
+Diagnosis: M54.5 (Low back pain), S83.241A (ACL tear)
+CPT: 99213 (Consultation), 20610 (Joint injection)
+Treatment: advised physiotherapy.
+Follow-up in 8 days.","['M54.5', 'S83.241A']","['99213', '20610']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0126.png
+NOTE_0127,General Medicine,"Patient: Troy Mcmahon, Age: 25.
+Chief complaint: fatigue for 3 days.
+Diagnosis: E11.9 (Type 2 diabetes), J06.9 (URI)
+CPT: 81002 (Urine test), 99213 (Office visit)
+Treatment: antibiotics if no improvement.
+Follow-up in 4 days.","['E11.9', 'J06.9']","['81002', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0127.png
+NOTE_0128,Pediatrics,"Patient: Christine Reynolds, Age: 21.
+Chief complaint: cough for 10 days.
+Diagnosis: H66.90 (Otitis media)
+CPT: 99391 (Well child exam), 87880 (Strep test)
+Treatment: hydration and rest.
+Follow-up in 12 days.",['H66.90'],"['99391', '87880']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0128.png
+NOTE_0129,General Medicine,"Patient: Jessica Taylor, Age: 49.
+Chief complaint: body ache for 6 days.
+Diagnosis: R50.9 (Fever)
+CPT: 99213 (Office visit)
+Treatment: blood tests ordered.
+Follow-up in 6 days.",['R50.9'],['99213'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0129.png
+NOTE_0130,Cardiology,"Patient: Dennis Roberts, Age: 30.
+Chief complaint: chest pain for 4 days.
+Diagnosis: I21.3 (Acute MI), I10 (Hypertension)
+CPT: 99214 (Follow-up), 99213 (Consultation)
+Treatment: beta-blocker initiated.
+Follow-up in 3 days.","['I21.3', 'I10']","['99214', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0130.png
+NOTE_0131,Pediatrics,"Patient: Jessica Gonzalez, Age: 70.
+Chief complaint: ear pain for 8 days.
+Diagnosis: J45.909 (Asthma), A09 (Gastroenteritis)
+CPT: 99213 (Consult)
+Treatment: hydration and rest.
+Follow-up in 10 days.","['J45.909', 'A09']",['99213'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0131.png
+NOTE_0132,General Medicine,"Patient: Ms. Teresa Mccormick, Age: 57.
+Chief complaint: fatigue for 2 days.
+Diagnosis: R50.9 (Fever)
+CPT: 81002 (Urine test), 99213 (Office visit)
+Treatment: antibiotics if no improvement.
+Follow-up in 10 days.",['R50.9'],"['81002', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0132.png
+NOTE_0133,Orthopedics,"Patient: Manuel Pena, Age: 42.
+Chief complaint: knee pain for 6 days.
+Diagnosis: S83.241A (ACL tear), M17.9 (Knee osteoarthritis)
+CPT: 99213 (Consultation)
+Treatment: NSAIDs prescribed.
+Follow-up in 13 days.","['S83.241A', 'M17.9']",['99213'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0133.png
+NOTE_0134,General Medicine,"Patient: Andrew Robles, Age: 77.
+Chief complaint: body ache for 4 days.
+Diagnosis: R50.9 (Fever)
+CPT: 80053 (CMP panel)
+Treatment: fluids advised.
+Follow-up in 13 days.",['R50.9'],['80053'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0134.png
+NOTE_0135,Orthopedics,"Patient: Darrell Hoffman, Age: 49.
+Chief complaint: knee pain for 6 days.
+Diagnosis: M17.9 (Knee osteoarthritis)
+CPT: 99213 (Consultation), 20610 (Joint injection)
+Treatment: advised physiotherapy.
+Follow-up in 3 days.",['M17.9'],"['99213', '20610']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0135.png
+NOTE_0136,Neurology,"Patient: Scott Smith, Age: 54.
+Chief complaint: headache for 6 days.
+Diagnosis: G43.909 (Migraine), R51 (Headache)
+CPT: 95816 (EEG)
+Treatment: anti-seizure medication started.
+Follow-up in 8 days.","['G43.909', 'R51']",['95816'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0136.png
+NOTE_0137,Orthopedics,"Patient: Anthony Perez, Age: 60.
+Chief complaint: knee pain for 9 days.
+Diagnosis: S83.241A (ACL tear)
+CPT: 73562 (Knee X-ray)
+Treatment: advised physiotherapy.
+Follow-up in 14 days.",['S83.241A'],['73562'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0137.png
+NOTE_0138,Cardiology,"Patient: Steven Reynolds, Age: 57.
+Chief complaint: palpitations for 7 days.
+Diagnosis: I10 (Hypertension), I21.3 (Acute MI)
+CPT: 99214 (Follow-up), 93000 (ECG)
+Treatment: beta-blocker initiated.
+Follow-up in 13 days.","['I10', 'I21.3']","['99214', '93000']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0138.png
+NOTE_0139,Pediatrics,"Patient: Elizabeth Johnson, Age: 32.
+Chief complaint: cough for 5 days.
+Diagnosis: J45.909 (Asthma)
+CPT: 87880 (Strep test)
+Treatment: paracetamol advised.
+Follow-up in 12 days.",['J45.909'],['87880'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0139.png
+NOTE_0140,Orthopedics,"Patient: Sheila Dudley, Age: 73.
+Chief complaint: shoulder stiffness for 7 days.
+Diagnosis: S83.241A (ACL tear), M54.5 (Low back pain)
+CPT: 20610 (Joint injection)
+Treatment: MRI recommended.
+Follow-up in 11 days.","['S83.241A', 'M54.5']",['20610'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0140.png
+NOTE_0141,Pediatrics,"Patient: William Dawson, Age: 43.
+Chief complaint: cough for 4 days.
+Diagnosis: H66.90 (Otitis media), J45.909 (Asthma)
+CPT: 99391 (Well child exam)
+Treatment: paracetamol advised.
+Follow-up in 8 days.","['H66.90', 'J45.909']",['99391'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0141.png
+NOTE_0142,Neurology,"Patient: Tiffany Chandler, Age: 61.
+Chief complaint: seizure for 8 days.
+Diagnosis: R51 (Headache), G43.909 (Migraine)
+CPT: 95816 (EEG), 99214 (Follow-up)
+Treatment: EEG planned.
+Follow-up in 8 days.","['R51', 'G43.909']","['95816', '99214']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0142.png
+NOTE_0143,General Medicine,"Patient: James Williams, Age: 78.
+Chief complaint: body ache for 10 days.
+Diagnosis: J06.9 (URI)
+CPT: 80053 (CMP panel)
+Treatment: blood tests ordered.
+Follow-up in 3 days.",['J06.9'],['80053'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0143.png
+NOTE_0144,General Medicine,"Patient: Michael Howard, Age: 49.
+Chief complaint: body ache for 5 days.
+Diagnosis: E11.9 (Type 2 diabetes), R50.9 (Fever)
+CPT: 80053 (CMP panel), 99213 (Office visit)
+Treatment: fluids advised.
+Follow-up in 10 days.","['E11.9', 'R50.9']","['80053', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0144.png
+NOTE_0145,General Medicine,"Patient: Joshua Shepard, Age: 58.
+Chief complaint: body ache for 7 days.
+Diagnosis: J06.9 (URI)
+CPT: 99213 (Office visit), 81002 (Urine test)
+Treatment: fluids advised.
+Follow-up in 7 days.",['J06.9'],"['99213', '81002']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0145.png
+NOTE_0146,Neurology,"Patient: Deborah Harrison, Age: 78.
+Chief complaint: headache for 7 days.
+Diagnosis: G40.909 (Epilepsy)
+CPT: 99214 (Follow-up), 96116 (Neuro eval)
+Treatment: EEG planned.
+Follow-up in 9 days.",['G40.909'],"['99214', '96116']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0146.png
+NOTE_0147,Orthopedics,"Patient: Benjamin Waller, Age: 35.
+Chief complaint: shoulder stiffness for 9 days.
+Diagnosis: M54.5 (Low back pain)
+CPT: 20610 (Joint injection)
+Treatment: NSAIDs prescribed.
+Follow-up in 14 days.",['M54.5'],['20610'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0147.png
+NOTE_0148,Pediatrics,"Patient: Heather Smith, Age: 80.
+Chief complaint: cough for 7 days.
+Diagnosis: J45.909 (Asthma), A09 (Gastroenteritis)
+CPT: 99213 (Consult), 87880 (Strep test)
+Treatment: hydration and rest.
+Follow-up in 13 days.","['J45.909', 'A09']","['99213', '87880']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0148.png
+NOTE_0149,Orthopedics,"Patient: Benjamin Houston, Age: 55.
+Chief complaint: lower back pain for 4 days.
+Diagnosis: M54.5 (Low back pain)
+CPT: 20610 (Joint injection), 73562 (Knee X-ray)
+Treatment: advised physiotherapy.
+Follow-up in 8 days.",['M54.5'],"['20610', '73562']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0149.png
+NOTE_0150,Orthopedics,"Patient: Eugene Moore, Age: 64.
+Chief complaint: shoulder stiffness for 3 days.
+Diagnosis: S83.241A (ACL tear), M54.5 (Low back pain)
+CPT: 73562 (Knee X-ray)
+Treatment: MRI recommended.
+Follow-up in 8 days.","['S83.241A', 'M54.5']",['73562'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0150.png
+NOTE_0151,Neurology,"Patient: Lisa Adkins, Age: 23.
+Chief complaint: headache for 9 days.
+Diagnosis: G43.909 (Migraine)
+CPT: 99214 (Follow-up), 96116 (Neuro eval)
+Treatment: EEG planned.
+Follow-up in 9 days.",['G43.909'],"['99214', '96116']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0151.png
+NOTE_0152,Orthopedics,"Patient: Joy Carter, Age: 64.
+Chief complaint: lower back pain for 3 days.
+Diagnosis: S83.241A (ACL tear), M54.5 (Low back pain)
+CPT: 99213 (Consultation)
+Treatment: MRI recommended.
+Follow-up in 3 days.","['S83.241A', 'M54.5']",['99213'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0152.png
+NOTE_0153,Neurology,"Patient: Thomas Harding, Age: 20.
+Chief complaint: numbness for 8 days.
+Diagnosis: G43.909 (Migraine), G40.909 (Epilepsy)
+CPT: 96116 (Neuro eval)
+Treatment: EEG planned.
+Follow-up in 4 days.","['G43.909', 'G40.909']",['96116'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0153.png
+NOTE_0154,General Medicine,"Patient: Kevin Martin, Age: 36.
+Chief complaint: fever for 3 days.
+Diagnosis: E11.9 (Type 2 diabetes)
+CPT: 99213 (Office visit), 81002 (Urine test)
+Treatment: blood tests ordered.
+Follow-up in 9 days.",['E11.9'],"['99213', '81002']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0154.png
+NOTE_0155,Pediatrics,"Patient: Tiffany Blanchard, Age: 72.
+Chief complaint: cough for 4 days.
+Diagnosis: J45.909 (Asthma)
+CPT: 99213 (Consult)
+Treatment: paracetamol advised.
+Follow-up in 4 days.",['J45.909'],['99213'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0155.png
+NOTE_0156,Orthopedics,"Patient: Pamela Fry, Age: 34.
+Chief complaint: shoulder stiffness for 3 days.
+Diagnosis: S83.241A (ACL tear), M17.9 (Knee osteoarthritis)
+CPT: 99213 (Consultation), 20610 (Joint injection)
+Treatment: MRI recommended.
+Follow-up in 5 days.","['S83.241A', 'M17.9']","['99213', '20610']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0156.png
+NOTE_0157,Pediatrics,"Patient: Ryan White, Age: 71.
+Chief complaint: fever for 3 days.
+Diagnosis: J45.909 (Asthma), H66.90 (Otitis media)
+CPT: 99213 (Consult)
+Treatment: paracetamol advised.
+Follow-up in 9 days.","['J45.909', 'H66.90']",['99213'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0157.png
+NOTE_0158,Neurology,"Patient: Brianna Wolfe, Age: 55.
+Chief complaint: numbness for 3 days.
+Diagnosis: R51 (Headache), G40.909 (Epilepsy)
+CPT: 99214 (Follow-up), 95816 (EEG)
+Treatment: anti-seizure medication started.
+Follow-up in 13 days.","['R51', 'G40.909']","['99214', '95816']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0158.png
+NOTE_0159,Pediatrics,"Patient: Jesus Taylor, Age: 44.
+Chief complaint: ear pain for 6 days.
+Diagnosis: J45.909 (Asthma)
+CPT: 99391 (Well child exam)
+Treatment: paracetamol advised.
+Follow-up in 10 days.",['J45.909'],['99391'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0159.png
+NOTE_0160,Neurology,"Patient: Patricia Russell, Age: 68.
+Chief complaint: seizure for 5 days.
+Diagnosis: G43.909 (Migraine)
+CPT: 96116 (Neuro eval), 95816 (EEG)
+Treatment: EEG planned.
+Follow-up in 7 days.",['G43.909'],"['96116', '95816']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0160.png
+NOTE_0161,Orthopedics,"Patient: Laura Riley, Age: 22.
+Chief complaint: knee pain for 2 days.
+Diagnosis: M54.5 (Low back pain)
+CPT: 20610 (Joint injection)
+Treatment: NSAIDs prescribed.
+Follow-up in 4 days.",['M54.5'],['20610'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0161.png
+NOTE_0162,Pediatrics,"Patient: Francisco Miller, Age: 71.
+Chief complaint: ear pain for 10 days.
+Diagnosis: H66.90 (Otitis media)
+CPT: 99391 (Well child exam)
+Treatment: hydration and rest.
+Follow-up in 14 days.",['H66.90'],['99391'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0162.png
+NOTE_0163,Neurology,"Patient: Amber Carter, Age: 78.
+Chief complaint: headache for 9 days.
+Diagnosis: R51 (Headache), G40.909 (Epilepsy)
+CPT: 99214 (Follow-up)
+Treatment: EEG planned.
+Follow-up in 12 days.","['R51', 'G40.909']",['99214'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0163.png
+NOTE_0164,Cardiology,"Patient: Debra Hanson, Age: 80.
+Chief complaint: chest pain for 3 days.
+Diagnosis: I10 (Hypertension), R07.9 (Chest pain)
+CPT: 93000 (ECG), 99213 (Consultation)
+Treatment: started on aspirin.
+Follow-up in 14 days.","['I10', 'R07.9']","['93000', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0164.png
+NOTE_0165,Cardiology,"Patient: Jeffery Robinson, Age: 46.
+Chief complaint: shortness of breath for 7 days.
+Diagnosis: I21.3 (Acute MI)
+CPT: 99213 (Consultation), 99214 (Follow-up)
+Treatment: started on aspirin.
+Follow-up in 13 days.",['I21.3'],"['99213', '99214']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0165.png
+NOTE_0166,General Medicine,"Patient: Holly Phillips, Age: 18.
+Chief complaint: fatigue for 10 days.
+Diagnosis: E11.9 (Type 2 diabetes)
+CPT: 80053 (CMP panel)
+Treatment: blood tests ordered.
+Follow-up in 12 days.",['E11.9'],['80053'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0166.png
+NOTE_0167,Neurology,"Patient: Amy Vasquez, Age: 46.
+Chief complaint: headache for 7 days.
+Diagnosis: G43.909 (Migraine), G40.909 (Epilepsy)
+CPT: 95816 (EEG), 99214 (Follow-up)
+Treatment: EEG planned.
+Follow-up in 11 days.","['G43.909', 'G40.909']","['95816', '99214']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0167.png
+NOTE_0168,Orthopedics,"Patient: Angela Bruce, Age: 79.
+Chief complaint: lower back pain for 10 days.
+Diagnosis: M54.5 (Low back pain), S83.241A (ACL tear)
+CPT: 73562 (Knee X-ray)
+Treatment: advised physiotherapy.
+Follow-up in 5 days.","['M54.5', 'S83.241A']",['73562'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0168.png
+NOTE_0169,Pediatrics,"Patient: Carol Hopkins, Age: 33.
+Chief complaint: cough for 2 days.
+Diagnosis: H66.90 (Otitis media), J45.909 (Asthma)
+CPT: 87880 (Strep test), 99391 (Well child exam)
+Treatment: paracetamol advised.
+Follow-up in 5 days.","['H66.90', 'J45.909']","['87880', '99391']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0169.png
+NOTE_0170,Neurology,"Patient: Joshua Edwards, Age: 44.
+Chief complaint: headache for 2 days.
+Diagnosis: G40.909 (Epilepsy), G43.909 (Migraine)
+CPT: 95816 (EEG)
+Treatment: anti-seizure medication started.
+Follow-up in 10 days.","['G40.909', 'G43.909']",['95816'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0170.png
+NOTE_0171,Pediatrics,"Patient: Katie Cohen, Age: 49.
+Chief complaint: fever for 3 days.
+Diagnosis: A09 (Gastroenteritis), H66.90 (Otitis media)
+CPT: 87880 (Strep test)
+Treatment: hydration and rest.
+Follow-up in 8 days.","['A09', 'H66.90']",['87880'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0171.png
+NOTE_0172,Orthopedics,"Patient: Anita Duke, Age: 22.
+Chief complaint: lower back pain for 5 days.
+Diagnosis: S83.241A (ACL tear), M54.5 (Low back pain)
+CPT: 73562 (Knee X-ray), 99213 (Consultation)
+Treatment: NSAIDs prescribed.
+Follow-up in 13 days.","['S83.241A', 'M54.5']","['73562', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0172.png
+NOTE_0173,Neurology,"Patient: Annette Baxter, Age: 71.
+Chief complaint: headache for 2 days.
+Diagnosis: G43.909 (Migraine)
+CPT: 96116 (Neuro eval), 95816 (EEG)
+Treatment: EEG planned.
+Follow-up in 8 days.",['G43.909'],"['96116', '95816']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0173.png
+NOTE_0174,Cardiology,"Patient: Patricia Lopez, Age: 70.
+Chief complaint: palpitations for 7 days.
+Diagnosis: I10 (Hypertension), I21.3 (Acute MI)
+CPT: 99213 (Consultation)
+Treatment: advised ECG and cath lab.
+Follow-up in 13 days.","['I10', 'I21.3']",['99213'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0174.png
+NOTE_0175,Neurology,"Patient: James Lowery, Age: 75.
+Chief complaint: headache for 5 days.
+Diagnosis: G40.909 (Epilepsy), R51 (Headache)
+CPT: 96116 (Neuro eval), 95816 (EEG)
+Treatment: EEG planned.
+Follow-up in 12 days.","['G40.909', 'R51']","['96116', '95816']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0175.png
+NOTE_0176,Neurology,"Patient: Sara Barnett, Age: 62.
+Chief complaint: numbness for 5 days.
+Diagnosis: G40.909 (Epilepsy), R51 (Headache)
+CPT: 99214 (Follow-up), 95816 (EEG)
+Treatment: EEG planned.
+Follow-up in 12 days.","['G40.909', 'R51']","['99214', '95816']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0176.png
+NOTE_0177,Pediatrics,"Patient: Cynthia Lopez, Age: 28.
+Chief complaint: cough for 3 days.
+Diagnosis: H66.90 (Otitis media)
+CPT: 99213 (Consult)
+Treatment: hydration and rest.
+Follow-up in 14 days.",['H66.90'],['99213'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0177.png
+NOTE_0178,Cardiology,"Patient: Tara Foster, Age: 27.
+Chief complaint: chest pain for 5 days.
+Diagnosis: I25.10 (CAD)
+CPT: 99213 (Consultation)
+Treatment: beta-blocker initiated.
+Follow-up in 13 days.",['I25.10'],['99213'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0178.png
+NOTE_0179,Cardiology,"Patient: James King, Age: 80.
+Chief complaint: chest pain for 6 days.
+Diagnosis: I25.10 (CAD), R07.9 (Chest pain)
+CPT: 99214 (Follow-up)
+Treatment: advised ECG and cath lab.
+Follow-up in 6 days.","['I25.10', 'R07.9']",['99214'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0179.png
+NOTE_0180,Orthopedics,"Patient: Carly Wright, Age: 58.
+Chief complaint: knee pain for 2 days.
+Diagnosis: S83.241A (ACL tear), M17.9 (Knee osteoarthritis)
+CPT: 73562 (Knee X-ray), 99213 (Consultation)
+Treatment: MRI recommended.
+Follow-up in 8 days.","['S83.241A', 'M17.9']","['73562', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0180.png
+NOTE_0181,Orthopedics,"Patient: Nicole Burton, Age: 76.
+Chief complaint: lower back pain for 3 days.
+Diagnosis: S83.241A (ACL tear), M54.5 (Low back pain)
+CPT: 99213 (Consultation)
+Treatment: advised physiotherapy.
+Follow-up in 6 days.","['S83.241A', 'M54.5']",['99213'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0181.png
+NOTE_0182,Orthopedics,"Patient: Tyler Castillo, Age: 74.
+Chief complaint: lower back pain for 6 days.
+Diagnosis: M54.5 (Low back pain)
+CPT: 73562 (Knee X-ray), 20610 (Joint injection)
+Treatment: advised physiotherapy.
+Follow-up in 3 days.",['M54.5'],"['73562', '20610']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0182.png
+NOTE_0183,Cardiology,"Patient: Jeffrey Kim, Age: 68.
+Chief complaint: palpitations for 2 days.
+Diagnosis: R07.9 (Chest pain)
+CPT: 99213 (Consultation), 99214 (Follow-up)
+Treatment: started on aspirin.
+Follow-up in 11 days.",['R07.9'],"['99213', '99214']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0183.png
+NOTE_0184,Pediatrics,"Patient: Martin Williams, Age: 59.
+Chief complaint: cough for 5 days.
+Diagnosis: A09 (Gastroenteritis)
+CPT: 99213 (Consult)
+Treatment: hydration and rest.
+Follow-up in 11 days.",['A09'],['99213'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0184.png
+NOTE_0185,Cardiology,"Patient: Jennifer Hernandez, Age: 56.
+Chief complaint: shortness of breath for 2 days.
+Diagnosis: I10 (Hypertension), I21.3 (Acute MI)
+CPT: 93000 (ECG), 99213 (Consultation)
+Treatment: started on aspirin.
+Follow-up in 10 days.","['I10', 'I21.3']","['93000', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0185.png
+NOTE_0186,Neurology,"Patient: Mrs. Jennifer Willis, Age: 21.
+Chief complaint: headache for 2 days.
+Diagnosis: G43.909 (Migraine)
+CPT: 96116 (Neuro eval), 95816 (EEG)
+Treatment: EEG planned.
+Follow-up in 4 days.",['G43.909'],"['96116', '95816']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0186.png
+NOTE_0187,Cardiology,"Patient: Nicholas Guerra, Age: 24.
+Chief complaint: shortness of breath for 10 days.
+Diagnosis: R07.9 (Chest pain), I10 (Hypertension)
+CPT: 99213 (Consultation)
+Treatment: beta-blocker initiated.
+Follow-up in 8 days.","['R07.9', 'I10']",['99213'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0187.png
+NOTE_0188,Pediatrics,"Patient: Matthew Murphy, Age: 51.
+Chief complaint: ear pain for 2 days.
+Diagnosis: H66.90 (Otitis media)
+CPT: 99391 (Well child exam), 87880 (Strep test)
+Treatment: hydration and rest.
+Follow-up in 5 days.",['H66.90'],"['99391', '87880']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0188.png
+NOTE_0189,Pediatrics,"Patient: Miguel Li, Age: 49.
+Chief complaint: fever for 8 days.
+Diagnosis: J45.909 (Asthma)
+CPT: 87880 (Strep test)
+Treatment: paracetamol advised.
+Follow-up in 7 days.",['J45.909'],['87880'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0189.png
+NOTE_0190,Orthopedics,"Patient: Ronald Mcdowell, Age: 77.
+Chief complaint: lower back pain for 4 days.
+Diagnosis: M17.9 (Knee osteoarthritis), S83.241A (ACL tear)
+CPT: 99213 (Consultation), 73562 (Knee X-ray)
+Treatment: advised physiotherapy.
+Follow-up in 6 days.","['M17.9', 'S83.241A']","['99213', '73562']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0190.png
+NOTE_0191,General Medicine,"Patient: Angela Nolan, Age: 42.
+Chief complaint: fever for 5 days.
+Diagnosis: E11.9 (Type 2 diabetes), J06.9 (URI)
+CPT: 99213 (Office visit)
+Treatment: fluids advised.
+Follow-up in 14 days.","['E11.9', 'J06.9']",['99213'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0191.png
+NOTE_0192,Pediatrics,"Patient: Jennifer Johnson, Age: 46.
+Chief complaint: ear pain for 2 days.
+Diagnosis: A09 (Gastroenteritis)
+CPT: 87880 (Strep test)
+Treatment: paracetamol advised.
+Follow-up in 4 days.",['A09'],['87880'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0192.png
+NOTE_0193,General Medicine,"Patient: Heather Tucker, Age: 44.
+Chief complaint: fatigue for 9 days.
+Diagnosis: E11.9 (Type 2 diabetes), R50.9 (Fever)
+CPT: 81002 (Urine test)
+Treatment: antibiotics if no improvement.
+Follow-up in 4 days.","['E11.9', 'R50.9']",['81002'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0193.png
+NOTE_0194,Pediatrics,"Patient: Charles Butler, Age: 50.
+Chief complaint: fever for 4 days.
+Diagnosis: J45.909 (Asthma)
+CPT: 87880 (Strep test)
+Treatment: hydration and rest.
+Follow-up in 6 days.",['J45.909'],['87880'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0194.png
+NOTE_0195,Neurology,"Patient: Melissa Scott, Age: 50.
+Chief complaint: seizure for 5 days.
+Diagnosis: G43.909 (Migraine)
+CPT: 99214 (Follow-up), 95816 (EEG)
+Treatment: anti-seizure medication started.
+Follow-up in 8 days.",['G43.909'],"['99214', '95816']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0195.png
+NOTE_0196,Neurology,"Patient: Alexandra Johnson, Age: 38.
+Chief complaint: headache for 7 days.
+Diagnosis: R51 (Headache), G43.909 (Migraine)
+CPT: 99214 (Follow-up)
+Treatment: EEG planned.
+Follow-up in 9 days.","['R51', 'G43.909']",['99214'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0196.png
+NOTE_0197,Cardiology,"Patient: Vanessa Moreno, Age: 36.
+Chief complaint: palpitations for 5 days.
+Diagnosis: I10 (Hypertension)
+CPT: 99214 (Follow-up)
+Treatment: advised ECG and cath lab.
+Follow-up in 13 days.",['I10'],['99214'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0197.png
+NOTE_0198,Cardiology,"Patient: Melinda Huffman, Age: 63.
+Chief complaint: shortness of breath for 7 days.
+Diagnosis: I25.10 (CAD)
+CPT: 99213 (Consultation), 93000 (ECG)
+Treatment: started on aspirin.
+Follow-up in 14 days.",['I25.10'],"['99213', '93000']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0198.png
+NOTE_0199,General Medicine,"Patient: Michelle Scott, Age: 29.
+Chief complaint: fatigue for 3 days.
+Diagnosis: R50.9 (Fever)
+CPT: 80053 (CMP panel)
+Treatment: antibiotics if no improvement.
+Follow-up in 13 days.",['R50.9'],['80053'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0199.png
+NOTE_0200,General Medicine,"Patient: Donna Clark, Age: 73.
+Chief complaint: body ache for 6 days.
+Diagnosis: J06.9 (URI), E11.9 (Type 2 diabetes)
+CPT: 80053 (CMP panel)
+Treatment: fluids advised.
+Follow-up in 10 days.","['J06.9', 'E11.9']",['80053'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0200.png
+NOTE_0201,Orthopedics,"Patient: Michael Cantrell, Age: 73.
+Chief complaint: knee pain for 9 days.
+Diagnosis: S83.241A (ACL tear), M54.5 (Low back pain)
+CPT: 73562 (Knee X-ray), 99213 (Consultation)
+Treatment: advised physiotherapy.
+Follow-up in 4 days.","['S83.241A', 'M54.5']","['73562', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0201.png
+NOTE_0202,Neurology,"Patient: Jose Lewis, Age: 78.
+Chief complaint: numbness for 9 days.
+Diagnosis: G40.909 (Epilepsy), R51 (Headache)
+CPT: 96116 (Neuro eval), 99214 (Follow-up)
+Treatment: anti-seizure medication started.
+Follow-up in 9 days.","['G40.909', 'R51']","['96116', '99214']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0202.png
+NOTE_0203,Neurology,"Patient: Casey Mclaughlin, Age: 61.
+Chief complaint: numbness for 8 days.
+Diagnosis: G40.909 (Epilepsy)
+CPT: 95816 (EEG)
+Treatment: anti-seizure medication started.
+Follow-up in 14 days.",['G40.909'],['95816'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0203.png
+NOTE_0204,General Medicine,"Patient: Christopher Kelley, Age: 47.
+Chief complaint: body ache for 5 days.
+Diagnosis: J06.9 (URI)
+CPT: 80053 (CMP panel), 99213 (Office visit)
+Treatment: antibiotics if no improvement.
+Follow-up in 5 days.",['J06.9'],"['80053', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0204.png
+NOTE_0205,Neurology,"Patient: Jennifer Adams, Age: 18.
+Chief complaint: seizure for 4 days.
+Diagnosis: G43.909 (Migraine), R51 (Headache)
+CPT: 96116 (Neuro eval), 99214 (Follow-up)
+Treatment: anti-seizure medication started.
+Follow-up in 7 days.","['G43.909', 'R51']","['96116', '99214']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0205.png
+NOTE_0206,Pediatrics,"Patient: Timothy Moran, Age: 67.
+Chief complaint: fever for 5 days.
+Diagnosis: J45.909 (Asthma)
+CPT: 99391 (Well child exam), 87880 (Strep test)
+Treatment: hydration and rest.
+Follow-up in 12 days.",['J45.909'],"['99391', '87880']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0206.png
+NOTE_0207,Cardiology,"Patient: Rodney Daugherty, Age: 42.
+Chief complaint: chest pain for 2 days.
+Diagnosis: I25.10 (CAD), I10 (Hypertension)
+CPT: 93000 (ECG), 99213 (Consultation)
+Treatment: advised ECG and cath lab.
+Follow-up in 11 days.","['I25.10', 'I10']","['93000', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0207.png
+NOTE_0208,Orthopedics,"Patient: Scott Nash, Age: 38.
+Chief complaint: lower back pain for 6 days.
+Diagnosis: M54.5 (Low back pain)
+CPT: 73562 (Knee X-ray), 20610 (Joint injection)
+Treatment: NSAIDs prescribed.
+Follow-up in 12 days.",['M54.5'],"['73562', '20610']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0208.png
+NOTE_0209,Pediatrics,"Patient: Steven Thomas, Age: 52.
+Chief complaint: fever for 4 days.
+Diagnosis: J45.909 (Asthma), H66.90 (Otitis media)
+CPT: 99213 (Consult)
+Treatment: paracetamol advised.
+Follow-up in 3 days.","['J45.909', 'H66.90']",['99213'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0209.png
+NOTE_0210,Pediatrics,"Patient: Rebecca Yu, Age: 26.
+Chief complaint: cough for 5 days.
+Diagnosis: A09 (Gastroenteritis), H66.90 (Otitis media)
+CPT: 87880 (Strep test), 99391 (Well child exam)
+Treatment: paracetamol advised.
+Follow-up in 11 days.","['A09', 'H66.90']","['87880', '99391']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0210.png
+NOTE_0211,Pediatrics,"Patient: Brandon Ayala, Age: 46.
+Chief complaint: cough for 7 days.
+Diagnosis: A09 (Gastroenteritis), J45.909 (Asthma)
+CPT: 99213 (Consult)
+Treatment: paracetamol advised.
+Follow-up in 12 days.","['A09', 'J45.909']",['99213'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0211.png
+NOTE_0212,Neurology,"Patient: Kevin Wright, Age: 77.
+Chief complaint: headache for 2 days.
+Diagnosis: R51 (Headache)
+CPT: 99214 (Follow-up)
+Treatment: anti-seizure medication started.
+Follow-up in 7 days.",['R51'],['99214'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0212.png
+NOTE_0213,Pediatrics,"Patient: James Nash, Age: 57.
+Chief complaint: cough for 7 days.
+Diagnosis: J45.909 (Asthma), H66.90 (Otitis media)
+CPT: 99213 (Consult), 99391 (Well child exam)
+Treatment: hydration and rest.
+Follow-up in 7 days.","['J45.909', 'H66.90']","['99213', '99391']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0213.png
+NOTE_0214,General Medicine,"Patient: Joe Ortega, Age: 36.
+Chief complaint: fatigue for 2 days.
+Diagnosis: R50.9 (Fever), E11.9 (Type 2 diabetes)
+CPT: 99213 (Office visit)
+Treatment: antibiotics if no improvement.
+Follow-up in 14 days.","['R50.9', 'E11.9']",['99213'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0214.png
+NOTE_0215,General Medicine,"Patient: Peter Hunt, Age: 51.
+Chief complaint: fever for 2 days.
+Diagnosis: E11.9 (Type 2 diabetes)
+CPT: 99213 (Office visit), 80053 (CMP panel)
+Treatment: fluids advised.
+Follow-up in 12 days.",['E11.9'],"['99213', '80053']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0215.png
+NOTE_0216,Orthopedics,"Patient: Jennifer Wright, Age: 42.
+Chief complaint: lower back pain for 4 days.
+Diagnosis: S83.241A (ACL tear)
+CPT: 20610 (Joint injection), 73562 (Knee X-ray)
+Treatment: NSAIDs prescribed.
+Follow-up in 11 days.",['S83.241A'],"['20610', '73562']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0216.png
+NOTE_0217,Pediatrics,"Patient: Spencer Terry, Age: 20.
+Chief complaint: ear pain for 5 days.
+Diagnosis: H66.90 (Otitis media), J45.909 (Asthma)
+CPT: 87880 (Strep test)
+Treatment: hydration and rest.
+Follow-up in 12 days.","['H66.90', 'J45.909']",['87880'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0217.png
+NOTE_0218,General Medicine,"Patient: Brandon Mccoy, Age: 45.
+Chief complaint: body ache for 7 days.
+Diagnosis: R50.9 (Fever), J06.9 (URI)
+CPT: 81002 (Urine test), 80053 (CMP panel)
+Treatment: antibiotics if no improvement.
+Follow-up in 8 days.","['R50.9', 'J06.9']","['81002', '80053']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0218.png
+NOTE_0219,Cardiology,"Patient: Michele Taylor, Age: 21.
+Chief complaint: chest pain for 10 days.
+Diagnosis: I25.10 (CAD)
+CPT: 99213 (Consultation)
+Treatment: beta-blocker initiated.
+Follow-up in 13 days.",['I25.10'],['99213'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0219.png
+NOTE_0220,Neurology,"Patient: Laura Richardson, Age: 46.
+Chief complaint: headache for 3 days.
+Diagnosis: G40.909 (Epilepsy)
+CPT: 96116 (Neuro eval)
+Treatment: anti-seizure medication started.
+Follow-up in 6 days.",['G40.909'],['96116'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0220.png
+NOTE_0221,General Medicine,"Patient: Lauren King, Age: 19.
+Chief complaint: fatigue for 3 days.
+Diagnosis: R50.9 (Fever)
+CPT: 81002 (Urine test)
+Treatment: antibiotics if no improvement.
+Follow-up in 11 days.",['R50.9'],['81002'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0221.png
+NOTE_0222,Pediatrics,"Patient: Kirsten Peters, Age: 53.
+Chief complaint: ear pain for 5 days.
+Diagnosis: A09 (Gastroenteritis), J45.909 (Asthma)
+CPT: 87880 (Strep test), 99213 (Consult)
+Treatment: paracetamol advised.
+Follow-up in 7 days.","['A09', 'J45.909']","['87880', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0222.png
+NOTE_0223,Cardiology,"Patient: Anne Zimmerman, Age: 48.
+Chief complaint: palpitations for 2 days.
+Diagnosis: I21.3 (Acute MI), I25.10 (CAD)
+CPT: 99213 (Consultation)
+Treatment: beta-blocker initiated.
+Follow-up in 6 days.","['I21.3', 'I25.10']",['99213'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0223.png
+NOTE_0224,Pediatrics,"Patient: Kelly Holloway, Age: 63.
+Chief complaint: fever for 2 days.
+Diagnosis: A09 (Gastroenteritis)
+CPT: 99213 (Consult), 99391 (Well child exam)
+Treatment: hydration and rest.
+Follow-up in 14 days.",['A09'],"['99213', '99391']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0224.png
+NOTE_0225,Orthopedics,"Patient: Curtis Lee, Age: 21.
+Chief complaint: shoulder stiffness for 3 days.
+Diagnosis: M17.9 (Knee osteoarthritis)
+CPT: 99213 (Consultation)
+Treatment: NSAIDs prescribed.
+Follow-up in 11 days.",['M17.9'],['99213'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0225.png
+NOTE_0226,Pediatrics,"Patient: Amy Mccoy, Age: 25.
+Chief complaint: fever for 8 days.
+Diagnosis: H66.90 (Otitis media), A09 (Gastroenteritis)
+CPT: 99391 (Well child exam)
+Treatment: paracetamol advised.
+Follow-up in 10 days.","['H66.90', 'A09']",['99391'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0226.png
+NOTE_0227,General Medicine,"Patient: Krystal Ruiz, Age: 31.
+Chief complaint: fatigue for 9 days.
+Diagnosis: E11.9 (Type 2 diabetes), J06.9 (URI)
+CPT: 99213 (Office visit), 81002 (Urine test)
+Treatment: fluids advised.
+Follow-up in 12 days.","['E11.9', 'J06.9']","['99213', '81002']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0227.png
+NOTE_0228,Orthopedics,"Patient: Douglas Harris, Age: 53.
+Chief complaint: shoulder stiffness for 8 days.
+Diagnosis: M54.5 (Low back pain)
+CPT: 20610 (Joint injection), 73562 (Knee X-ray)
+Treatment: advised physiotherapy.
+Follow-up in 3 days.",['M54.5'],"['20610', '73562']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0228.png
+NOTE_0229,General Medicine,"Patient: Kayla Cannon, Age: 23.
+Chief complaint: fever for 5 days.
+Diagnosis: J06.9 (URI)
+CPT: 80053 (CMP panel), 99213 (Office visit)
+Treatment: blood tests ordered.
+Follow-up in 3 days.",['J06.9'],"['80053', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0229.png
+NOTE_0230,Cardiology,"Patient: Daniel Mcdonald, Age: 68.
+Chief complaint: shortness of breath for 2 days.
+Diagnosis: I21.3 (Acute MI), R07.9 (Chest pain)
+CPT: 99214 (Follow-up), 99213 (Consultation)
+Treatment: started on aspirin.
+Follow-up in 3 days.","['I21.3', 'R07.9']","['99214', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0230.png
+NOTE_0231,Orthopedics,"Patient: Lisa Jackson, Age: 23.
+Chief complaint: shoulder stiffness for 2 days.
+Diagnosis: S83.241A (ACL tear), M54.5 (Low back pain)
+CPT: 73562 (Knee X-ray)
+Treatment: NSAIDs prescribed.
+Follow-up in 12 days.","['S83.241A', 'M54.5']",['73562'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0231.png
+NOTE_0232,Orthopedics,"Patient: Ronald Butler, Age: 57.
+Chief complaint: shoulder stiffness for 5 days.
+Diagnosis: M17.9 (Knee osteoarthritis)
+CPT: 99213 (Consultation), 20610 (Joint injection)
+Treatment: MRI recommended.
+Follow-up in 12 days.",['M17.9'],"['99213', '20610']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0232.png
+NOTE_0233,Cardiology,"Patient: Kathy Campbell, Age: 38.
+Chief complaint: chest pain for 7 days.
+Diagnosis: I25.10 (CAD), R07.9 (Chest pain)
+CPT: 99213 (Consultation)
+Treatment: beta-blocker initiated.
+Follow-up in 6 days.","['I25.10', 'R07.9']",['99213'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0233.png
+NOTE_0234,Neurology,"Patient: Jennifer Sanders, Age: 78.
+Chief complaint: numbness for 6 days.
+Diagnosis: G40.909 (Epilepsy), G43.909 (Migraine)
+CPT: 99214 (Follow-up), 96116 (Neuro eval)
+Treatment: anti-seizure medication started.
+Follow-up in 11 days.","['G40.909', 'G43.909']","['99214', '96116']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0234.png
+NOTE_0235,General Medicine,"Patient: Chad Bond, Age: 19.
+Chief complaint: fatigue for 10 days.
+Diagnosis: J06.9 (URI), R50.9 (Fever)
+CPT: 99213 (Office visit), 81002 (Urine test)
+Treatment: blood tests ordered.
+Follow-up in 3 days.","['J06.9', 'R50.9']","['99213', '81002']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0235.png
+NOTE_0236,Neurology,"Patient: Anita Flores, Age: 69.
+Chief complaint: headache for 5 days.
+Diagnosis: R51 (Headache)
+CPT: 96116 (Neuro eval)
+Treatment: anti-seizure medication started.
+Follow-up in 12 days.",['R51'],['96116'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0236.png
+NOTE_0237,Orthopedics,"Patient: Monica Cruz, Age: 34.
+Chief complaint: knee pain for 10 days.
+Diagnosis: S83.241A (ACL tear)
+CPT: 20610 (Joint injection)
+Treatment: NSAIDs prescribed.
+Follow-up in 4 days.",['S83.241A'],['20610'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0237.png
+NOTE_0238,Orthopedics,"Patient: Adam Zamora, Age: 57.
+Chief complaint: shoulder stiffness for 7 days.
+Diagnosis: M17.9 (Knee osteoarthritis)
+CPT: 99213 (Consultation), 20610 (Joint injection)
+Treatment: advised physiotherapy.
+Follow-up in 8 days.",['M17.9'],"['99213', '20610']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0238.png
+NOTE_0239,Cardiology,"Patient: Robert Chen, Age: 23.
+Chief complaint: chest pain for 6 days.
+Diagnosis: I10 (Hypertension), R07.9 (Chest pain)
+CPT: 93000 (ECG)
+Treatment: advised ECG and cath lab.
+Follow-up in 6 days.","['I10', 'R07.9']",['93000'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0239.png
+NOTE_0240,Neurology,"Patient: Cheryl Ibarra, Age: 64.
+Chief complaint: numbness for 9 days.
+Diagnosis: G40.909 (Epilepsy)
+CPT: 99214 (Follow-up)
+Treatment: anti-seizure medication started.
+Follow-up in 10 days.",['G40.909'],['99214'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0240.png
+NOTE_0241,Cardiology,"Patient: Laura Novak, Age: 53.
+Chief complaint: shortness of breath for 7 days.
+Diagnosis: R07.9 (Chest pain), I21.3 (Acute MI)
+CPT: 99214 (Follow-up)
+Treatment: started on aspirin.
+Follow-up in 8 days.","['R07.9', 'I21.3']",['99214'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0241.png
+NOTE_0242,Orthopedics,"Patient: Courtney Stewart, Age: 37.
+Chief complaint: shoulder stiffness for 4 days.
+Diagnosis: M54.5 (Low back pain), S83.241A (ACL tear)
+CPT: 73562 (Knee X-ray)
+Treatment: MRI recommended.
+Follow-up in 14 days.","['M54.5', 'S83.241A']",['73562'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0242.png
+NOTE_0243,Neurology,"Patient: Leonard Wright, Age: 34.
+Chief complaint: headache for 4 days.
+Diagnosis: G43.909 (Migraine), G40.909 (Epilepsy)
+CPT: 95816 (EEG), 99214 (Follow-up)
+Treatment: EEG planned.
+Follow-up in 9 days.","['G43.909', 'G40.909']","['95816', '99214']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0243.png
+NOTE_0244,Neurology,"Patient: Sarah Smith, Age: 45.
+Chief complaint: seizure for 4 days.
+Diagnosis: G40.909 (Epilepsy)
+CPT: 96116 (Neuro eval), 99214 (Follow-up)
+Treatment: anti-seizure medication started.
+Follow-up in 5 days.",['G40.909'],"['96116', '99214']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0244.png
+NOTE_0245,Neurology,"Patient: Jimmy Hood, Age: 68.
+Chief complaint: headache for 8 days.
+Diagnosis: G40.909 (Epilepsy)
+CPT: 95816 (EEG), 96116 (Neuro eval)
+Treatment: anti-seizure medication started.
+Follow-up in 5 days.",['G40.909'],"['95816', '96116']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0245.png
+NOTE_0246,Orthopedics,"Patient: Holly Anderson, Age: 59.
+Chief complaint: lower back pain for 5 days.
+Diagnosis: S83.241A (ACL tear), M54.5 (Low back pain)
+CPT: 20610 (Joint injection)
+Treatment: advised physiotherapy.
+Follow-up in 8 days.","['S83.241A', 'M54.5']",['20610'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0246.png
+NOTE_0247,Orthopedics,"Patient: Megan Taylor, Age: 32.
+Chief complaint: knee pain for 8 days.
+Diagnosis: S83.241A (ACL tear)
+CPT: 20610 (Joint injection), 99213 (Consultation)
+Treatment: advised physiotherapy.
+Follow-up in 4 days.",['S83.241A'],"['20610', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0247.png
+NOTE_0248,Neurology,"Patient: Dawn Brown, Age: 49.
+Chief complaint: numbness for 7 days.
+Diagnosis: G43.909 (Migraine), G40.909 (Epilepsy)
+CPT: 96116 (Neuro eval)
+Treatment: anti-seizure medication started.
+Follow-up in 7 days.","['G43.909', 'G40.909']",['96116'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0248.png
+NOTE_0249,Pediatrics,"Patient: Margaret Sims, Age: 59.
+Chief complaint: cough for 9 days.
+Diagnosis: A09 (Gastroenteritis)
+CPT: 99213 (Consult)
+Treatment: hydration and rest.
+Follow-up in 6 days.",['A09'],['99213'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0249.png
+NOTE_0250,General Medicine,"Patient: Jonathan Fernandez, Age: 64.
+Chief complaint: fever for 4 days.
+Diagnosis: J06.9 (URI)
+CPT: 80053 (CMP panel)
+Treatment: blood tests ordered.
+Follow-up in 5 days.",['J06.9'],['80053'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0250.png
+NOTE_0251,Neurology,"Patient: Zachary Mcdonald, Age: 53.
+Chief complaint: seizure for 7 days.
+Diagnosis: R51 (Headache)
+CPT: 96116 (Neuro eval)
+Treatment: anti-seizure medication started.
+Follow-up in 10 days.",['R51'],['96116'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0251.png
+NOTE_0252,Orthopedics,"Patient: Daniel Anderson, Age: 80.
+Chief complaint: lower back pain for 10 days.
+Diagnosis: M54.5 (Low back pain), S83.241A (ACL tear)
+CPT: 20610 (Joint injection)
+Treatment: NSAIDs prescribed.
+Follow-up in 12 days.","['M54.5', 'S83.241A']",['20610'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0252.png
+NOTE_0253,Orthopedics,"Patient: Noah Jenkins, Age: 44.
+Chief complaint: lower back pain for 9 days.
+Diagnosis: M17.9 (Knee osteoarthritis), M54.5 (Low back pain)
+CPT: 20610 (Joint injection)
+Treatment: MRI recommended.
+Follow-up in 7 days.","['M17.9', 'M54.5']",['20610'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0253.png
+NOTE_0254,Pediatrics,"Patient: Krystal Williams, Age: 34.
+Chief complaint: ear pain for 6 days.
+Diagnosis: H66.90 (Otitis media), J45.909 (Asthma)
+CPT: 99391 (Well child exam), 87880 (Strep test)
+Treatment: paracetamol advised.
+Follow-up in 13 days.","['H66.90', 'J45.909']","['99391', '87880']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0254.png
+NOTE_0255,Orthopedics,"Patient: Jennifer Horne, Age: 31.
+Chief complaint: shoulder stiffness for 6 days.
+Diagnosis: S83.241A (ACL tear)
+CPT: 20610 (Joint injection)
+Treatment: NSAIDs prescribed.
+Follow-up in 8 days.",['S83.241A'],['20610'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0255.png
+NOTE_0256,Orthopedics,"Patient: Tanya Austin, Age: 68.
+Chief complaint: shoulder stiffness for 2 days.
+Diagnosis: S83.241A (ACL tear)
+CPT: 99213 (Consultation)
+Treatment: advised physiotherapy.
+Follow-up in 14 days.",['S83.241A'],['99213'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0256.png
+NOTE_0257,Cardiology,"Patient: George Romero, Age: 28.
+Chief complaint: chest pain for 3 days.
+Diagnosis: I21.3 (Acute MI), I25.10 (CAD)
+CPT: 99213 (Consultation), 93000 (ECG)
+Treatment: started on aspirin.
+Follow-up in 6 days.","['I21.3', 'I25.10']","['99213', '93000']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0257.png
+NOTE_0258,Neurology,"Patient: Shannon Garcia, Age: 42.
+Chief complaint: numbness for 9 days.
+Diagnosis: R51 (Headache), G43.909 (Migraine)
+CPT: 96116 (Neuro eval), 95816 (EEG)
+Treatment: EEG planned.
+Follow-up in 7 days.","['R51', 'G43.909']","['96116', '95816']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0258.png
+NOTE_0259,General Medicine,"Patient: Molly Tucker, Age: 71.
+Chief complaint: body ache for 4 days.
+Diagnosis: J06.9 (URI), E11.9 (Type 2 diabetes)
+CPT: 81002 (Urine test), 80053 (CMP panel)
+Treatment: antibiotics if no improvement.
+Follow-up in 13 days.","['J06.9', 'E11.9']","['81002', '80053']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0259.png
+NOTE_0260,Pediatrics,"Patient: Larry Robinson, Age: 38.
+Chief complaint: fever for 8 days.
+Diagnosis: A09 (Gastroenteritis), H66.90 (Otitis media)
+CPT: 87880 (Strep test), 99213 (Consult)
+Treatment: paracetamol advised.
+Follow-up in 10 days.","['A09', 'H66.90']","['87880', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0260.png
+NOTE_0261,General Medicine,"Patient: Erin Adams, Age: 73.
+Chief complaint: fatigue for 8 days.
+Diagnosis: E11.9 (Type 2 diabetes), J06.9 (URI)
+CPT: 99213 (Office visit), 80053 (CMP panel)
+Treatment: blood tests ordered.
+Follow-up in 11 days.","['E11.9', 'J06.9']","['99213', '80053']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0261.png
+NOTE_0262,General Medicine,"Patient: Deanna Cook, Age: 80.
+Chief complaint: fatigue for 7 days.
+Diagnosis: J06.9 (URI)
+CPT: 81002 (Urine test), 80053 (CMP panel)
+Treatment: fluids advised.
+Follow-up in 8 days.",['J06.9'],"['81002', '80053']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0262.png
+NOTE_0263,Orthopedics,"Patient: Christine Martinez, Age: 33.
+Chief complaint: lower back pain for 9 days.
+Diagnosis: M54.5 (Low back pain), M17.9 (Knee osteoarthritis)
+CPT: 20610 (Joint injection)
+Treatment: MRI recommended.
+Follow-up in 5 days.","['M54.5', 'M17.9']",['20610'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0263.png
+NOTE_0264,Pediatrics,"Patient: Alyssa Wilson, Age: 24.
+Chief complaint: cough for 9 days.
+Diagnosis: H66.90 (Otitis media)
+CPT: 87880 (Strep test)
+Treatment: hydration and rest.
+Follow-up in 13 days.",['H66.90'],['87880'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0264.png
+NOTE_0265,Pediatrics,"Patient: John Little, Age: 63.
+Chief complaint: ear pain for 6 days.
+Diagnosis: J45.909 (Asthma), H66.90 (Otitis media)
+CPT: 87880 (Strep test), 99213 (Consult)
+Treatment: paracetamol advised.
+Follow-up in 11 days.","['J45.909', 'H66.90']","['87880', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0265.png
+NOTE_0266,Pediatrics,"Patient: Mark Nelson, Age: 51.
+Chief complaint: cough for 6 days.
+Diagnosis: A09 (Gastroenteritis), J45.909 (Asthma)
+CPT: 87880 (Strep test), 99213 (Consult)
+Treatment: paracetamol advised.
+Follow-up in 13 days.","['A09', 'J45.909']","['87880', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0266.png
+NOTE_0267,General Medicine,"Patient: Beth Boyd, Age: 79.
+Chief complaint: fever for 3 days.
+Diagnosis: R50.9 (Fever)
+CPT: 99213 (Office visit)
+Treatment: blood tests ordered.
+Follow-up in 8 days.",['R50.9'],['99213'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0267.png
+NOTE_0268,Cardiology,"Patient: Angela Thompson, Age: 45.
+Chief complaint: shortness of breath for 8 days.
+Diagnosis: R07.9 (Chest pain)
+CPT: 93000 (ECG), 99213 (Consultation)
+Treatment: beta-blocker initiated.
+Follow-up in 10 days.",['R07.9'],"['93000', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0268.png
+NOTE_0269,Cardiology,"Patient: Joshua Mills, Age: 59.
+Chief complaint: chest pain for 10 days.
+Diagnosis: I10 (Hypertension), I21.3 (Acute MI)
+CPT: 99213 (Consultation)
+Treatment: beta-blocker initiated.
+Follow-up in 5 days.","['I10', 'I21.3']",['99213'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0269.png
+NOTE_0270,Orthopedics,"Patient: Morgan Ballard, Age: 49.
+Chief complaint: knee pain for 3 days.
+Diagnosis: S83.241A (ACL tear)
+CPT: 99213 (Consultation), 73562 (Knee X-ray)
+Treatment: NSAIDs prescribed.
+Follow-up in 8 days.",['S83.241A'],"['99213', '73562']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0270.png
+NOTE_0271,Neurology,"Patient: Devin Richardson, Age: 25.
+Chief complaint: seizure for 5 days.
+Diagnosis: G40.909 (Epilepsy)
+CPT: 96116 (Neuro eval)
+Treatment: EEG planned.
+Follow-up in 14 days.",['G40.909'],['96116'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0271.png
+NOTE_0272,Orthopedics,"Patient: Clayton Baker, Age: 55.
+Chief complaint: shoulder stiffness for 8 days.
+Diagnosis: M17.9 (Knee osteoarthritis)
+CPT: 99213 (Consultation), 20610 (Joint injection)
+Treatment: MRI recommended.
+Follow-up in 9 days.",['M17.9'],"['99213', '20610']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0272.png
+NOTE_0273,General Medicine,"Patient: Jason Freeman, Age: 76.
+Chief complaint: body ache for 8 days.
+Diagnosis: J06.9 (URI)
+CPT: 81002 (Urine test), 99213 (Office visit)
+Treatment: antibiotics if no improvement.
+Follow-up in 14 days.",['J06.9'],"['81002', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0273.png
+NOTE_0274,Orthopedics,"Patient: David Bradshaw, Age: 57.
+Chief complaint: shoulder stiffness for 10 days.
+Diagnosis: S83.241A (ACL tear), M17.9 (Knee osteoarthritis)
+CPT: 73562 (Knee X-ray)
+Treatment: advised physiotherapy.
+Follow-up in 8 days.","['S83.241A', 'M17.9']",['73562'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0274.png
+NOTE_0275,Orthopedics,"Patient: Jessica Brooks, Age: 44.
+Chief complaint: lower back pain for 9 days.
+Diagnosis: M17.9 (Knee osteoarthritis)
+CPT: 20610 (Joint injection)
+Treatment: advised physiotherapy.
+Follow-up in 14 days.",['M17.9'],['20610'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0275.png
+NOTE_0276,General Medicine,"Patient: Linda Green, Age: 62.
+Chief complaint: fatigue for 9 days.
+Diagnosis: J06.9 (URI)
+CPT: 99213 (Office visit), 80053 (CMP panel)
+Treatment: blood tests ordered.
+Follow-up in 8 days.",['J06.9'],"['99213', '80053']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0276.png
+NOTE_0277,Orthopedics,"Patient: Susan Mcdaniel, Age: 25.
+Chief complaint: knee pain for 8 days.
+Diagnosis: M17.9 (Knee osteoarthritis), M54.5 (Low back pain)
+CPT: 99213 (Consultation), 20610 (Joint injection)
+Treatment: NSAIDs prescribed.
+Follow-up in 10 days.","['M17.9', 'M54.5']","['99213', '20610']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0277.png
+NOTE_0278,Pediatrics,"Patient: Erica Smith, Age: 51.
+Chief complaint: cough for 6 days.
+Diagnosis: J45.909 (Asthma), H66.90 (Otitis media)
+CPT: 99391 (Well child exam)
+Treatment: paracetamol advised.
+Follow-up in 3 days.","['J45.909', 'H66.90']",['99391'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0278.png
+NOTE_0279,Pediatrics,"Patient: Alexandria Martinez, Age: 53.
+Chief complaint: cough for 4 days.
+Diagnosis: A09 (Gastroenteritis)
+CPT: 87880 (Strep test)
+Treatment: paracetamol advised.
+Follow-up in 7 days.",['A09'],['87880'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0279.png
+NOTE_0280,Pediatrics,"Patient: John Ryan, Age: 41.
+Chief complaint: fever for 3 days.
+Diagnosis: J45.909 (Asthma), H66.90 (Otitis media)
+CPT: 99213 (Consult)
+Treatment: hydration and rest.
+Follow-up in 9 days.","['J45.909', 'H66.90']",['99213'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0280.png
+NOTE_0281,Orthopedics,"Patient: Sheila Spencer, Age: 55.
+Chief complaint: lower back pain for 6 days.
+Diagnosis: S83.241A (ACL tear), M17.9 (Knee osteoarthritis)
+CPT: 20610 (Joint injection), 73562 (Knee X-ray)
+Treatment: NSAIDs prescribed.
+Follow-up in 5 days.","['S83.241A', 'M17.9']","['20610', '73562']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0281.png
+NOTE_0282,Cardiology,"Patient: Seth Collins, Age: 71.
+Chief complaint: chest pain for 6 days.
+Diagnosis: I21.3 (Acute MI)
+CPT: 93000 (ECG), 99213 (Consultation)
+Treatment: beta-blocker initiated.
+Follow-up in 3 days.",['I21.3'],"['93000', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0282.png
+NOTE_0283,Pediatrics,"Patient: Andrew Camacho MD, Age: 28.
+Chief complaint: cough for 7 days.
+Diagnosis: H66.90 (Otitis media), A09 (Gastroenteritis)
+CPT: 99391 (Well child exam), 87880 (Strep test)
+Treatment: hydration and rest.
+Follow-up in 9 days.","['H66.90', 'A09']","['99391', '87880']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0283.png
+NOTE_0284,General Medicine,"Patient: Joel Nicholson, Age: 41.
+Chief complaint: fatigue for 3 days.
+Diagnosis: R50.9 (Fever), J06.9 (URI)
+CPT: 81002 (Urine test), 99213 (Office visit)
+Treatment: fluids advised.
+Follow-up in 9 days.","['R50.9', 'J06.9']","['81002', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0284.png
+NOTE_0285,General Medicine,"Patient: David Hill, Age: 26.
+Chief complaint: fever for 7 days.
+Diagnosis: J06.9 (URI)
+CPT: 99213 (Office visit), 81002 (Urine test)
+Treatment: fluids advised.
+Follow-up in 4 days.",['J06.9'],"['99213', '81002']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0285.png
+NOTE_0286,General Medicine,"Patient: Melissa Wood, Age: 68.
+Chief complaint: fatigue for 10 days.
+Diagnosis: R50.9 (Fever), E11.9 (Type 2 diabetes)
+CPT: 99213 (Office visit)
+Treatment: antibiotics if no improvement.
+Follow-up in 14 days.","['R50.9', 'E11.9']",['99213'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0286.png
+NOTE_0287,Orthopedics,"Patient: Maria Collins, Age: 67.
+Chief complaint: shoulder stiffness for 9 days.
+Diagnosis: M54.5 (Low back pain)
+CPT: 73562 (Knee X-ray), 99213 (Consultation)
+Treatment: advised physiotherapy.
+Follow-up in 11 days.",['M54.5'],"['73562', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0287.png
+NOTE_0288,Orthopedics,"Patient: Jorge Rice, Age: 80.
+Chief complaint: lower back pain for 4 days.
+Diagnosis: S83.241A (ACL tear)
+CPT: 73562 (Knee X-ray)
+Treatment: MRI recommended.
+Follow-up in 7 days.",['S83.241A'],['73562'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0288.png
+NOTE_0289,Neurology,"Patient: Jennifer Meyers, Age: 27.
+Chief complaint: headache for 5 days.
+Diagnosis: G40.909 (Epilepsy)
+CPT: 96116 (Neuro eval), 99214 (Follow-up)
+Treatment: EEG planned.
+Follow-up in 8 days.",['G40.909'],"['96116', '99214']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0289.png
+NOTE_0290,Pediatrics,"Patient: Rachel Salazar, Age: 76.
+Chief complaint: ear pain for 9 days.
+Diagnosis: J45.909 (Asthma), A09 (Gastroenteritis)
+CPT: 99213 (Consult)
+Treatment: paracetamol advised.
+Follow-up in 9 days.","['J45.909', 'A09']",['99213'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0290.png
+NOTE_0291,Orthopedics,"Patient: Mariah Tapia, Age: 75.
+Chief complaint: shoulder stiffness for 2 days.
+Diagnosis: S83.241A (ACL tear)
+CPT: 99213 (Consultation), 73562 (Knee X-ray)
+Treatment: advised physiotherapy.
+Follow-up in 5 days.",['S83.241A'],"['99213', '73562']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0291.png
+NOTE_0292,Cardiology,"Patient: Emily Ray, Age: 64.
+Chief complaint: chest pain for 4 days.
+Diagnosis: I10 (Hypertension), I21.3 (Acute MI)
+CPT: 99214 (Follow-up)
+Treatment: advised ECG and cath lab.
+Follow-up in 14 days.","['I10', 'I21.3']",['99214'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0292.png
+NOTE_0293,Cardiology,"Patient: Michael Stafford, Age: 75.
+Chief complaint: shortness of breath for 7 days.
+Diagnosis: R07.9 (Chest pain)
+CPT: 93000 (ECG), 99213 (Consultation)
+Treatment: started on aspirin.
+Follow-up in 7 days.",['R07.9'],"['93000', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0293.png
+NOTE_0294,General Medicine,"Patient: Abigail Rodriguez, Age: 80.
+Chief complaint: body ache for 10 days.
+Diagnosis: R50.9 (Fever)
+CPT: 99213 (Office visit)
+Treatment: antibiotics if no improvement.
+Follow-up in 13 days.",['R50.9'],['99213'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0294.png
+NOTE_0295,Cardiology,"Patient: Brett Boyd, Age: 48.
+Chief complaint: chest pain for 8 days.
+Diagnosis: I25.10 (CAD)
+CPT: 99213 (Consultation), 93000 (ECG)
+Treatment: advised ECG and cath lab.
+Follow-up in 6 days.",['I25.10'],"['99213', '93000']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0295.png
+NOTE_0296,Neurology,"Patient: Natalie Gomez, Age: 29.
+Chief complaint: numbness for 10 days.
+Diagnosis: G40.909 (Epilepsy), R51 (Headache)
+CPT: 95816 (EEG)
+Treatment: anti-seizure medication started.
+Follow-up in 7 days.","['G40.909', 'R51']",['95816'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0296.png
+NOTE_0297,Cardiology,"Patient: Alexandra Lang, Age: 52.
+Chief complaint: shortness of breath for 6 days.
+Diagnosis: R07.9 (Chest pain)
+CPT: 93000 (ECG), 99213 (Consultation)
+Treatment: beta-blocker initiated.
+Follow-up in 9 days.",['R07.9'],"['93000', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0297.png
+NOTE_0298,Orthopedics,"Patient: Paul Ortega, Age: 25.
+Chief complaint: lower back pain for 6 days.
+Diagnosis: S83.241A (ACL tear)
+CPT: 20610 (Joint injection)
+Treatment: MRI recommended.
+Follow-up in 9 days.",['S83.241A'],['20610'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0298.png
+NOTE_0299,General Medicine,"Patient: Troy Hall, Age: 78.
+Chief complaint: body ache for 3 days.
+Diagnosis: R50.9 (Fever), E11.9 (Type 2 diabetes)
+CPT: 80053 (CMP panel), 99213 (Office visit)
+Treatment: antibiotics if no improvement.
+Follow-up in 7 days.","['R50.9', 'E11.9']","['80053', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0299.png
+NOTE_0300,Orthopedics,"Patient: David Ewing, Age: 57.
+Chief complaint: lower back pain for 3 days.
+Diagnosis: M17.9 (Knee osteoarthritis)
+CPT: 99213 (Consultation)
+Treatment: advised physiotherapy.
+Follow-up in 11 days.",['M17.9'],['99213'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0300.png
+NOTE_0301,Cardiology,"Patient: Matthew Park, Age: 31.
+Chief complaint: shortness of breath for 5 days.
+Diagnosis: I25.10 (CAD)
+CPT: 99213 (Consultation)
+Treatment: started on aspirin.
+Follow-up in 12 days.",['I25.10'],['99213'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0301.png
+NOTE_0302,Cardiology,"Patient: Ronald Atkins, Age: 72.
+Chief complaint: chest pain for 3 days.
+Diagnosis: I25.10 (CAD)
+CPT: 93000 (ECG), 99213 (Consultation)
+Treatment: advised ECG and cath lab.
+Follow-up in 9 days.",['I25.10'],"['93000', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0302.png
+NOTE_0303,General Medicine,"Patient: Willie Flores, Age: 25.
+Chief complaint: body ache for 2 days.
+Diagnosis: E11.9 (Type 2 diabetes), J06.9 (URI)
+CPT: 99213 (Office visit)
+Treatment: fluids advised.
+Follow-up in 9 days.","['E11.9', 'J06.9']",['99213'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0303.png
+NOTE_0304,General Medicine,"Patient: Alyssa Thompson, Age: 39.
+Chief complaint: body ache for 4 days.
+Diagnosis: J06.9 (URI), E11.9 (Type 2 diabetes)
+CPT: 81002 (Urine test)
+Treatment: antibiotics if no improvement.
+Follow-up in 10 days.","['J06.9', 'E11.9']",['81002'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0304.png
+NOTE_0305,Neurology,"Patient: Zachary Pena, Age: 80.
+Chief complaint: numbness for 9 days.
+Diagnosis: G43.909 (Migraine), G40.909 (Epilepsy)
+CPT: 95816 (EEG), 96116 (Neuro eval)
+Treatment: anti-seizure medication started.
+Follow-up in 12 days.","['G43.909', 'G40.909']","['95816', '96116']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0305.png
+NOTE_0306,Neurology,"Patient: Catherine Lynch, Age: 71.
+Chief complaint: headache for 6 days.
+Diagnosis: G40.909 (Epilepsy)
+CPT: 95816 (EEG), 96116 (Neuro eval)
+Treatment: anti-seizure medication started.
+Follow-up in 11 days.",['G40.909'],"['95816', '96116']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0306.png
+NOTE_0307,Pediatrics,"Patient: Corey Cannon, Age: 29.
+Chief complaint: cough for 5 days.
+Diagnosis: J45.909 (Asthma)
+CPT: 99391 (Well child exam)
+Treatment: hydration and rest.
+Follow-up in 14 days.",['J45.909'],['99391'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0307.png
+NOTE_0308,Neurology,"Patient: David Lee, Age: 53.
+Chief complaint: headache for 4 days.
+Diagnosis: R51 (Headache)
+CPT: 95816 (EEG)
+Treatment: EEG planned.
+Follow-up in 3 days.",['R51'],['95816'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0308.png
+NOTE_0309,Orthopedics,"Patient: Jason Ramos, Age: 74.
+Chief complaint: knee pain for 5 days.
+Diagnosis: S83.241A (ACL tear), M54.5 (Low back pain)
+CPT: 73562 (Knee X-ray), 99213 (Consultation)
+Treatment: MRI recommended.
+Follow-up in 13 days.","['S83.241A', 'M54.5']","['73562', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0309.png
+NOTE_0310,Orthopedics,"Patient: James Curry, Age: 41.
+Chief complaint: knee pain for 7 days.
+Diagnosis: M54.5 (Low back pain)
+CPT: 73562 (Knee X-ray)
+Treatment: NSAIDs prescribed.
+Follow-up in 7 days.",['M54.5'],['73562'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0310.png
+NOTE_0311,Pediatrics,"Patient: Scott Rodriguez, Age: 57.
+Chief complaint: ear pain for 9 days.
+Diagnosis: H66.90 (Otitis media)
+CPT: 99213 (Consult)
+Treatment: paracetamol advised.
+Follow-up in 12 days.",['H66.90'],['99213'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0311.png
+NOTE_0312,Cardiology,"Patient: John Nelson, Age: 50.
+Chief complaint: palpitations for 4 days.
+Diagnosis: I21.3 (Acute MI)
+CPT: 99214 (Follow-up)
+Treatment: started on aspirin.
+Follow-up in 14 days.",['I21.3'],['99214'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0312.png
+NOTE_0313,Cardiology,"Patient: Scott Brown, Age: 42.
+Chief complaint: chest pain for 9 days.
+Diagnosis: R07.9 (Chest pain)
+CPT: 93000 (ECG)
+Treatment: started on aspirin.
+Follow-up in 3 days.",['R07.9'],['93000'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0313.png
+NOTE_0314,Pediatrics,"Patient: Taylor Carey, Age: 70.
+Chief complaint: fever for 3 days.
+Diagnosis: A09 (Gastroenteritis)
+CPT: 99213 (Consult), 87880 (Strep test)
+Treatment: hydration and rest.
+Follow-up in 3 days.",['A09'],"['99213', '87880']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0314.png
+NOTE_0315,Cardiology,"Patient: Vanessa Smith, Age: 65.
+Chief complaint: palpitations for 8 days.
+Diagnosis: I21.3 (Acute MI), R07.9 (Chest pain)
+CPT: 99214 (Follow-up)
+Treatment: started on aspirin.
+Follow-up in 8 days.","['I21.3', 'R07.9']",['99214'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0315.png
+NOTE_0316,Orthopedics,"Patient: Kenneth Johnson, Age: 49.
+Chief complaint: knee pain for 6 days.
+Diagnosis: S83.241A (ACL tear)
+CPT: 20610 (Joint injection), 99213 (Consultation)
+Treatment: MRI recommended.
+Follow-up in 3 days.",['S83.241A'],"['20610', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0316.png
+NOTE_0317,Orthopedics,"Patient: Kim Kelly, Age: 58.
+Chief complaint: shoulder stiffness for 6 days.
+Diagnosis: S83.241A (ACL tear)
+CPT: 73562 (Knee X-ray)
+Treatment: MRI recommended.
+Follow-up in 5 days.",['S83.241A'],['73562'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0317.png
+NOTE_0318,Pediatrics,"Patient: Nicholas Ayala, Age: 75.
+Chief complaint: ear pain for 8 days.
+Diagnosis: H66.90 (Otitis media), A09 (Gastroenteritis)
+CPT: 87880 (Strep test), 99391 (Well child exam)
+Treatment: hydration and rest.
+Follow-up in 4 days.","['H66.90', 'A09']","['87880', '99391']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0318.png
+NOTE_0319,Pediatrics,"Patient: Diana Taylor, Age: 73.
+Chief complaint: cough for 4 days.
+Diagnosis: H66.90 (Otitis media)
+CPT: 99213 (Consult)
+Treatment: hydration and rest.
+Follow-up in 9 days.",['H66.90'],['99213'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0319.png
+NOTE_0320,Orthopedics,"Patient: Brian Scott, Age: 50.
+Chief complaint: knee pain for 5 days.
+Diagnosis: M17.9 (Knee osteoarthritis)
+CPT: 20610 (Joint injection), 99213 (Consultation)
+Treatment: NSAIDs prescribed.
+Follow-up in 7 days.",['M17.9'],"['20610', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0320.png
+NOTE_0321,Orthopedics,"Patient: Charles Wu, Age: 42.
+Chief complaint: lower back pain for 8 days.
+Diagnosis: M54.5 (Low back pain), M17.9 (Knee osteoarthritis)
+CPT: 99213 (Consultation), 20610 (Joint injection)
+Treatment: NSAIDs prescribed.
+Follow-up in 5 days.","['M54.5', 'M17.9']","['99213', '20610']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0321.png
+NOTE_0322,General Medicine,"Patient: Sabrina Jacobs, Age: 38.
+Chief complaint: body ache for 4 days.
+Diagnosis: E11.9 (Type 2 diabetes)
+CPT: 81002 (Urine test), 80053 (CMP panel)
+Treatment: blood tests ordered.
+Follow-up in 9 days.",['E11.9'],"['81002', '80053']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0322.png
+NOTE_0323,Orthopedics,"Patient: Brittany Simmons, Age: 56.
+Chief complaint: knee pain for 10 days.
+Diagnosis: M54.5 (Low back pain)
+CPT: 73562 (Knee X-ray), 99213 (Consultation)
+Treatment: advised physiotherapy.
+Follow-up in 12 days.",['M54.5'],"['73562', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0323.png
+NOTE_0324,Orthopedics,"Patient: Patrick Smith, Age: 20.
+Chief complaint: knee pain for 5 days.
+Diagnosis: S83.241A (ACL tear), M17.9 (Knee osteoarthritis)
+CPT: 20610 (Joint injection)
+Treatment: MRI recommended.
+Follow-up in 6 days.","['S83.241A', 'M17.9']",['20610'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0324.png
+NOTE_0325,Cardiology,"Patient: Crystal Ford, Age: 62.
+Chief complaint: palpitations for 2 days.
+Diagnosis: R07.9 (Chest pain)
+CPT: 99213 (Consultation), 93000 (ECG)
+Treatment: started on aspirin.
+Follow-up in 6 days.",['R07.9'],"['99213', '93000']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0325.png
+NOTE_0326,Neurology,"Patient: Rachel Miller, Age: 51.
+Chief complaint: headache for 6 days.
+Diagnosis: G40.909 (Epilepsy)
+CPT: 99214 (Follow-up), 96116 (Neuro eval)
+Treatment: anti-seizure medication started.
+Follow-up in 13 days.",['G40.909'],"['99214', '96116']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0326.png
+NOTE_0327,General Medicine,"Patient: David Bond, Age: 39.
+Chief complaint: body ache for 3 days.
+Diagnosis: J06.9 (URI), E11.9 (Type 2 diabetes)
+CPT: 99213 (Office visit), 80053 (CMP panel)
+Treatment: blood tests ordered.
+Follow-up in 11 days.","['J06.9', 'E11.9']","['99213', '80053']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0327.png
+NOTE_0328,Pediatrics,"Patient: Scott Quinn, Age: 68.
+Chief complaint: fever for 5 days.
+Diagnosis: H66.90 (Otitis media), J45.909 (Asthma)
+CPT: 87880 (Strep test), 99391 (Well child exam)
+Treatment: paracetamol advised.
+Follow-up in 14 days.","['H66.90', 'J45.909']","['87880', '99391']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0328.png
+NOTE_0329,Pediatrics,"Patient: Maria Miller, Age: 65.
+Chief complaint: cough for 5 days.
+Diagnosis: A09 (Gastroenteritis), J45.909 (Asthma)
+CPT: 99391 (Well child exam)
+Treatment: hydration and rest.
+Follow-up in 9 days.","['A09', 'J45.909']",['99391'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0329.png
+NOTE_0330,Orthopedics,"Patient: Dorothy Nolan, Age: 23.
+Chief complaint: lower back pain for 7 days.
+Diagnosis: S83.241A (ACL tear)
+CPT: 73562 (Knee X-ray), 99213 (Consultation)
+Treatment: advised physiotherapy.
+Follow-up in 10 days.",['S83.241A'],"['73562', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0330.png
+NOTE_0331,Neurology,"Patient: David Gibson, Age: 52.
+Chief complaint: headache for 10 days.
+Diagnosis: R51 (Headache), G40.909 (Epilepsy)
+CPT: 96116 (Neuro eval), 95816 (EEG)
+Treatment: EEG planned.
+Follow-up in 14 days.","['R51', 'G40.909']","['96116', '95816']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0331.png
+NOTE_0332,Pediatrics,"Patient: Amanda Salinas, Age: 78.
+Chief complaint: fever for 10 days.
+Diagnosis: H66.90 (Otitis media)
+CPT: 99391 (Well child exam)
+Treatment: paracetamol advised.
+Follow-up in 9 days.",['H66.90'],['99391'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0332.png
+NOTE_0333,Pediatrics,"Patient: Sally Velasquez, Age: 66.
+Chief complaint: ear pain for 2 days.
+Diagnosis: A09 (Gastroenteritis)
+CPT: 99391 (Well child exam), 87880 (Strep test)
+Treatment: hydration and rest.
+Follow-up in 9 days.",['A09'],"['99391', '87880']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0333.png
+NOTE_0334,General Medicine,"Patient: Taylor Miller, Age: 31.
+Chief complaint: body ache for 3 days.
+Diagnosis: E11.9 (Type 2 diabetes), R50.9 (Fever)
+CPT: 80053 (CMP panel)
+Treatment: antibiotics if no improvement.
+Follow-up in 5 days.","['E11.9', 'R50.9']",['80053'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0334.png
+NOTE_0335,Neurology,"Patient: Alyssa Brock, Age: 69.
+Chief complaint: seizure for 8 days.
+Diagnosis: R51 (Headache), G43.909 (Migraine)
+CPT: 96116 (Neuro eval)
+Treatment: anti-seizure medication started.
+Follow-up in 6 days.","['R51', 'G43.909']",['96116'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0335.png
+NOTE_0336,Orthopedics,"Patient: Francis West, Age: 49.
+Chief complaint: shoulder stiffness for 7 days.
+Diagnosis: S83.241A (ACL tear)
+CPT: 20610 (Joint injection), 99213 (Consultation)
+Treatment: MRI recommended.
+Follow-up in 6 days.",['S83.241A'],"['20610', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0336.png
+NOTE_0337,Neurology,"Patient: Kayla Gill, Age: 60.
+Chief complaint: headache for 2 days.
+Diagnosis: G40.909 (Epilepsy)
+CPT: 96116 (Neuro eval)
+Treatment: anti-seizure medication started.
+Follow-up in 7 days.",['G40.909'],['96116'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0337.png
+NOTE_0338,Cardiology,"Patient: Kendra Adams, Age: 79.
+Chief complaint: palpitations for 10 days.
+Diagnosis: I10 (Hypertension), R07.9 (Chest pain)
+CPT: 93000 (ECG)
+Treatment: advised ECG and cath lab.
+Follow-up in 4 days.","['I10', 'R07.9']",['93000'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0338.png
+NOTE_0339,Cardiology,"Patient: Todd Hickman, Age: 74.
+Chief complaint: palpitations for 3 days.
+Diagnosis: I25.10 (CAD), R07.9 (Chest pain)
+CPT: 99213 (Consultation), 99214 (Follow-up)
+Treatment: beta-blocker initiated.
+Follow-up in 8 days.","['I25.10', 'R07.9']","['99213', '99214']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0339.png
+NOTE_0340,Pediatrics,"Patient: Jessica Lynch, Age: 37.
+Chief complaint: cough for 5 days.
+Diagnosis: H66.90 (Otitis media), J45.909 (Asthma)
+CPT: 99391 (Well child exam)
+Treatment: hydration and rest.
+Follow-up in 7 days.","['H66.90', 'J45.909']",['99391'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0340.png
+NOTE_0341,Cardiology,"Patient: Stacey Bullock, Age: 18.
+Chief complaint: palpitations for 3 days.
+Diagnosis: I10 (Hypertension), R07.9 (Chest pain)
+CPT: 99213 (Consultation), 99214 (Follow-up)
+Treatment: beta-blocker initiated.
+Follow-up in 13 days.","['I10', 'R07.9']","['99213', '99214']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0341.png
+NOTE_0342,Cardiology,"Patient: Craig Jones, Age: 76.
+Chief complaint: chest pain for 10 days.
+Diagnosis: I10 (Hypertension), R07.9 (Chest pain)
+CPT: 99213 (Consultation)
+Treatment: started on aspirin.
+Follow-up in 13 days.","['I10', 'R07.9']",['99213'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0342.png
+NOTE_0343,Cardiology,"Patient: Anna Miller, Age: 63.
+Chief complaint: shortness of breath for 8 days.
+Diagnosis: I21.3 (Acute MI)
+CPT: 93000 (ECG), 99214 (Follow-up)
+Treatment: beta-blocker initiated.
+Follow-up in 8 days.",['I21.3'],"['93000', '99214']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0343.png
+NOTE_0344,General Medicine,"Patient: Chad Sanders, Age: 36.
+Chief complaint: body ache for 8 days.
+Diagnosis: R50.9 (Fever)
+CPT: 80053 (CMP panel), 81002 (Urine test)
+Treatment: blood tests ordered.
+Follow-up in 4 days.",['R50.9'],"['80053', '81002']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0344.png
+NOTE_0345,Neurology,"Patient: Jill Johnson, Age: 50.
+Chief complaint: headache for 2 days.
+Diagnosis: G43.909 (Migraine)
+CPT: 96116 (Neuro eval)
+Treatment: anti-seizure medication started.
+Follow-up in 12 days.",['G43.909'],['96116'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0345.png
+NOTE_0346,Neurology,"Patient: Samantha Lee, Age: 23.
+Chief complaint: seizure for 5 days.
+Diagnosis: R51 (Headache)
+CPT: 96116 (Neuro eval), 99214 (Follow-up)
+Treatment: EEG planned.
+Follow-up in 4 days.",['R51'],"['96116', '99214']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0346.png
+NOTE_0347,General Medicine,"Patient: Emma Wong, Age: 24.
+Chief complaint: fever for 3 days.
+Diagnosis: R50.9 (Fever)
+CPT: 81002 (Urine test)
+Treatment: fluids advised.
+Follow-up in 6 days.",['R50.9'],['81002'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0347.png
+NOTE_0348,Pediatrics,"Patient: Elizabeth Anderson, Age: 24.
+Chief complaint: ear pain for 9 days.
+Diagnosis: H66.90 (Otitis media), J45.909 (Asthma)
+CPT: 99213 (Consult), 87880 (Strep test)
+Treatment: paracetamol advised.
+Follow-up in 11 days.","['H66.90', 'J45.909']","['99213', '87880']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0348.png
+NOTE_0349,General Medicine,"Patient: Robert Miller, Age: 36.
+Chief complaint: fever for 2 days.
+Diagnosis: E11.9 (Type 2 diabetes)
+CPT: 80053 (CMP panel)
+Treatment: blood tests ordered.
+Follow-up in 3 days.",['E11.9'],['80053'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0349.png
+NOTE_0350,Pediatrics,"Patient: Christopher Woods, Age: 36.
+Chief complaint: cough for 10 days.
+Diagnosis: H66.90 (Otitis media), A09 (Gastroenteritis)
+CPT: 87880 (Strep test), 99391 (Well child exam)
+Treatment: paracetamol advised.
+Follow-up in 10 days.","['H66.90', 'A09']","['87880', '99391']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0350.png
+NOTE_0351,General Medicine,"Patient: Nicholas Willis III, Age: 71.
+Chief complaint: body ache for 9 days.
+Diagnosis: E11.9 (Type 2 diabetes)
+CPT: 80053 (CMP panel), 99213 (Office visit)
+Treatment: fluids advised.
+Follow-up in 12 days.",['E11.9'],"['80053', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0351.png
+NOTE_0352,Neurology,"Patient: Emily Flores, Age: 36.
+Chief complaint: headache for 8 days.
+Diagnosis: G40.909 (Epilepsy), R51 (Headache)
+CPT: 95816 (EEG), 96116 (Neuro eval)
+Treatment: EEG planned.
+Follow-up in 10 days.","['G40.909', 'R51']","['95816', '96116']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0352.png
+NOTE_0353,General Medicine,"Patient: Emily Cox, Age: 18.
+Chief complaint: fatigue for 5 days.
+Diagnosis: J06.9 (URI), E11.9 (Type 2 diabetes)
+CPT: 80053 (CMP panel)
+Treatment: fluids advised.
+Follow-up in 7 days.","['J06.9', 'E11.9']",['80053'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0353.png
+NOTE_0354,General Medicine,"Patient: Cody Holder, Age: 24.
+Chief complaint: fever for 4 days.
+Diagnosis: E11.9 (Type 2 diabetes)
+CPT: 80053 (CMP panel), 99213 (Office visit)
+Treatment: blood tests ordered.
+Follow-up in 8 days.",['E11.9'],"['80053', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0354.png
+NOTE_0355,Cardiology,"Patient: April Williams, Age: 21.
+Chief complaint: chest pain for 5 days.
+Diagnosis: I10 (Hypertension)
+CPT: 99213 (Consultation)
+Treatment: advised ECG and cath lab.
+Follow-up in 10 days.",['I10'],['99213'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0355.png
+NOTE_0356,Orthopedics,"Patient: Patrick Carter, Age: 37.
+Chief complaint: lower back pain for 3 days.
+Diagnosis: M54.5 (Low back pain), S83.241A (ACL tear)
+CPT: 73562 (Knee X-ray), 99213 (Consultation)
+Treatment: MRI recommended.
+Follow-up in 9 days.","['M54.5', 'S83.241A']","['73562', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0356.png
+NOTE_0357,Neurology,"Patient: Deborah Crawford, Age: 60.
+Chief complaint: numbness for 3 days.
+Diagnosis: G40.909 (Epilepsy)
+CPT: 99214 (Follow-up), 96116 (Neuro eval)
+Treatment: EEG planned.
+Follow-up in 6 days.",['G40.909'],"['99214', '96116']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0357.png
+NOTE_0358,Neurology,"Patient: Jennifer King, Age: 69.
+Chief complaint: headache for 10 days.
+Diagnosis: R51 (Headache), G40.909 (Epilepsy)
+CPT: 95816 (EEG), 99214 (Follow-up)
+Treatment: anti-seizure medication started.
+Follow-up in 7 days.","['R51', 'G40.909']","['95816', '99214']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0358.png
+NOTE_0359,General Medicine,"Patient: Teresa Soto, Age: 62.
+Chief complaint: body ache for 7 days.
+Diagnosis: R50.9 (Fever)
+CPT: 81002 (Urine test)
+Treatment: antibiotics if no improvement.
+Follow-up in 12 days.",['R50.9'],['81002'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0359.png
+NOTE_0360,Orthopedics,"Patient: Michael Simmons, Age: 53.
+Chief complaint: shoulder stiffness for 9 days.
+Diagnosis: S83.241A (ACL tear)
+CPT: 20610 (Joint injection), 99213 (Consultation)
+Treatment: NSAIDs prescribed.
+Follow-up in 13 days.",['S83.241A'],"['20610', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0360.png
+NOTE_0361,Cardiology,"Patient: Deborah Wilson, Age: 20.
+Chief complaint: chest pain for 4 days.
+Diagnosis: I25.10 (CAD), R07.9 (Chest pain)
+CPT: 93000 (ECG), 99214 (Follow-up)
+Treatment: started on aspirin.
+Follow-up in 10 days.","['I25.10', 'R07.9']","['93000', '99214']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0361.png
+NOTE_0362,Pediatrics,"Patient: Claire Johnson, Age: 18.
+Chief complaint: cough for 6 days.
+Diagnosis: A09 (Gastroenteritis), H66.90 (Otitis media)
+CPT: 87880 (Strep test)
+Treatment: hydration and rest.
+Follow-up in 5 days.","['A09', 'H66.90']",['87880'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0362.png
+NOTE_0363,General Medicine,"Patient: Matthew Crane, Age: 76.
+Chief complaint: body ache for 8 days.
+Diagnosis: J06.9 (URI), E11.9 (Type 2 diabetes)
+CPT: 81002 (Urine test), 80053 (CMP panel)
+Treatment: antibiotics if no improvement.
+Follow-up in 8 days.","['J06.9', 'E11.9']","['81002', '80053']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0363.png
+NOTE_0364,Pediatrics,"Patient: Kyle White, Age: 34.
+Chief complaint: fever for 4 days.
+Diagnosis: H66.90 (Otitis media)
+CPT: 99391 (Well child exam), 99213 (Consult)
+Treatment: hydration and rest.
+Follow-up in 9 days.",['H66.90'],"['99391', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0364.png
+NOTE_0365,Neurology,"Patient: Leah Decker, Age: 27.
+Chief complaint: numbness for 3 days.
+Diagnosis: G40.909 (Epilepsy), G43.909 (Migraine)
+CPT: 95816 (EEG)
+Treatment: anti-seizure medication started.
+Follow-up in 6 days.","['G40.909', 'G43.909']",['95816'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0365.png
+NOTE_0366,General Medicine,"Patient: Justin Wilson, Age: 40.
+Chief complaint: fatigue for 5 days.
+Diagnosis: R50.9 (Fever)
+CPT: 99213 (Office visit)
+Treatment: blood tests ordered.
+Follow-up in 11 days.",['R50.9'],['99213'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0366.png
+NOTE_0367,Pediatrics,"Patient: Emily Hoffman, Age: 31.
+Chief complaint: ear pain for 3 days.
+Diagnosis: A09 (Gastroenteritis)
+CPT: 99391 (Well child exam), 99213 (Consult)
+Treatment: paracetamol advised.
+Follow-up in 7 days.",['A09'],"['99391', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0367.png
+NOTE_0368,General Medicine,"Patient: Mark Richardson, Age: 73.
+Chief complaint: fever for 9 days.
+Diagnosis: J06.9 (URI)
+CPT: 99213 (Office visit)
+Treatment: antibiotics if no improvement.
+Follow-up in 9 days.",['J06.9'],['99213'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0368.png
+NOTE_0369,General Medicine,"Patient: Alejandro George, Age: 38.
+Chief complaint: fever for 9 days.
+Diagnosis: J06.9 (URI)
+CPT: 81002 (Urine test)
+Treatment: fluids advised.
+Follow-up in 3 days.",['J06.9'],['81002'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0369.png
+NOTE_0370,Neurology,"Patient: Sierra Phillips, Age: 67.
+Chief complaint: numbness for 7 days.
+Diagnosis: G43.909 (Migraine)
+CPT: 96116 (Neuro eval), 95816 (EEG)
+Treatment: anti-seizure medication started.
+Follow-up in 13 days.",['G43.909'],"['96116', '95816']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0370.png
+NOTE_0371,Orthopedics,"Patient: Crystal Tyler, Age: 76.
+Chief complaint: shoulder stiffness for 8 days.
+Diagnosis: M54.5 (Low back pain)
+CPT: 73562 (Knee X-ray)
+Treatment: advised physiotherapy.
+Follow-up in 9 days.",['M54.5'],['73562'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0371.png
+NOTE_0372,Orthopedics,"Patient: Adam Hayes, Age: 37.
+Chief complaint: lower back pain for 10 days.
+Diagnosis: M17.9 (Knee osteoarthritis)
+CPT: 20610 (Joint injection)
+Treatment: NSAIDs prescribed.
+Follow-up in 8 days.",['M17.9'],['20610'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0372.png
+NOTE_0373,Pediatrics,"Patient: Seth Nguyen, Age: 21.
+Chief complaint: fever for 6 days.
+Diagnosis: J45.909 (Asthma), H66.90 (Otitis media)
+CPT: 87880 (Strep test)
+Treatment: hydration and rest.
+Follow-up in 6 days.","['J45.909', 'H66.90']",['87880'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0373.png
+NOTE_0374,Cardiology,"Patient: Keith Cruz, Age: 63.
+Chief complaint: chest pain for 6 days.
+Diagnosis: I21.3 (Acute MI)
+CPT: 99213 (Consultation), 93000 (ECG)
+Treatment: beta-blocker initiated.
+Follow-up in 12 days.",['I21.3'],"['99213', '93000']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0374.png
+NOTE_0375,Neurology,"Patient: Kelly Hudson, Age: 72.
+Chief complaint: headache for 5 days.
+Diagnosis: R51 (Headache)
+CPT: 95816 (EEG)
+Treatment: anti-seizure medication started.
+Follow-up in 10 days.",['R51'],['95816'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0375.png
+NOTE_0376,Orthopedics,"Patient: Melissa Sanders, Age: 31.
+Chief complaint: knee pain for 9 days.
+Diagnosis: M54.5 (Low back pain)
+CPT: 99213 (Consultation), 73562 (Knee X-ray)
+Treatment: NSAIDs prescribed.
+Follow-up in 7 days.",['M54.5'],"['99213', '73562']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0376.png
+NOTE_0377,Pediatrics,"Patient: Stephanie Perez, Age: 66.
+Chief complaint: fever for 9 days.
+Diagnosis: J45.909 (Asthma)
+CPT: 99213 (Consult)
+Treatment: hydration and rest.
+Follow-up in 11 days.",['J45.909'],['99213'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0377.png
+NOTE_0378,General Medicine,"Patient: Jeffrey Sellers, Age: 32.
+Chief complaint: fever for 9 days.
+Diagnosis: R50.9 (Fever)
+CPT: 99213 (Office visit)
+Treatment: fluids advised.
+Follow-up in 11 days.",['R50.9'],['99213'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0378.png
+NOTE_0379,Cardiology,"Patient: Julie Garza, Age: 34.
+Chief complaint: chest pain for 6 days.
+Diagnosis: I25.10 (CAD), I21.3 (Acute MI)
+CPT: 99213 (Consultation)
+Treatment: advised ECG and cath lab.
+Follow-up in 7 days.","['I25.10', 'I21.3']",['99213'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0379.png
+NOTE_0380,Orthopedics,"Patient: Johnny Baker, Age: 55.
+Chief complaint: knee pain for 8 days.
+Diagnosis: S83.241A (ACL tear), M54.5 (Low back pain)
+CPT: 20610 (Joint injection)
+Treatment: NSAIDs prescribed.
+Follow-up in 5 days.","['S83.241A', 'M54.5']",['20610'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0380.png
+NOTE_0381,General Medicine,"Patient: Tammy James, Age: 56.
+Chief complaint: body ache for 4 days.
+Diagnosis: J06.9 (URI), R50.9 (Fever)
+CPT: 99213 (Office visit), 81002 (Urine test)
+Treatment: antibiotics if no improvement.
+Follow-up in 10 days.","['J06.9', 'R50.9']","['99213', '81002']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0381.png
+NOTE_0382,Cardiology,"Patient: Jesus Kim, Age: 54.
+Chief complaint: chest pain for 2 days.
+Diagnosis: R07.9 (Chest pain), I25.10 (CAD)
+CPT: 99214 (Follow-up)
+Treatment: started on aspirin.
+Follow-up in 5 days.","['R07.9', 'I25.10']",['99214'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0382.png
+NOTE_0383,General Medicine,"Patient: Billy Hunt, Age: 37.
+Chief complaint: body ache for 7 days.
+Diagnosis: R50.9 (Fever), J06.9 (URI)
+CPT: 80053 (CMP panel)
+Treatment: antibiotics if no improvement.
+Follow-up in 4 days.","['R50.9', 'J06.9']",['80053'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0383.png
+NOTE_0384,Neurology,"Patient: Kathleen Thornton, Age: 70.
+Chief complaint: seizure for 9 days.
+Diagnosis: G40.909 (Epilepsy)
+CPT: 99214 (Follow-up), 96116 (Neuro eval)
+Treatment: anti-seizure medication started.
+Follow-up in 6 days.",['G40.909'],"['99214', '96116']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0384.png
+NOTE_0385,Pediatrics,"Patient: Daniel Smith PhD, Age: 77.
+Chief complaint: ear pain for 8 days.
+Diagnosis: A09 (Gastroenteritis), H66.90 (Otitis media)
+CPT: 99213 (Consult), 99391 (Well child exam)
+Treatment: hydration and rest.
+Follow-up in 7 days.","['A09', 'H66.90']","['99213', '99391']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0385.png
+NOTE_0386,Pediatrics,"Patient: Marie Ruiz, Age: 30.
+Chief complaint: cough for 5 days.
+Diagnosis: H66.90 (Otitis media)
+CPT: 99213 (Consult)
+Treatment: hydration and rest.
+Follow-up in 3 days.",['H66.90'],['99213'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0386.png
+NOTE_0387,Cardiology,"Patient: Michelle Schneider, Age: 76.
+Chief complaint: palpitations for 4 days.
+Diagnosis: I21.3 (Acute MI), R07.9 (Chest pain)
+CPT: 99213 (Consultation), 99214 (Follow-up)
+Treatment: beta-blocker initiated.
+Follow-up in 10 days.","['I21.3', 'R07.9']","['99213', '99214']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0387.png
+NOTE_0388,Neurology,"Patient: Jesus Garcia, Age: 69.
+Chief complaint: numbness for 3 days.
+Diagnosis: G40.909 (Epilepsy), R51 (Headache)
+CPT: 99214 (Follow-up)
+Treatment: EEG planned.
+Follow-up in 4 days.","['G40.909', 'R51']",['99214'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0388.png
+NOTE_0389,Cardiology,"Patient: Garrett Howard, Age: 37.
+Chief complaint: shortness of breath for 7 days.
+Diagnosis: I25.10 (CAD), R07.9 (Chest pain)
+CPT: 93000 (ECG), 99213 (Consultation)
+Treatment: beta-blocker initiated.
+Follow-up in 4 days.","['I25.10', 'R07.9']","['93000', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0389.png
+NOTE_0390,General Medicine,"Patient: Nathan Warner, Age: 24.
+Chief complaint: body ache for 5 days.
+Diagnosis: J06.9 (URI)
+CPT: 81002 (Urine test), 99213 (Office visit)
+Treatment: fluids advised.
+Follow-up in 6 days.",['J06.9'],"['81002', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0390.png
+NOTE_0391,General Medicine,"Patient: Alison Davis, Age: 49.
+Chief complaint: fever for 10 days.
+Diagnosis: E11.9 (Type 2 diabetes)
+CPT: 81002 (Urine test)
+Treatment: fluids advised.
+Follow-up in 9 days.",['E11.9'],['81002'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0391.png
+NOTE_0392,Pediatrics,"Patient: Joshua Miller, Age: 67.
+Chief complaint: ear pain for 9 days.
+Diagnosis: A09 (Gastroenteritis), H66.90 (Otitis media)
+CPT: 99391 (Well child exam)
+Treatment: paracetamol advised.
+Follow-up in 4 days.","['A09', 'H66.90']",['99391'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0392.png
+NOTE_0393,Cardiology,"Patient: Sara Harding, Age: 39.
+Chief complaint: shortness of breath for 8 days.
+Diagnosis: I25.10 (CAD)
+CPT: 93000 (ECG), 99213 (Consultation)
+Treatment: started on aspirin.
+Follow-up in 9 days.",['I25.10'],"['93000', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0393.png
+NOTE_0394,Neurology,"Patient: Marie Sparks, Age: 58.
+Chief complaint: numbness for 8 days.
+Diagnosis: G43.909 (Migraine)
+CPT: 96116 (Neuro eval), 95816 (EEG)
+Treatment: anti-seizure medication started.
+Follow-up in 6 days.",['G43.909'],"['96116', '95816']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0394.png
+NOTE_0395,Neurology,"Patient: Daniel Banks, Age: 68.
+Chief complaint: numbness for 6 days.
+Diagnosis: R51 (Headache)
+CPT: 99214 (Follow-up), 96116 (Neuro eval)
+Treatment: anti-seizure medication started.
+Follow-up in 6 days.",['R51'],"['99214', '96116']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0395.png
+NOTE_0396,General Medicine,"Patient: Samantha Mata, Age: 44.
+Chief complaint: body ache for 8 days.
+Diagnosis: E11.9 (Type 2 diabetes), R50.9 (Fever)
+CPT: 80053 (CMP panel), 99213 (Office visit)
+Treatment: fluids advised.
+Follow-up in 14 days.","['E11.9', 'R50.9']","['80053', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0396.png
+NOTE_0397,Cardiology,"Patient: Julie Armstrong, Age: 58.
+Chief complaint: chest pain for 3 days.
+Diagnosis: I10 (Hypertension), I25.10 (CAD)
+CPT: 93000 (ECG)
+Treatment: beta-blocker initiated.
+Follow-up in 7 days.","['I10', 'I25.10']",['93000'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0397.png
+NOTE_0398,Pediatrics,"Patient: Jennifer Hubbard, Age: 58.
+Chief complaint: fever for 3 days.
+Diagnosis: H66.90 (Otitis media)
+CPT: 87880 (Strep test)
+Treatment: paracetamol advised.
+Follow-up in 12 days.",['H66.90'],['87880'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0398.png
+NOTE_0399,Cardiology,"Patient: Melanie Baxter, Age: 41.
+Chief complaint: chest pain for 2 days.
+Diagnosis: I10 (Hypertension), R07.9 (Chest pain)
+CPT: 93000 (ECG)
+Treatment: beta-blocker initiated.
+Follow-up in 8 days.","['I10', 'R07.9']",['93000'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0399.png
+NOTE_0400,General Medicine,"Patient: Eric Simmons, Age: 35.
+Chief complaint: body ache for 7 days.
+Diagnosis: J06.9 (URI), E11.9 (Type 2 diabetes)
+CPT: 81002 (Urine test), 99213 (Office visit)
+Treatment: fluids advised.
+Follow-up in 13 days.","['J06.9', 'E11.9']","['81002', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0400.png
+NOTE_0401,Cardiology,"Patient: Lisa Harmon, Age: 65.
+Chief complaint: chest pain for 7 days.
+Diagnosis: I10 (Hypertension)
+CPT: 99213 (Consultation)
+Treatment: started on aspirin.
+Follow-up in 13 days.",['I10'],['99213'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0401.png
+NOTE_0402,Neurology,"Patient: John Roy, Age: 18.
+Chief complaint: numbness for 7 days.
+Diagnosis: R51 (Headache), G43.909 (Migraine)
+CPT: 96116 (Neuro eval)
+Treatment: EEG planned.
+Follow-up in 11 days.","['R51', 'G43.909']",['96116'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0402.png
+NOTE_0403,General Medicine,"Patient: Rodney Rice, Age: 78.
+Chief complaint: fever for 2 days.
+Diagnosis: R50.9 (Fever), J06.9 (URI)
+CPT: 81002 (Urine test), 80053 (CMP panel)
+Treatment: fluids advised.
+Follow-up in 4 days.","['R50.9', 'J06.9']","['81002', '80053']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0403.png
+NOTE_0404,General Medicine,"Patient: Kurt White, Age: 62.
+Chief complaint: body ache for 3 days.
+Diagnosis: E11.9 (Type 2 diabetes)
+CPT: 81002 (Urine test)
+Treatment: antibiotics if no improvement.
+Follow-up in 9 days.",['E11.9'],['81002'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0404.png
+NOTE_0405,Orthopedics,"Patient: Hannah Sanders, Age: 53.
+Chief complaint: shoulder stiffness for 7 days.
+Diagnosis: M54.5 (Low back pain), S83.241A (ACL tear)
+CPT: 20610 (Joint injection), 73562 (Knee X-ray)
+Treatment: MRI recommended.
+Follow-up in 14 days.","['M54.5', 'S83.241A']","['20610', '73562']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0405.png
+NOTE_0406,General Medicine,"Patient: James Henry, Age: 45.
+Chief complaint: fever for 9 days.
+Diagnosis: J06.9 (URI), E11.9 (Type 2 diabetes)
+CPT: 80053 (CMP panel)
+Treatment: blood tests ordered.
+Follow-up in 10 days.","['J06.9', 'E11.9']",['80053'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0406.png
+NOTE_0407,General Medicine,"Patient: Nicholas Mckee, Age: 50.
+Chief complaint: body ache for 8 days.
+Diagnosis: J06.9 (URI), E11.9 (Type 2 diabetes)
+CPT: 80053 (CMP panel)
+Treatment: fluids advised.
+Follow-up in 9 days.","['J06.9', 'E11.9']",['80053'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0407.png
+NOTE_0408,Orthopedics,"Patient: Pedro Cole, Age: 61.
+Chief complaint: shoulder stiffness for 6 days.
+Diagnosis: M54.5 (Low back pain), M17.9 (Knee osteoarthritis)
+CPT: 73562 (Knee X-ray)
+Treatment: MRI recommended.
+Follow-up in 11 days.","['M54.5', 'M17.9']",['73562'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0408.png
+NOTE_0409,Pediatrics,"Patient: Kevin Nichols, Age: 18.
+Chief complaint: fever for 7 days.
+Diagnosis: H66.90 (Otitis media), A09 (Gastroenteritis)
+CPT: 99213 (Consult), 99391 (Well child exam)
+Treatment: paracetamol advised.
+Follow-up in 12 days.","['H66.90', 'A09']","['99213', '99391']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0409.png
+NOTE_0410,General Medicine,"Patient: Gail Reynolds, Age: 33.
+Chief complaint: body ache for 8 days.
+Diagnosis: J06.9 (URI), E11.9 (Type 2 diabetes)
+CPT: 80053 (CMP panel), 99213 (Office visit)
+Treatment: fluids advised.
+Follow-up in 9 days.","['J06.9', 'E11.9']","['80053', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0410.png
+NOTE_0411,Pediatrics,"Patient: Kyle Brewer, Age: 55.
+Chief complaint: ear pain for 3 days.
+Diagnosis: A09 (Gastroenteritis), H66.90 (Otitis media)
+CPT: 87880 (Strep test), 99391 (Well child exam)
+Treatment: hydration and rest.
+Follow-up in 9 days.","['A09', 'H66.90']","['87880', '99391']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0411.png
+NOTE_0412,Neurology,"Patient: Jonathan Walker, Age: 35.
+Chief complaint: numbness for 5 days.
+Diagnosis: R51 (Headache), G40.909 (Epilepsy)
+CPT: 99214 (Follow-up)
+Treatment: anti-seizure medication started.
+Follow-up in 9 days.","['R51', 'G40.909']",['99214'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0412.png
+NOTE_0413,Orthopedics,"Patient: Julia Black, Age: 70.
+Chief complaint: lower back pain for 2 days.
+Diagnosis: M54.5 (Low back pain)
+CPT: 73562 (Knee X-ray)
+Treatment: NSAIDs prescribed.
+Follow-up in 10 days.",['M54.5'],['73562'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0413.png
+NOTE_0414,General Medicine,"Patient: Robert Evans, Age: 26.
+Chief complaint: fatigue for 2 days.
+Diagnosis: J06.9 (URI)
+CPT: 81002 (Urine test), 80053 (CMP panel)
+Treatment: fluids advised.
+Follow-up in 11 days.",['J06.9'],"['81002', '80053']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0414.png
+NOTE_0415,General Medicine,"Patient: Bridget Gaines, Age: 20.
+Chief complaint: body ache for 4 days.
+Diagnosis: R50.9 (Fever)
+CPT: 81002 (Urine test), 80053 (CMP panel)
+Treatment: antibiotics if no improvement.
+Follow-up in 3 days.",['R50.9'],"['81002', '80053']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0415.png
+NOTE_0416,Neurology,"Patient: Kelsey Alvarez, Age: 54.
+Chief complaint: headache for 7 days.
+Diagnosis: G40.909 (Epilepsy), G43.909 (Migraine)
+CPT: 96116 (Neuro eval), 99214 (Follow-up)
+Treatment: anti-seizure medication started.
+Follow-up in 11 days.","['G40.909', 'G43.909']","['96116', '99214']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0416.png
+NOTE_0417,Pediatrics,"Patient: Ryan Mayer, Age: 35.
+Chief complaint: ear pain for 6 days.
+Diagnosis: A09 (Gastroenteritis)
+CPT: 87880 (Strep test), 99213 (Consult)
+Treatment: paracetamol advised.
+Follow-up in 14 days.",['A09'],"['87880', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0417.png
+NOTE_0418,Neurology,"Patient: Cassandra Lucas, Age: 55.
+Chief complaint: seizure for 7 days.
+Diagnosis: R51 (Headache)
+CPT: 95816 (EEG), 99214 (Follow-up)
+Treatment: EEG planned.
+Follow-up in 8 days.",['R51'],"['95816', '99214']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0418.png
+NOTE_0419,General Medicine,"Patient: Marcus Andrews, Age: 59.
+Chief complaint: fatigue for 8 days.
+Diagnosis: E11.9 (Type 2 diabetes)
+CPT: 80053 (CMP panel), 81002 (Urine test)
+Treatment: fluids advised.
+Follow-up in 9 days.",['E11.9'],"['80053', '81002']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0419.png
+NOTE_0420,Pediatrics,"Patient: Daniel Anderson, Age: 78.
+Chief complaint: cough for 4 days.
+Diagnosis: J45.909 (Asthma), H66.90 (Otitis media)
+CPT: 87880 (Strep test), 99391 (Well child exam)
+Treatment: paracetamol advised.
+Follow-up in 12 days.","['J45.909', 'H66.90']","['87880', '99391']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0420.png
+NOTE_0421,General Medicine,"Patient: Brittany Simmons, Age: 60.
+Chief complaint: fever for 7 days.
+Diagnosis: J06.9 (URI), E11.9 (Type 2 diabetes)
+CPT: 80053 (CMP panel)
+Treatment: antibiotics if no improvement.
+Follow-up in 9 days.","['J06.9', 'E11.9']",['80053'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0421.png
+NOTE_0422,Cardiology,"Patient: Michael Perez, Age: 70.
+Chief complaint: palpitations for 3 days.
+Diagnosis: I10 (Hypertension), R07.9 (Chest pain)
+CPT: 99213 (Consultation)
+Treatment: advised ECG and cath lab.
+Follow-up in 7 days.","['I10', 'R07.9']",['99213'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0422.png
+NOTE_0423,Neurology,"Patient: Duane Curry, Age: 19.
+Chief complaint: seizure for 7 days.
+Diagnosis: R51 (Headache)
+CPT: 99214 (Follow-up), 95816 (EEG)
+Treatment: EEG planned.
+Follow-up in 4 days.",['R51'],"['99214', '95816']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0423.png
+NOTE_0424,Neurology,"Patient: Christina Peck, Age: 55.
+Chief complaint: seizure for 7 days.
+Diagnosis: G40.909 (Epilepsy)
+CPT: 96116 (Neuro eval), 95816 (EEG)
+Treatment: EEG planned.
+Follow-up in 14 days.",['G40.909'],"['96116', '95816']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0424.png
+NOTE_0425,Orthopedics,"Patient: Lisa Lester, Age: 50.
+Chief complaint: shoulder stiffness for 8 days.
+Diagnosis: S83.241A (ACL tear), M17.9 (Knee osteoarthritis)
+CPT: 99213 (Consultation)
+Treatment: MRI recommended.
+Follow-up in 8 days.","['S83.241A', 'M17.9']",['99213'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0425.png
+NOTE_0426,Neurology,"Patient: Gregory Lopez, Age: 68.
+Chief complaint: seizure for 3 days.
+Diagnosis: R51 (Headache)
+CPT: 96116 (Neuro eval), 99214 (Follow-up)
+Treatment: EEG planned.
+Follow-up in 9 days.",['R51'],"['96116', '99214']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0426.png
+NOTE_0427,General Medicine,"Patient: Justin Douglas, Age: 77.
+Chief complaint: body ache for 4 days.
+Diagnosis: R50.9 (Fever)
+CPT: 99213 (Office visit)
+Treatment: antibiotics if no improvement.
+Follow-up in 9 days.",['R50.9'],['99213'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0427.png
+NOTE_0428,Orthopedics,"Patient: Sierra Morris, Age: 20.
+Chief complaint: knee pain for 7 days.
+Diagnosis: M54.5 (Low back pain), M17.9 (Knee osteoarthritis)
+CPT: 73562 (Knee X-ray), 99213 (Consultation)
+Treatment: advised physiotherapy.
+Follow-up in 12 days.","['M54.5', 'M17.9']","['73562', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0428.png
+NOTE_0429,General Medicine,"Patient: Christian Carter, Age: 48.
+Chief complaint: fever for 4 days.
+Diagnosis: R50.9 (Fever)
+CPT: 80053 (CMP panel)
+Treatment: blood tests ordered.
+Follow-up in 5 days.",['R50.9'],['80053'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0429.png
+NOTE_0430,Pediatrics,"Patient: Vanessa Meyer, Age: 79.
+Chief complaint: fever for 10 days.
+Diagnosis: H66.90 (Otitis media), J45.909 (Asthma)
+CPT: 99213 (Consult), 99391 (Well child exam)
+Treatment: hydration and rest.
+Follow-up in 5 days.","['H66.90', 'J45.909']","['99213', '99391']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0430.png
+NOTE_0431,Pediatrics,"Patient: William Alvarado, Age: 71.
+Chief complaint: fever for 2 days.
+Diagnosis: A09 (Gastroenteritis)
+CPT: 99213 (Consult), 99391 (Well child exam)
+Treatment: paracetamol advised.
+Follow-up in 5 days.",['A09'],"['99213', '99391']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0431.png
+NOTE_0432,Cardiology,"Patient: Charles Brown, Age: 26.
+Chief complaint: shortness of breath for 4 days.
+Diagnosis: I21.3 (Acute MI)
+CPT: 99213 (Consultation), 99214 (Follow-up)
+Treatment: advised ECG and cath lab.
+Follow-up in 3 days.",['I21.3'],"['99213', '99214']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0432.png
+NOTE_0433,Orthopedics,"Patient: Jenny Morrison, Age: 24.
+Chief complaint: knee pain for 2 days.
+Diagnosis: S83.241A (ACL tear)
+CPT: 73562 (Knee X-ray), 20610 (Joint injection)
+Treatment: advised physiotherapy.
+Follow-up in 12 days.",['S83.241A'],"['73562', '20610']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0433.png
+NOTE_0434,General Medicine,"Patient: Mathew Pearson, Age: 41.
+Chief complaint: fever for 10 days.
+Diagnosis: J06.9 (URI), R50.9 (Fever)
+CPT: 81002 (Urine test)
+Treatment: fluids advised.
+Follow-up in 7 days.","['J06.9', 'R50.9']",['81002'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0434.png
+NOTE_0435,Orthopedics,"Patient: Leslie Holder, Age: 76.
+Chief complaint: knee pain for 2 days.
+Diagnosis: M54.5 (Low back pain), S83.241A (ACL tear)
+CPT: 99213 (Consultation)
+Treatment: NSAIDs prescribed.
+Follow-up in 10 days.","['M54.5', 'S83.241A']",['99213'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0435.png
+NOTE_0436,Neurology,"Patient: David Garza, Age: 25.
+Chief complaint: headache for 3 days.
+Diagnosis: R51 (Headache)
+CPT: 99214 (Follow-up), 96116 (Neuro eval)
+Treatment: anti-seizure medication started.
+Follow-up in 3 days.",['R51'],"['99214', '96116']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0436.png
+NOTE_0437,Cardiology,"Patient: Jessica Colon, Age: 23.
+Chief complaint: chest pain for 7 days.
+Diagnosis: I10 (Hypertension), R07.9 (Chest pain)
+CPT: 99213 (Consultation)
+Treatment: beta-blocker initiated.
+Follow-up in 13 days.","['I10', 'R07.9']",['99213'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0437.png
+NOTE_0438,Cardiology,"Patient: Alicia Mcbride, Age: 37.
+Chief complaint: shortness of breath for 2 days.
+Diagnosis: I10 (Hypertension)
+CPT: 99214 (Follow-up)
+Treatment: beta-blocker initiated.
+Follow-up in 7 days.",['I10'],['99214'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0438.png
+NOTE_0439,Orthopedics,"Patient: Jill Johnson, Age: 71.
+Chief complaint: shoulder stiffness for 10 days.
+Diagnosis: S83.241A (ACL tear)
+CPT: 20610 (Joint injection)
+Treatment: advised physiotherapy.
+Follow-up in 6 days.",['S83.241A'],['20610'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0439.png
+NOTE_0440,General Medicine,"Patient: Mindy Harris, Age: 45.
+Chief complaint: body ache for 3 days.
+Diagnosis: E11.9 (Type 2 diabetes), J06.9 (URI)
+CPT: 99213 (Office visit), 81002 (Urine test)
+Treatment: fluids advised.
+Follow-up in 6 days.","['E11.9', 'J06.9']","['99213', '81002']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0440.png
+NOTE_0441,Neurology,"Patient: Jose Harris, Age: 66.
+Chief complaint: seizure for 7 days.
+Diagnosis: G40.909 (Epilepsy), G43.909 (Migraine)
+CPT: 99214 (Follow-up)
+Treatment: anti-seizure medication started.
+Follow-up in 14 days.","['G40.909', 'G43.909']",['99214'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0441.png
+NOTE_0442,Neurology,"Patient: David Hernandez, Age: 23.
+Chief complaint: seizure for 5 days.
+Diagnosis: G40.909 (Epilepsy), R51 (Headache)
+CPT: 95816 (EEG), 96116 (Neuro eval)
+Treatment: anti-seizure medication started.
+Follow-up in 9 days.","['G40.909', 'R51']","['95816', '96116']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0442.png
+NOTE_0443,General Medicine,"Patient: Brandi Stanley, Age: 58.
+Chief complaint: body ache for 8 days.
+Diagnosis: R50.9 (Fever)
+CPT: 81002 (Urine test), 99213 (Office visit)
+Treatment: antibiotics if no improvement.
+Follow-up in 11 days.",['R50.9'],"['81002', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0443.png
+NOTE_0444,Neurology,"Patient: Patricia Gibbs, Age: 40.
+Chief complaint: headache for 4 days.
+Diagnosis: G40.909 (Epilepsy), G43.909 (Migraine)
+CPT: 95816 (EEG)
+Treatment: anti-seizure medication started.
+Follow-up in 7 days.","['G40.909', 'G43.909']",['95816'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0444.png
+NOTE_0445,General Medicine,"Patient: Brandy Miranda, Age: 34.
+Chief complaint: fever for 9 days.
+Diagnosis: J06.9 (URI), R50.9 (Fever)
+CPT: 80053 (CMP panel)
+Treatment: blood tests ordered.
+Follow-up in 7 days.","['J06.9', 'R50.9']",['80053'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0445.png
+NOTE_0446,General Medicine,"Patient: Laurie Pitts, Age: 21.
+Chief complaint: fever for 10 days.
+Diagnosis: R50.9 (Fever), E11.9 (Type 2 diabetes)
+CPT: 80053 (CMP panel), 99213 (Office visit)
+Treatment: blood tests ordered.
+Follow-up in 5 days.","['R50.9', 'E11.9']","['80053', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0446.png
+NOTE_0447,General Medicine,"Patient: Monica Bryant, Age: 25.
+Chief complaint: fatigue for 4 days.
+Diagnosis: J06.9 (URI)
+CPT: 99213 (Office visit)
+Treatment: antibiotics if no improvement.
+Follow-up in 10 days.",['J06.9'],['99213'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0447.png
+NOTE_0448,General Medicine,"Patient: Grace Walls, Age: 34.
+Chief complaint: fatigue for 6 days.
+Diagnosis: J06.9 (URI), E11.9 (Type 2 diabetes)
+CPT: 80053 (CMP panel)
+Treatment: antibiotics if no improvement.
+Follow-up in 11 days.","['J06.9', 'E11.9']",['80053'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0448.png
+NOTE_0449,Neurology,"Patient: Haley Patrick, Age: 30.
+Chief complaint: numbness for 5 days.
+Diagnosis: G40.909 (Epilepsy)
+CPT: 95816 (EEG), 96116 (Neuro eval)
+Treatment: anti-seizure medication started.
+Follow-up in 13 days.",['G40.909'],"['95816', '96116']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0449.png
+NOTE_0450,Orthopedics,"Patient: Maria Carey, Age: 52.
+Chief complaint: lower back pain for 7 days.
+Diagnosis: M17.9 (Knee osteoarthritis), M54.5 (Low back pain)
+CPT: 73562 (Knee X-ray)
+Treatment: MRI recommended.
+Follow-up in 5 days.","['M17.9', 'M54.5']",['73562'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0450.png
+NOTE_0451,Neurology,"Patient: Dylan Sandoval, Age: 66.
+Chief complaint: seizure for 6 days.
+Diagnosis: G43.909 (Migraine), G40.909 (Epilepsy)
+CPT: 99214 (Follow-up), 95816 (EEG)
+Treatment: anti-seizure medication started.
+Follow-up in 7 days.","['G43.909', 'G40.909']","['99214', '95816']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0451.png
+NOTE_0452,Neurology,"Patient: Michael Rodgers, Age: 73.
+Chief complaint: seizure for 3 days.
+Diagnosis: G43.909 (Migraine)
+CPT: 96116 (Neuro eval), 95816 (EEG)
+Treatment: anti-seizure medication started.
+Follow-up in 10 days.",['G43.909'],"['96116', '95816']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0452.png
+NOTE_0453,Neurology,"Patient: Ralph Greer, Age: 18.
+Chief complaint: headache for 10 days.
+Diagnosis: R51 (Headache)
+CPT: 96116 (Neuro eval)
+Treatment: EEG planned.
+Follow-up in 4 days.",['R51'],['96116'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0453.png
+NOTE_0454,Orthopedics,"Patient: David Morales, Age: 36.
+Chief complaint: lower back pain for 8 days.
+Diagnosis: M54.5 (Low back pain), S83.241A (ACL tear)
+CPT: 73562 (Knee X-ray)
+Treatment: NSAIDs prescribed.
+Follow-up in 6 days.","['M54.5', 'S83.241A']",['73562'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0454.png
+NOTE_0455,Orthopedics,"Patient: Christopher Sims, Age: 19.
+Chief complaint: shoulder stiffness for 4 days.
+Diagnosis: M17.9 (Knee osteoarthritis), S83.241A (ACL tear)
+CPT: 20610 (Joint injection), 99213 (Consultation)
+Treatment: NSAIDs prescribed.
+Follow-up in 8 days.","['M17.9', 'S83.241A']","['20610', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0455.png
+NOTE_0456,Cardiology,"Patient: James Goodwin, Age: 77.
+Chief complaint: shortness of breath for 5 days.
+Diagnosis: R07.9 (Chest pain)
+CPT: 93000 (ECG)
+Treatment: started on aspirin.
+Follow-up in 14 days.",['R07.9'],['93000'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0456.png
+NOTE_0457,Neurology,"Patient: Evan Fleming, Age: 66.
+Chief complaint: seizure for 5 days.
+Diagnosis: R51 (Headache)
+CPT: 99214 (Follow-up), 95816 (EEG)
+Treatment: anti-seizure medication started.
+Follow-up in 14 days.",['R51'],"['99214', '95816']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0457.png
+NOTE_0458,Orthopedics,"Patient: Joseph Watkins, Age: 79.
+Chief complaint: lower back pain for 3 days.
+Diagnosis: M17.9 (Knee osteoarthritis), S83.241A (ACL tear)
+CPT: 99213 (Consultation)
+Treatment: NSAIDs prescribed.
+Follow-up in 4 days.","['M17.9', 'S83.241A']",['99213'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0458.png
+NOTE_0459,Neurology,"Patient: Justin Stone, Age: 57.
+Chief complaint: numbness for 6 days.
+Diagnosis: G43.909 (Migraine), R51 (Headache)
+CPT: 99214 (Follow-up), 96116 (Neuro eval)
+Treatment: EEG planned.
+Follow-up in 11 days.","['G43.909', 'R51']","['99214', '96116']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0459.png
+NOTE_0460,Orthopedics,"Patient: Edward Henry, Age: 20.
+Chief complaint: knee pain for 5 days.
+Diagnosis: M54.5 (Low back pain), M17.9 (Knee osteoarthritis)
+CPT: 99213 (Consultation), 73562 (Knee X-ray)
+Treatment: MRI recommended.
+Follow-up in 10 days.","['M54.5', 'M17.9']","['99213', '73562']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0460.png
+NOTE_0461,Cardiology,"Patient: Barbara Cordova, Age: 22.
+Chief complaint: chest pain for 4 days.
+Diagnosis: I10 (Hypertension), R07.9 (Chest pain)
+CPT: 99214 (Follow-up)
+Treatment: beta-blocker initiated.
+Follow-up in 4 days.","['I10', 'R07.9']",['99214'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0461.png
+NOTE_0462,Pediatrics,"Patient: Dr. Michael Cervantes, Age: 78.
+Chief complaint: fever for 9 days.
+Diagnosis: H66.90 (Otitis media), A09 (Gastroenteritis)
+CPT: 99391 (Well child exam), 99213 (Consult)
+Treatment: paracetamol advised.
+Follow-up in 3 days.","['H66.90', 'A09']","['99391', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0462.png
+NOTE_0463,Pediatrics,"Patient: Dr. Eric Taylor, Age: 47.
+Chief complaint: ear pain for 5 days.
+Diagnosis: A09 (Gastroenteritis), H66.90 (Otitis media)
+CPT: 99213 (Consult)
+Treatment: paracetamol advised.
+Follow-up in 14 days.","['A09', 'H66.90']",['99213'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0463.png
+NOTE_0464,General Medicine,"Patient: Maria Dawson, Age: 45.
+Chief complaint: fever for 2 days.
+Diagnosis: R50.9 (Fever), E11.9 (Type 2 diabetes)
+CPT: 99213 (Office visit), 80053 (CMP panel)
+Treatment: blood tests ordered.
+Follow-up in 12 days.","['R50.9', 'E11.9']","['99213', '80053']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0464.png
+NOTE_0465,General Medicine,"Patient: Tracy Hall, Age: 75.
+Chief complaint: fatigue for 8 days.
+Diagnosis: R50.9 (Fever), J06.9 (URI)
+CPT: 81002 (Urine test)
+Treatment: blood tests ordered.
+Follow-up in 7 days.","['R50.9', 'J06.9']",['81002'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0465.png
+NOTE_0466,Pediatrics,"Patient: Barbara Saunders, Age: 44.
+Chief complaint: fever for 3 days.
+Diagnosis: A09 (Gastroenteritis), H66.90 (Otitis media)
+CPT: 99213 (Consult), 87880 (Strep test)
+Treatment: hydration and rest.
+Follow-up in 10 days.","['A09', 'H66.90']","['99213', '87880']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0466.png
+NOTE_0467,Neurology,"Patient: David Hall, Age: 50.
+Chief complaint: headache for 5 days.
+Diagnosis: G40.909 (Epilepsy)
+CPT: 95816 (EEG), 96116 (Neuro eval)
+Treatment: anti-seizure medication started.
+Follow-up in 11 days.",['G40.909'],"['95816', '96116']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0467.png
+NOTE_0468,Orthopedics,"Patient: Ashley Rivera, Age: 70.
+Chief complaint: knee pain for 4 days.
+Diagnosis: S83.241A (ACL tear)
+CPT: 99213 (Consultation), 73562 (Knee X-ray)
+Treatment: NSAIDs prescribed.
+Follow-up in 12 days.",['S83.241A'],"['99213', '73562']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0468.png
+NOTE_0469,General Medicine,"Patient: Ethan Wood, Age: 62.
+Chief complaint: fatigue for 6 days.
+Diagnosis: J06.9 (URI), E11.9 (Type 2 diabetes)
+CPT: 80053 (CMP panel)
+Treatment: fluids advised.
+Follow-up in 6 days.","['J06.9', 'E11.9']",['80053'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0469.png
+NOTE_0470,General Medicine,"Patient: Alan Chavez DDS, Age: 18.
+Chief complaint: fever for 3 days.
+Diagnosis: E11.9 (Type 2 diabetes)
+CPT: 81002 (Urine test), 99213 (Office visit)
+Treatment: blood tests ordered.
+Follow-up in 4 days.",['E11.9'],"['81002', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0470.png
+NOTE_0471,Pediatrics,"Patient: James Herring, Age: 41.
+Chief complaint: cough for 4 days.
+Diagnosis: H66.90 (Otitis media)
+CPT: 99391 (Well child exam), 87880 (Strep test)
+Treatment: paracetamol advised.
+Follow-up in 11 days.",['H66.90'],"['99391', '87880']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0471.png
+NOTE_0472,Neurology,"Patient: George Krueger, Age: 41.
+Chief complaint: headache for 7 days.
+Diagnosis: G40.909 (Epilepsy), R51 (Headache)
+CPT: 96116 (Neuro eval)
+Treatment: anti-seizure medication started.
+Follow-up in 9 days.","['G40.909', 'R51']",['96116'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0472.png
+NOTE_0473,Cardiology,"Patient: Stephanie Rodriguez, Age: 27.
+Chief complaint: palpitations for 5 days.
+Diagnosis: R07.9 (Chest pain), I21.3 (Acute MI)
+CPT: 93000 (ECG), 99213 (Consultation)
+Treatment: beta-blocker initiated.
+Follow-up in 11 days.","['R07.9', 'I21.3']","['93000', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0473.png
+NOTE_0474,Pediatrics,"Patient: Christopher Wagner, Age: 56.
+Chief complaint: ear pain for 3 days.
+Diagnosis: A09 (Gastroenteritis), H66.90 (Otitis media)
+CPT: 99391 (Well child exam), 87880 (Strep test)
+Treatment: hydration and rest.
+Follow-up in 6 days.","['A09', 'H66.90']","['99391', '87880']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0474.png
+NOTE_0475,General Medicine,"Patient: Bradley Williams, Age: 41.
+Chief complaint: body ache for 6 days.
+Diagnosis: R50.9 (Fever)
+CPT: 81002 (Urine test), 99213 (Office visit)
+Treatment: blood tests ordered.
+Follow-up in 10 days.",['R50.9'],"['81002', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0475.png
+NOTE_0476,Orthopedics,"Patient: Gregory Jordan, Age: 72.
+Chief complaint: knee pain for 8 days.
+Diagnosis: S83.241A (ACL tear)
+CPT: 20610 (Joint injection), 99213 (Consultation)
+Treatment: advised physiotherapy.
+Follow-up in 12 days.",['S83.241A'],"['20610', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0476.png
+NOTE_0477,Neurology,"Patient: Aaron Mason, Age: 65.
+Chief complaint: seizure for 7 days.
+Diagnosis: R51 (Headache)
+CPT: 95816 (EEG)
+Treatment: EEG planned.
+Follow-up in 12 days.",['R51'],['95816'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0477.png
+NOTE_0478,Pediatrics,"Patient: Cameron Evans, Age: 56.
+Chief complaint: cough for 7 days.
+Diagnosis: A09 (Gastroenteritis)
+CPT: 87880 (Strep test), 99213 (Consult)
+Treatment: hydration and rest.
+Follow-up in 12 days.",['A09'],"['87880', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0478.png
+NOTE_0479,Orthopedics,"Patient: Ryan Weaver, Age: 67.
+Chief complaint: lower back pain for 4 days.
+Diagnosis: M54.5 (Low back pain), S83.241A (ACL tear)
+CPT: 99213 (Consultation)
+Treatment: NSAIDs prescribed.
+Follow-up in 11 days.","['M54.5', 'S83.241A']",['99213'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0479.png
+NOTE_0480,Pediatrics,"Patient: Rachel Doyle, Age: 76.
+Chief complaint: cough for 7 days.
+Diagnosis: A09 (Gastroenteritis), H66.90 (Otitis media)
+CPT: 87880 (Strep test)
+Treatment: paracetamol advised.
+Follow-up in 10 days.","['A09', 'H66.90']",['87880'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0480.png
+NOTE_0481,General Medicine,"Patient: Elizabeth Oconnor, Age: 68.
+Chief complaint: body ache for 2 days.
+Diagnosis: J06.9 (URI), R50.9 (Fever)
+CPT: 80053 (CMP panel), 99213 (Office visit)
+Treatment: blood tests ordered.
+Follow-up in 3 days.","['J06.9', 'R50.9']","['80053', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0481.png
+NOTE_0482,Neurology,"Patient: Melissa Le, Age: 22.
+Chief complaint: seizure for 5 days.
+Diagnosis: G43.909 (Migraine), R51 (Headache)
+CPT: 96116 (Neuro eval)
+Treatment: anti-seizure medication started.
+Follow-up in 14 days.","['G43.909', 'R51']",['96116'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0482.png
+NOTE_0483,Pediatrics,"Patient: Brittany Williams MD, Age: 43.
+Chief complaint: ear pain for 7 days.
+Diagnosis: J45.909 (Asthma), A09 (Gastroenteritis)
+CPT: 87880 (Strep test), 99391 (Well child exam)
+Treatment: hydration and rest.
+Follow-up in 14 days.","['J45.909', 'A09']","['87880', '99391']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0483.png
+NOTE_0484,Cardiology,"Patient: James Diaz, Age: 59.
+Chief complaint: chest pain for 9 days.
+Diagnosis: R07.9 (Chest pain)
+CPT: 93000 (ECG), 99213 (Consultation)
+Treatment: beta-blocker initiated.
+Follow-up in 10 days.",['R07.9'],"['93000', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0484.png
+NOTE_0485,Orthopedics,"Patient: David Fletcher, Age: 30.
+Chief complaint: shoulder stiffness for 5 days.
+Diagnosis: S83.241A (ACL tear), M54.5 (Low back pain)
+CPT: 20610 (Joint injection), 99213 (Consultation)
+Treatment: NSAIDs prescribed.
+Follow-up in 6 days.","['S83.241A', 'M54.5']","['20610', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0485.png
+NOTE_0486,General Medicine,"Patient: Sandra Carlson, Age: 69.
+Chief complaint: fever for 7 days.
+Diagnosis: R50.9 (Fever)
+CPT: 80053 (CMP panel)
+Treatment: blood tests ordered.
+Follow-up in 7 days.",['R50.9'],['80053'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0486.png
+NOTE_0487,Orthopedics,"Patient: Aaron Santos, Age: 65.
+Chief complaint: lower back pain for 6 days.
+Diagnosis: M54.5 (Low back pain), S83.241A (ACL tear)
+CPT: 73562 (Knee X-ray)
+Treatment: NSAIDs prescribed.
+Follow-up in 3 days.","['M54.5', 'S83.241A']",['73562'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0487.png
+NOTE_0488,Orthopedics,"Patient: Kenneth Mcdonald, Age: 76.
+Chief complaint: knee pain for 9 days.
+Diagnosis: M17.9 (Knee osteoarthritis)
+CPT: 99213 (Consultation), 73562 (Knee X-ray)
+Treatment: advised physiotherapy.
+Follow-up in 13 days.",['M17.9'],"['99213', '73562']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0488.png
+NOTE_0489,General Medicine,"Patient: Juan Smith, Age: 32.
+Chief complaint: fatigue for 3 days.
+Diagnosis: J06.9 (URI)
+CPT: 80053 (CMP panel), 81002 (Urine test)
+Treatment: blood tests ordered.
+Follow-up in 5 days.",['J06.9'],"['80053', '81002']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0489.png
+NOTE_0490,General Medicine,"Patient: April Owens, Age: 58.
+Chief complaint: body ache for 4 days.
+Diagnosis: E11.9 (Type 2 diabetes), R50.9 (Fever)
+CPT: 81002 (Urine test)
+Treatment: antibiotics if no improvement.
+Follow-up in 7 days.","['E11.9', 'R50.9']",['81002'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0490.png
+NOTE_0491,General Medicine,"Patient: Dr. Jonathan Garrett II, Age: 31.
+Chief complaint: fever for 6 days.
+Diagnosis: J06.9 (URI), E11.9 (Type 2 diabetes)
+CPT: 81002 (Urine test)
+Treatment: antibiotics if no improvement.
+Follow-up in 12 days.","['J06.9', 'E11.9']",['81002'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0491.png
+NOTE_0492,Neurology,"Patient: Evan Hatfield, Age: 45.
+Chief complaint: headache for 4 days.
+Diagnosis: G40.909 (Epilepsy)
+CPT: 99214 (Follow-up), 96116 (Neuro eval)
+Treatment: anti-seizure medication started.
+Follow-up in 4 days.",['G40.909'],"['99214', '96116']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0492.png
+NOTE_0493,Neurology,"Patient: Sydney Wright, Age: 64.
+Chief complaint: numbness for 7 days.
+Diagnosis: G43.909 (Migraine), R51 (Headache)
+CPT: 95816 (EEG), 99214 (Follow-up)
+Treatment: anti-seizure medication started.
+Follow-up in 7 days.","['G43.909', 'R51']","['95816', '99214']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0493.png
+NOTE_0494,General Medicine,"Patient: Kimberly Novak, Age: 41.
+Chief complaint: fatigue for 4 days.
+Diagnosis: J06.9 (URI), R50.9 (Fever)
+CPT: 80053 (CMP panel), 99213 (Office visit)
+Treatment: fluids advised.
+Follow-up in 6 days.","['J06.9', 'R50.9']","['80053', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0494.png
+NOTE_0495,General Medicine,"Patient: Kenneth Wagner, Age: 32.
+Chief complaint: fatigue for 2 days.
+Diagnosis: J06.9 (URI), R50.9 (Fever)
+CPT: 99213 (Office visit)
+Treatment: fluids advised.
+Follow-up in 3 days.","['J06.9', 'R50.9']",['99213'],doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0495.png
+NOTE_0496,General Medicine,"Patient: Robert Conrad, Age: 71.
+Chief complaint: fatigue for 7 days.
+Diagnosis: J06.9 (URI), R50.9 (Fever)
+CPT: 80053 (CMP panel), 99213 (Office visit)
+Treatment: fluids advised.
+Follow-up in 8 days.","['J06.9', 'R50.9']","['80053', '99213']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0496.png
+NOTE_0497,Neurology,"Patient: Todd Garcia, Age: 73.
+Chief complaint: numbness for 10 days.
+Diagnosis: R51 (Headache), G40.909 (Epilepsy)
+CPT: 95816 (EEG), 96116 (Neuro eval)
+Treatment: anti-seizure medication started.
+Follow-up in 5 days.","['R51', 'G40.909']","['95816', '96116']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0497.png
+NOTE_0498,Orthopedics,"Patient: Regina Key, Age: 67.
+Chief complaint: shoulder stiffness for 5 days.
+Diagnosis: M17.9 (Knee osteoarthritis)
+CPT: 20610 (Joint injection), 73562 (Knee X-ray)
+Treatment: NSAIDs prescribed.
+Follow-up in 5 days.",['M17.9'],"['20610', '73562']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0498.png
+NOTE_0499,General Medicine,"Patient: Nathan Daniel, Age: 46.
+Chief complaint: body ache for 2 days.
+Diagnosis: E11.9 (Type 2 diabetes)
+CPT: 80053 (CMP panel), 81002 (Urine test)
+Treatment: blood tests ordered.
+Follow-up in 3 days.",['E11.9'],"['80053', '81002']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0499.png
+NOTE_0500,General Medicine,"Patient: Casey Hanson, Age: 78.
+Chief complaint: body ache for 9 days.
+Diagnosis: J06.9 (URI)
+CPT: 81002 (Urine test), 80053 (CMP panel)
+Treatment: fluids advised.
+Follow-up in 12 days.",['J06.9'],"['81002', '80053']",doctor_notes_dataset_realistic_handwritten/data/handwritten_images/NOTE_0500.png
