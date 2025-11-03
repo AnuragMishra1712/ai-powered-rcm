@@ -11,3 +11,4 @@ Pillow
 scikit-learn
 streamlit-option-menu
 streamlit-autorefresh
+pytesseract==0.3.10
