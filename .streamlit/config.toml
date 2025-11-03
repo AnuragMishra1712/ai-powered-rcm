@@ -4,7 +4,17 @@ port = 8501
 enableCORS = false
 enableXsrfProtection = false
 
+[theme]
+primaryColor="#3B82F6"             
+backgroundColor="#F9FAFB"          
+secondaryBackgroundColor="#FFFFFF"
+textColor="#111827"
+font="sans serif"
+
 [browser]
 gatherUsageStats = false
 serverAddress = "0.0.0.0"
 serverPort = 8501
+
+
+
