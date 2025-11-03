@@ -26,3 +26,4 @@ venv/
 # Ignore large model weights
 # models/icd_cpt_distilbert_v3/best_model.pt
 # models/icd_cpt_distilbert_v3/label_binarizer.pt
+models/icd_cpt_distilbert_v3/best_model.pt
