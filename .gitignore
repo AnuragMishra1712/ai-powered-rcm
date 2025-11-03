@@ -16,6 +16,8 @@ venv/
 # models/*.pkl
 # models/*.json
 # models/*.txt
+models/icd_cpt_distilbert_v3/best_model.pt
+
 
 # Streamlit cache
 # .streamlit/
