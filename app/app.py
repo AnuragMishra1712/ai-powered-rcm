@@ -260,7 +260,7 @@ def load_icd_model_cached(model_path: str):
 # Model download from Google Drive (kept from your original)
 # ------------------------------------------------------------------------------
 MODEL_PATH = "models/icd_cpt_distilbert_v3/best_model.pt"
-GDRIVE_URL = "https://drive.google.com/uc?id=YOUR_FILE_ID"  # <-- Replace with your actual ID
+GDRIVE_URL = "https://drive.google.com/uc?id=11WbIpK2vsA4UvfVgs8Q3FYPZWrnAqiOW"  # <-- Replace with your actual ID
 
 # Check and download model
 if not os.path.exists(MODEL_PATH):
