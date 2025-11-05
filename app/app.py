@@ -1,3 +1,21 @@
+import os
+import torch
+import requests
+
+MODEL_PATH = "models/icd_cpt_distilbert_v3/best_model.pt"
+GDRIVE_URL = "https://drive.google.com/uc?id=YOUR_FILE_ID"  # <-- Replace with your actual ID
+
+# Check and download model
+if not os.path.exists(MODEL_PATH):
+    os.makedirs(os.path.dirname(MODEL_PATH), exist_ok=True)
+    print("🔽 Downloading model from Google Drive...")
+    r = requests.get(GDRIVE_URL, allow_redirects=True)
+    open(MODEL_PATH, "wb").write(r.content)
+    print("✅ Model downloaded successfully.")
+
+# Load the model
+model = torch.load(MODEL_PATH, map_location=torch.device("cpu"))
+
 import sys, os, re, time, random, datetime, warnings, logging
 import streamlit as st
 import pandas as pd
