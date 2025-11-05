@@ -16,7 +16,6 @@ venv/
 # models/*.pkl
 # models/*.json
 # models/*.txt
-models/icd_cpt_distilbert_v3/best_model.pt
 
 
 # Streamlit cache
@@ -26,6 +25,4 @@ models/icd_cpt_distilbert_v3/best_model.pt
 *.log
 *.tmp
 # Ignore large model weights
-# models/icd_cpt_distilbert_v3/best_model.pt
 # models/icd_cpt_distilbert_v3/label_binarizer.pt
-models/icd_cpt_distilbert_v3/best_model.pt
