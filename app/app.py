@@ -550,8 +550,9 @@ def load_icd_model_cached(model_path: str):
 # Model download from Google Drive
 # ------------------------------------------------------------------------------
 MODEL_PATH = "models/icd_cpt_distilbert_v3/best_model.pt"
-GDRIVE_URL = "https://drive.google.com/uc?id=11WbIpK2vsA4UvfVgs8Q3FYPZWrnAqiOW&export=download"
+# GDRIVE_URL = "https://drive.google.com/uc?id=11WbIpK2vsA4UvfVgs8Q3FYPZWrnAqiOW&export=download"
   # ✅ Direct download link
+GDRIVE_URL = "https://raw.githubusercontent.com/AnuragMishra1712/ai-powered-rcm/main/models/icd_cpt_distilbert_v3/best_model.pt"
 
 if not os.path.exists(MODEL_PATH):
     os.makedirs(os.path.dirname(MODEL_PATH), exist_ok=True)
