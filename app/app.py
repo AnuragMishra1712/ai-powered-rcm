@@ -227,6 +227,7 @@ import os
 import torch
 import requests
 import streamlit as st
+st.set_page_config(page_title="AI-Powered RCM Console", layout="wide")
 import numpy as np
 from torch.serialization import add_safe_globals
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, AutoModelForSequenceClassification
@@ -270,8 +271,26 @@ if not os.path.exists(MODEL_PATH):
     print("✅ Model downloaded successfully.")
 
 # Load the model safely (kept same)
-model = torch.load(MODEL_PATH, map_location=torch.device("cpu"), weights_only=False)
+# model = torch.load(MODEL_PATH, map_location=torch.device("cpu"), weights_only=False)
+from torch.serialization import add_safe_globals
+import numpy as np
 
+# Allow numpy scalars for safe unpickling (fixes Streamlit Cloud error)
+try:
+    add_safe_globals([np._core.multiarray.scalar])
+except Exception:
+    pass
+
+try:
+    model = torch.load(MODEL_PATH, map_location=torch.device("cpu"), weights_only=False)
+except pickle.UnpicklingError:
+    # Fallback for strict environments like Streamlit Cloud
+    import pickle
+    add_safe_globals([pickle, np])
+    model = torch.load(MODEL_PATH, map_location=torch.device("cpu"), weights_only=False)
+except Exception as e:
+    print(f"⚠️ Model load warning: {e}")
+    model = None
 
 # ------------------------------------------------------------------------------
 # Imports from your original code
@@ -308,7 +327,7 @@ from dashboard.dashboard_view import render_dashboard
 # ---------------------------------------------------------------------
 # Streamlit Config
 # ---------------------------------------------------------------------
-st.set_page_config(page_title="AI-Powered RCM Console", layout="wide")
+
 warnings.filterwarnings("ignore")
 logging.getLogger("transformers").setLevel(logging.ERROR)
 
