@@ -95,7 +95,7 @@ footer {
 # ---------------------------------------------------------------------
 st.markdown(
     '<div class="main-header"><h2>AI-Powered RCM Console</h2>'
-    '<p>Unified AWS-Style Interface for Revenue Cycle Intelligence</p></div>',
+    '<p>Unified Interface for Revenue Cycle Intelligence</p></div>',
     unsafe_allow_html=True
 )
 
